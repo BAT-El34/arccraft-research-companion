@@ -1,0 +1,176 @@
+[
+  {
+    "claim_id": "C1",
+    "claim": "Policy-level frequency improves discrimination",
+    "metric": "Relative reduction in held-out count deviance versus B0",
+    "observed_result": "7.19% in 2023; 8.99% in 2024",
+    "source_files": "19_POLICY_BENCHMARK_RESULTS.csv",
+    "evidential_scope": "Discrimination only",
+    "recomputed": {
+      "2023": 7.185260720427056,
+      "2024": 8.989060036282726
+    },
+    "source_sha256": "92bd7a187da51050c087f4fbafd7add7b18ba74bcd2e179ed17d7ab67c2dbc1e",
+    "source_path": "evidence/research/19_POLICY_BENCHMARK_RESULTS.csv",
+    "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+    "historical_producer_commit": null,
+    "historical_producer_state": "base b3df670 plus recorded uncommitted research changes",
+    "version": "phase0-candidate-1",
+    "proof_status": "LOCAL_REPRODUCTION_VERIFIED",
+    "release_status": "NOT_PUBLISHED",
+    "metric_type": "derived_research_result"
+  },
+  {
+    "claim_id": "C2",
+    "claim": "Predictive intervals are inadequately calibrated",
+    "metric": "Observed outcomes inside 95% process intervals",
+    "observed_result": "3/12 overall; 3/6 claim counts; 0/6 incurred totals",
+    "source_files": "19_POLICY_BENCHMARK_RESULTS.csv",
+    "evidential_scope": "Two temporal origins",
+    "recomputed": {
+      "count_covered": 3,
+      "incurred_covered": 0,
+      "total": 12
+    },
+    "source_sha256": "92bd7a187da51050c087f4fbafd7add7b18ba74bcd2e179ed17d7ab67c2dbc1e",
+    "source_path": "evidence/research/19_POLICY_BENCHMARK_RESULTS.csv",
+    "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+    "historical_producer_commit": null,
+    "historical_producer_state": "base b3df670 plus recorded uncommitted research changes",
+    "version": "phase0-candidate-1",
+    "proof_status": "LOCAL_REPRODUCTION_VERIFIED",
+    "release_status": "NOT_PUBLISHED",
+    "metric_type": "derived_research_result"
+  },
+  {
+    "claim_id": "C3",
+    "claim": "Registered runs replay exactly",
+    "metric": "Identical output fingerprints",
+    "observed_result": "15/15 configuration-seed pairs",
+    "source_files": "25_ARCCRAFT_ABLATION_RESULTS.csv",
+    "evidential_scope": "Local computational verification",
+    "recomputed": {
+      "registered_pairs": 15,
+      "matching_paper_fingerprints": 15,
+      "rounding_digits": 12
+    },
+    "source_sha256": "7fbeb3c3b352743b41a9f086f40ebe7772dd70680bea00912716b805dd1ef82e",
+    "source_path": "evidence/research/25_ARCCRAFT_ABLATION_RESULTS.csv",
+    "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+    "historical_producer_commit": null,
+    "historical_producer_state": "base b3df670 plus recorded uncommitted research changes",
+    "version": "phase0-candidate-1",
+    "proof_status": "LOCAL_REPRODUCTION_VERIFIED",
+    "release_status": "NOT_PUBLISHED",
+    "metric_type": "derived_research_result"
+  },
+  {
+    "claim_id": "C4",
+    "claim": "Named streams isolate irrelevant world draws",
+    "metric": "Fingerprint response to 100 unused world-stream draws",
+    "observed_result": "Named streams unchanged; shared stream changed",
+    "source_files": "27_STREAM_ISOLATION_TEST.csv",
+    "evidential_scope": "One registered intervention",
+    "recomputed": {
+      "unused_world_draws": 100,
+      "named_invariant": true,
+      "shared_invariant": false
+    },
+    "source_sha256": "94f4fb9e37d2d259fa90a5adb5cc8abb4479310cd19ce8cb149566695a838ab6",
+    "source_path": "evidence/research/27_STREAM_ISOLATION_TEST.csv",
+    "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+    "historical_producer_commit": null,
+    "historical_producer_state": "base b3df670 plus recorded uncommitted research changes",
+    "version": "phase0-candidate-1",
+    "proof_status": "LOCAL_REPRODUCTION_VERIFIED",
+    "release_status": "NOT_PUBLISHED",
+    "metric_type": "derived_research_result"
+  },
+  {
+    "claim_id": "C5",
+    "claim": "Validator policy changes the selected population",
+    "metric": "Strict rejection versus full configuration",
+    "observed_result": "19.87% fewer accepted worlds; +13.43 percentage points failure-or-rejection",
+    "source_files": "26_ARCCRAFT_ABLATION_SUMMARY.csv",
+    "evidential_scope": "Selection and reporting effect",
+    "recomputed": {
+      "accepted_worlds_reduction_percent": 19.872607216701134,
+      "failure_or_rejection_difference_pp": 13.429999999999998
+    },
+    "source_sha256": "06cf36680758fbccb17651a2c3b5e1e1bc6820382e7290ed6b51bbdbb6d460a4",
+    "source_path": "evidence/research/26_ARCCRAFT_ABLATION_SUMMARY.csv",
+    "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+    "historical_producer_commit": null,
+    "historical_producer_state": "base b3df670 plus recorded uncommitted research changes",
+    "version": "phase0-candidate-1",
+    "proof_status": "LOCAL_REPRODUCTION_VERIFIED",
+    "release_status": "NOT_PUBLISHED",
+    "metric_type": "derived_research_result"
+  },
+  {
+    "claim_id": "C6",
+    "claim": "State transitions have a small observed effect",
+    "metric": "No-transition versus full accepted-world failure rate",
+    "observed_result": "-0.247 percentage points; -0.69% relative",
+    "source_files": "26_ARCCRAFT_ABLATION_SUMMARY.csv",
+    "evidential_scope": "Three-seed descriptive result",
+    "recomputed": {
+      "failure_difference_pp": -0.24678238812617104,
+      "relative_difference_percent": -0.6864581109986112
+    },
+    "source_sha256": "06cf36680758fbccb17651a2c3b5e1e1bc6820382e7290ed6b51bbdbb6d460a4",
+    "source_path": "evidence/research/26_ARCCRAFT_ABLATION_SUMMARY.csv",
+    "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+    "historical_producer_commit": null,
+    "historical_producer_state": "base b3df670 plus recorded uncommitted research changes",
+    "version": "phase0-candidate-1",
+    "proof_status": "LOCAL_REPRODUCTION_VERIFIED",
+    "release_status": "NOT_PUBLISHED",
+    "metric_type": "derived_research_result"
+  },
+  {
+    "claim_id": "C7",
+    "claim": "Failure Atlas is dominated by the traceability gate",
+    "metric": "Share of canonical simulated failures attributed to traceability",
+    "observed_result": "3588/3589 or 99.97%",
+    "source_files": "25_ARCCRAFT_ABLATION_RESULTS.csv",
+    "evidential_scope": "No diagnostic accuracy claim",
+    "recomputed": {
+      "traceability_failures": 3588,
+      "simulated_failures": 3589,
+      "share_percent": 99.97213708553915,
+      "structural_rejections_excluded_from_denominator": 5
+    },
+    "source_sha256": "7fbeb3c3b352743b41a9f086f40ebe7772dd70680bea00912716b805dd1ef82e",
+    "source_path": "evidence/research/25_ARCCRAFT_ABLATION_RESULTS.csv",
+    "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+    "historical_producer_commit": null,
+    "historical_producer_state": "base b3df670 plus recorded uncommitted research changes",
+    "version": "phase0-candidate-1",
+    "proof_status": "LOCAL_REPRODUCTION_VERIFIED",
+    "release_status": "NOT_PUBLISHED",
+    "metric_type": "derived_research_result"
+  },
+  {
+    "claim_id": "C8",
+    "claim": "Runtime comparison is noisy",
+    "metric": "Full-pipeline runtime mean SD and coefficient of variation",
+    "observed_result": "3.59 s; 1.05 s; 29.09%",
+    "source_files": "26_ARCCRAFT_ABLATION_SUMMARY.csv",
+    "evidential_scope": "Host-specific descriptive timing",
+    "recomputed": {
+      "historical_mean_seconds": 3.5929419999980987,
+      "historical_sd_seconds": 1.045027883662787,
+      "historical_cv_percent": 29.08557621201066
+    },
+    "source_sha256": "06cf36680758fbccb17651a2c3b5e1e1bc6820382e7290ed6b51bbdbb6d460a4",
+    "source_path": "evidence/research/26_ARCCRAFT_ABLATION_SUMMARY.csv",
+    "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+    "historical_producer_commit": null,
+    "historical_producer_state": "base b3df670 plus recorded uncommitted research changes",
+    "version": "phase0-candidate-1",
+    "proof_status": "HISTORICAL_TIMING_RECONCILED",
+    "release_status": "NOT_PUBLISHED",
+    "metric_type": "historical_host_timing"
+  }
+]

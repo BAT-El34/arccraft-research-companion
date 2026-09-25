@@ -1,0 +1,860 @@
+{
+  "sha256": "6a47d19d5278a049ea0aeaf39c955cc26068639bdc58cb4523b201e740f0faf4",
+  "dictionary_sha256": "cde44e797a7fd34de29199c78c9301d6f00ed94fd725b4fe8e67e6c2c4cc2e41",
+  "license": {
+    "spdx": "CC-BY-4.0",
+    "url": "https://data.mendeley.com/datasets/sw4jmdb2sm/1",
+    "version": 1,
+    "doi": "10.17632/sw4jmdb2sm.1",
+    "verified_on": "2026-09-25",
+    "contributors": [
+      "Priscila Espinosa",
+      "Josep Lledó",
+      "David Atance"
+    ],
+    "note": "License verified on publisher dataset page; local bytes match research ingestion manifest. No fresh publisher file download performed."
+  },
+  "checks": {
+    "csv_sha256_matches_recorded": true,
+    "dictionary_sha256_matches_recorded": true,
+    "schema_matches": true,
+    "all_normalized_cells_equal": true
+  },
+  "zip_members": [
+    {
+      "name": "A detailed dataset of motor insurance policies wit/Descriptive of variables.xlsx",
+      "bytes": 15413,
+      "sha256": "cde44e797a7fd34de29199c78c9301d6f00ed94fd725b4fe8e67e6c2c4cc2e41"
+    },
+    {
+      "name": "A detailed dataset of motor insurance policies wit/Dataset of motor insurance portfolio.csv",
+      "bytes": 94710312,
+      "sha256": "6a47d19d5278a049ea0aeaf39c955cc26068639bdc58cb4523b201e740f0faf4"
+    }
+  ],
+  "sqlite_integrity": "ok",
+  "schema": [
+    {
+      "cid": 0,
+      "name": "insured_id",
+      "type": "INTEGER",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 1,
+      "name": "year",
+      "type": "INTEGER",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 2,
+      "name": "policy_type",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 3,
+      "name": "policy_status",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 4,
+      "name": "business_type",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 5,
+      "name": "payment_frequency",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 6,
+      "name": "bonus_score",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 7,
+      "name": "driver_age",
+      "type": "REAL",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 8,
+      "name": "vehicle_age",
+      "type": "REAL",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 9,
+      "name": "age_driving_licence",
+      "type": "REAL",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 10,
+      "name": "fuel_type",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 11,
+      "name": "vehicle_value",
+      "type": "REAL",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 12,
+      "name": "seats",
+      "type": "INTEGER",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 13,
+      "name": "power_to_weight_ratio",
+      "type": "REAL",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 14,
+      "name": "vehicle_brand",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 15,
+      "name": "municipality_type",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 16,
+      "name": "circulation_area",
+      "type": "TEXT",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 17,
+      "name": "total_premium",
+      "type": "REAL",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 18,
+      "name": "liability_premium",
+      "type": "REAL",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 19,
+      "name": "property_damage_premium",
+      "type": "REAL",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 20,
+      "name": "theft_premium",
+      "type": "REAL",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 21,
+      "name": "fire_premium",
+      "type": "REAL",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 22,
+      "name": "glass_premium",
+      "type": "REAL",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 23,
+      "name": "legal_protection_premium",
+      "type": "REAL",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 24,
+      "name": "occupants_premium",
+      "type": "REAL",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 25,
+      "name": "total_claims",
+      "type": "INTEGER",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 26,
+      "name": "liability_claims",
+      "type": "INTEGER",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 27,
+      "name": "liability_property_claims",
+      "type": "INTEGER",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 28,
+      "name": "liability_injury_claims",
+      "type": "INTEGER",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 29,
+      "name": "property_claims",
+      "type": "INTEGER",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 30,
+      "name": "theft_claims",
+      "type": "INTEGER",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 31,
+      "name": "fire_claims",
+      "type": "INTEGER",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 32,
+      "name": "glass_claims",
+      "type": "INTEGER",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 33,
+      "name": "legal_protection_claims",
+      "type": "INTEGER",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 34,
+      "name": "occupants_claims",
+      "type": "INTEGER",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 35,
+      "name": "total_incurred",
+      "type": "REAL",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 36,
+      "name": "liability_incurred",
+      "type": "REAL",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 37,
+      "name": "liability_property_incurred",
+      "type": "REAL",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 38,
+      "name": "liability_injury_incurred",
+      "type": "REAL",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 39,
+      "name": "property_incurred",
+      "type": "REAL",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 40,
+      "name": "theft_incurred",
+      "type": "REAL",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 41,
+      "name": "fire_incurred",
+      "type": "REAL",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 42,
+      "name": "glass_incurred",
+      "type": "REAL",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 43,
+      "name": "legal_protection_incurred",
+      "type": "REAL",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 44,
+      "name": "occupants_incurred",
+      "type": "REAL",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 45,
+      "name": "total_exposure",
+      "type": "REAL",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    },
+    {
+      "cid": 46,
+      "name": "liability_exposure",
+      "type": "REAL",
+      "notnull": 0,
+      "dflt_value": null,
+      "pk": 0
+    }
+  ],
+  "rows": 354140,
+  "columns": 47,
+  "compared_cells": 16644580,
+  "mismatched_rows": 0,
+  "mismatched_cells": 0,
+  "cast_failures": {
+    "vehicle_value": 513,
+    "vehicle_age": 2,
+    "age_driving_licence": 2
+  },
+  "null_counts": {
+    "insured_id": 0,
+    "year": 0,
+    "policy_type": 0,
+    "policy_status": 0,
+    "business_type": 0,
+    "payment_frequency": 0,
+    "bonus_score": 0,
+    "driver_age": 0,
+    "vehicle_age": 2,
+    "age_driving_licence": 2,
+    "fuel_type": 0,
+    "vehicle_value": 513,
+    "seats": 0,
+    "power_to_weight_ratio": 0,
+    "vehicle_brand": 0,
+    "municipality_type": 0,
+    "circulation_area": 0,
+    "total_premium": 0,
+    "liability_premium": 0,
+    "property_damage_premium": 0,
+    "theft_premium": 0,
+    "fire_premium": 0,
+    "glass_premium": 0,
+    "legal_protection_premium": 0,
+    "occupants_premium": 0,
+    "total_claims": 0,
+    "liability_claims": 0,
+    "liability_property_claims": 0,
+    "liability_injury_claims": 0,
+    "property_claims": 0,
+    "theft_claims": 0,
+    "fire_claims": 0,
+    "glass_claims": 0,
+    "legal_protection_claims": 0,
+    "occupants_claims": 0,
+    "total_incurred": 0,
+    "liability_incurred": 0,
+    "liability_property_incurred": 0,
+    "liability_injury_incurred": 0,
+    "property_incurred": 0,
+    "theft_incurred": 0,
+    "fire_incurred": 0,
+    "glass_incurred": 0,
+    "legal_protection_incurred": 0,
+    "occupants_incurred": 0,
+    "total_exposure": 0,
+    "liability_exposure": 0
+  },
+  "unique_insureds": 185678,
+  "duplicate_keys": 0,
+  "annual": [
+    {
+      "year": 2022,
+      "policy_rows": 67172,
+      "insured_count": 67172,
+      "exposure": 41912.49589041096,
+      "premium": 18697928.342009425,
+      "claims": 12665,
+      "incurred": 12270105.055,
+      "claim_frequency": 0.30217718441572433,
+      "avg_severity": 968.8199806553494,
+      "loss_ratio": 0.6562280500044615
+    },
+    {
+      "year": 2023,
+      "policy_rows": 118835,
+      "insured_count": 118835,
+      "exposure": 82399.03835616438,
+      "premium": 35344308.084516324,
+      "claims": 25158,
+      "incurred": 23488354.354,
+      "claim_frequency": 0.30531909718722944,
+      "avg_severity": 933.6336097464027,
+      "loss_ratio": 0.6645583299532691
+    },
+    {
+      "year": 2024,
+      "policy_rows": 168133,
+      "insured_count": 168133,
+      "exposure": 126014.36438356164,
+      "premium": 51037433.00066149,
+      "claims": 39276,
+      "incurred": 38106351.28,
+      "claim_frequency": 0.31167875338760576,
+      "avg_severity": 970.2197596496588,
+      "loss_ratio": 0.7466353427200405
+    }
+  ],
+  "dictionary_rows": [
+    {
+      "variable": "insured_id",
+      "description": "Unique identifier assigned to each policy number.",
+      "variable_group": "Policy and insured characteristics"
+    },
+    {
+      "variable": "insured_id",
+      "description": "It assigns a sequential ID based on the first appearance of each policy number; repeated policy numbers receive the same ID.",
+      "variable_group": ""
+    },
+    {
+      "variable": "year",
+      "description": "Calendar year",
+      "variable_group": "Policy and insured characteristics"
+    },
+    {
+      "variable": "policy_type",
+      "description": "Categorical variable describing the main coverage structure of the motor insurance policy. The original detailed combinations have been grouped into broader, actuarially meaningful categories.",
+      "variable_group": "Policy and insured characteristics"
+    },
+    {
+      "variable": "policy_type",
+      "description": "- TP: Basic third-party liability coverage only.",
+      "variable_group": ""
+    },
+    {
+      "variable": "policy_type",
+      "description": "- TPG: Third-party liability with glass coverage.",
+      "variable_group": ""
+    },
+    {
+      "variable": "policy_type",
+      "description": "- CC: Third-party liability combined with two or more additional coverages, such as theft, fire, total loss or glass.",
+      "variable_group": ""
+    },
+    {
+      "variable": "policy_type",
+      "description": "- COMP_E: comprehensive with excess.",
+      "variable_group": ""
+    },
+    {
+      "variable": "policy_type",
+      "description": "- COMP_N: comprehensive without excess",
+      "variable_group": ""
+    },
+    {
+      "variable": "policy_status",
+      "description": "Indicates whether the policy was active (A) or cancelled (C) at the time of analysis.",
+      "variable_group": "Policy and insured characteristics"
+    },
+    {
+      "variable": "business_type",
+      "description": "Classification of the policy according to its business origin. ",
+      "variable_group": "Policy and insured characteristics"
+    },
+    {
+      "variable": "business_type",
+      "description": "- NB: new_business",
+      "variable_group": ""
+    },
+    {
+      "variable": "business_type",
+      "description": "- P: portfolio",
+      "variable_group": ""
+    },
+    {
+      "variable": "payment_frequency",
+      "description": "Indicates the policy’s billing frequency:",
+      "variable_group": "Policy and insured characteristics"
+    },
+    {
+      "variable": "payment_frequency",
+      "description": "- A: annual",
+      "variable_group": ""
+    },
+    {
+      "variable": "payment_frequency",
+      "description": "- S: semiannual",
+      "variable_group": ""
+    },
+    {
+      "variable": "payment_frequency",
+      "description": "- Q: quarterly",
+      "variable_group": ""
+    },
+    {
+      "variable": "bonus_score",
+      "description": "Indicator of the policyholder’s past claims experience:",
+      "variable_group": "Policy and insured characteristics"
+    },
+    {
+      "variable": "bonus_score",
+      "description": "- G: Positive reflects a favourable claims history",
+      "variable_group": ""
+    },
+    {
+      "variable": "bonus_score",
+      "description": "- N: indicates a neutral profile",
+      "variable_group": ""
+    },
+    {
+      "variable": "bonus_score",
+      "description": "- B: had a negative denotes a poor claims history.",
+      "variable_group": ""
+    },
+    {
+      "variable": "driver_age",
+      "description": "Age of the main driver associated with the policy, measured in years.",
+      "variable_group": "Driver and vehicle characteristics"
+    },
+    {
+      "variable": "vehicle_age",
+      "description": "Age of the insured vehicle, also measured in years.",
+      "variable_group": "Driver and vehicle characteristics"
+    },
+    {
+      "variable": "age_driving_licence",
+      "description": "Year in which the insured obtained the driving licence.",
+      "variable_group": "Driver and vehicle characteristics"
+    },
+    {
+      "variable": "age_driving_licence",
+      "description": "Note: this variable records the calendar year of licence issuance and does not measure the length of time the licence has been held.",
+      "variable_group": ""
+    },
+    {
+      "variable": "fuel_type",
+      "description": "Indicates the vehicle’s fuel type. In this dataset, only two categories are kept:",
+      "variable_group": "Driver and vehicle characteristics"
+    },
+    {
+      "variable": "fuel_type",
+      "description": "- D: diesel",
+      "variable_group": ""
+    },
+    {
+      "variable": "fuel_type",
+      "description": "- G: gasoline",
+      "variable_group": ""
+    },
+    {
+      "variable": "vehicle_value",
+      "description": "Declared insured value of the vehicle. Some entries are missing",
+      "variable_group": "Driver and vehicle characteristics"
+    },
+    {
+      "variable": "seats",
+      "description": "Number of seats available in the insured vehicle.",
+      "variable_group": "Driver and vehicle characteristics"
+    },
+    {
+      "variable": "power_to_weight_ratio",
+      "description": "Approximate weight-to-power ratio of the vehicle (kg per horsepower), used as a proxy for performance characteristics.",
+      "variable_group": "Driver and vehicle characteristics"
+    },
+    {
+      "variable": "vehicle_brand",
+      "description": "Brand of the insured vehicle as reported in the policy data.",
+      "variable_group": "Driver and vehicle characteristics"
+    },
+    {
+      "variable": "municipality_type",
+      "description": "Geographic classification of the policyholder’s municipality:",
+      "variable_group": "Driver and vehicle characteristics"
+    },
+    {
+      "variable": "municipality_type",
+      "description": "- I: inland",
+      "variable_group": ""
+    },
+    {
+      "variable": "municipality_type",
+      "description": "- C: coastal",
+      "variable_group": ""
+    },
+    {
+      "variable": "municipality_type",
+      "description": "- IS: islands",
+      "variable_group": ""
+    },
+    {
+      "variable": "circulation_area",
+      "description": "Indicates the predominant circulation environment of the vehicle:",
+      "variable_group": "Driver and vehicle characteristics"
+    },
+    {
+      "variable": "circulation_area",
+      "description": "- U: urban",
+      "variable_group": ""
+    },
+    {
+      "variable": "circulation_area",
+      "description": "- R: rural ",
+      "variable_group": ""
+    },
+    {
+      "variable": "total_premium",
+      "description": "Total premium of the policy, calculated as the sum of all individual coverage premiums.",
+      "variable_group": "Premiums"
+    },
+    {
+      "variable": "liability_premium",
+      "description": "Premium charged for third-party liability coverage.",
+      "variable_group": "Premiums"
+    },
+    {
+      "variable": "property_damage_premium",
+      "description": "Premium corresponding to property damage coverage.",
+      "variable_group": "Premiums"
+    },
+    {
+      "variable": "theft_premium",
+      "description": "Premium associated with theft coverage.",
+      "variable_group": "Premiums"
+    },
+    {
+      "variable": "fire_premium",
+      "description": "Premium for fire coverage.",
+      "variable_group": "Premiums"
+    },
+    {
+      "variable": "glass_premium",
+      "description": "Premium for glass coverage.",
+      "variable_group": "Premiums"
+    },
+    {
+      "variable": "legal_protection_premium",
+      "description": "Premium for legal protection coverage.",
+      "variable_group": "Premiums"
+    },
+    {
+      "variable": "occupants_premium",
+      "description": "Premium for personal-injury coverage of vehicle occupants.",
+      "variable_group": "Premiums"
+    },
+    {
+      "variable": "total_claims",
+      "description": "Indicates the total number of claims reported for the policy during the exposure period. Typical values range from 0 (no claims) to several claims per contract.",
+      "variable_group": "Exposure, claims and incurred"
+    },
+    {
+      "variable": "liability_claims",
+      "description": "Total number of liability claims reported under the policy.",
+      "variable_group": "Exposure, claims and incurred"
+    },
+    {
+      "variable": "liability_property_claims",
+      "description": "Number of liability claims related to material or property damage.",
+      "variable_group": "Exposure, claims and incurred"
+    },
+    {
+      "variable": "liability_injury_claims",
+      "description": "Number of liability claims involving bodily injury.",
+      "variable_group": "Exposure, claims and incurred"
+    },
+    {
+      "variable": "property_claims",
+      "description": "Count of property damage claims.",
+      "variable_group": "Exposure, claims and incurred"
+    },
+    {
+      "variable": "theft_claims",
+      "description": "Number of theft-related claims.",
+      "variable_group": "Exposure, claims and incurred"
+    },
+    {
+      "variable": "fire_claims",
+      "description": "Count of fire-related claims.",
+      "variable_group": "Exposure, claims and incurred"
+    },
+    {
+      "variable": "glass_claims",
+      "description": "Number of glass-related claims.",
+      "variable_group": "Exposure, claims and incurred"
+    },
+    {
+      "variable": "legal_protection_claims",
+      "description": "Number of legal protection claims.",
+      "variable_group": "Exposure, claims and incurred"
+    },
+    {
+      "variable": "occupants_claims",
+      "description": "Number of claims under this coverage.",
+      "variable_group": "Exposure, claims and incurred"
+    },
+    {
+      "variable": "total_incurred",
+      "description": "Represents the total incurred cost of claims for the policy, including paid amounts and outstanding reserves. Values are typically zero for policies without losses and positive when claims exist.",
+      "variable_group": "Exposure, claims and incurred"
+    },
+    {
+      "variable": "liability_incurred",
+      "description": "Total incurred cost (paid + reserved) for all liability claims.",
+      "variable_group": "Exposure, claims and incurred"
+    },
+    {
+      "variable": "liability_property_incurred",
+      "description": "Total incurred cost for liability claims involving material or property damage.",
+      "variable_group": "Exposure, claims and incurred"
+    },
+    {
+      "variable": "liability_injury_incurred",
+      "description": "Total incurred cost for liability claims involving bodily injury.",
+      "variable_group": "Exposure, claims and incurred"
+    },
+    {
+      "variable": "property_incurred",
+      "description": "Total incurred cost for property damage claims.",
+      "variable_group": "Exposure, claims and incurred"
+    },
+    {
+      "variable": "theft_incurred",
+      "description": "Total incurred cost for theft claims.",
+      "variable_group": "Exposure, claims and incurred"
+    },
+    {
+      "variable": "fire_incurred",
+      "description": "Total incurred cost for fire claims.",
+      "variable_group": "Exposure, claims and incurred"
+    },
+    {
+      "variable": "glass_incurred",
+      "description": "Total incurred cost for glass claims.",
+      "variable_group": "Exposure, claims and incurred"
+    },
+    {
+      "variable": "legal_protection_incurred",
+      "description": "Total incurred cost for legal protection claims.",
+      "variable_group": "Exposure, claims and incurred"
+    },
+    {
+      "variable": "occupants_incurred",
+      "description": "Total incurred cost under this coverage.",
+      "variable_group": "Exposure, claims and incurred"
+    },
+    {
+      "variable": "total_exposure",
+      "description": "Represents the effective time-on-risk for each policy, expressed in policy years. Values range from 0 to 1 for partial-year exposure, and may exceed 1 if the contract covers more than one year.",
+      "variable_group": "Exposure, claims and incurred"
+    },
+    {
+      "variable": "liability_exposure",
+      "description": "Amount of exposure associated with liability coverage.",
+      "variable_group": "Exposure, claims and incurred"
+    }
+  ]
+}

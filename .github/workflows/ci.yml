@@ -1,0 +1,40 @@
+name: Scientific and application checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - run: python -m pip install -r requirements-runtime.lock
+      - run: python scripts/verify_checksums.py
+      - run: python scripts/verify_web_artifacts.py
+      - run: python scripts/replay_canonical.py
+      - run: python -m unittest discover -s tests -v
+      - run: npm ci
+      - run: npm run build
+        env:
+          NEXT_TELEMETRY_DISABLED: '1'
+      - run: npx playwright install --with-deps chromium
+      - run: |
+          python scripts/serve_local.py > /tmp/arccraft-server.log 2>&1 &
+          for attempt in $(seq 1 20); do curl -sf http://127.0.0.1:3000/api/v1/health && break; sleep 1; done
+          npm run test:e2e
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: verification-evidence
+          path: test-results/

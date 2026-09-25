@@ -1,0 +1,26 @@
+\setlength {\parskip }{1pt}
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}%
+\contentsline {section}{\numberline {2}Literature review and hypotheses}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Actuarial loss modelling and the limits of static projection}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}From predefined shocks to systematic stress scenarios}{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Reverse stress testing and failure attribution}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Synthetic insurance environments and open benchmarks}{7}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Reproducibility is not validation}{8}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Predictive and tail evaluation}{8}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Research gap and evaluation implications}{9}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Testable expectations}{10}{subsection.2.8}%
+\contentsline {section}{\numberline {3}Research methodology}{10}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Study design and evidence layers}{10}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Motor data and quality controls}{10}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Empirical comparators}{11}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}ARCCRAFT architecture}{12}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Procedural ablations}{12}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Results and findings}{12}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Data integrity and temporal shift}{12}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}External temporal benchmark}{13}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Synthetic engine and Failure Atlas}{14}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Reproducibility, ablation, and cost}{15}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Discussion}{19}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Limitations}{20}{subsection.5.1}%
+\contentsline {section}{\numberline {6}Conclusion and recommendations}{20}{section.6}%
+\contentsline {section}{Data, code, and reproducibility statement}{21}{section.6}%

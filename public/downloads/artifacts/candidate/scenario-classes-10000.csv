@@ -1,0 +1,6 @@
+scenario_class,mondes_acceptes,taux_echec_synthetique,ratio_combine_moyen,statut_usage
+BASELINE,1173,0.0,0.402014473055282,synthese_centrale
+ALTERNATIVE,2189,0.33988122430333484,0.41819219113254924,synthese_centrale
+ADVERSE,4422,0.40117593848937133,0.44128302714887246,synthese_centrale
+SEVERE_PLAUSIBLE,1201,0.4987510407993339,0.5035817730294355,synthese_centrale_separable
+EXPLORATORY,1010,0.46732673267326735,0.48189196437779513,rapporte_separement

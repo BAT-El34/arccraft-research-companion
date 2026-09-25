@@ -1,0 +1,108 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{palatino}
+\usepackage[scaled=0.92]{helvet}
+\usepackage{microtype}
+\usepackage[top=0.5in, bottom=0.75in, left=0.65in, right=0.65in]{geometry}
+\usepackage{setspace}
+\onehalfspacing
+\usepackage{ragged2e}
+\setlength{\parindent}{1.5em}
+\setlength{\parskip}{4pt}
+\pagestyle{plain}
+\sloppy
+\emergencystretch=3em
+\usepackage{amsmath, amssymb, amsthm, mathtools}
+\usepackage{bm}
+\numberwithin{equation}{section}
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}{Corollary}[theorem]
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}[section]
+\newtheorem{assumption}{Assumption}[section]
+\theoremstyle{remark}
+\newtheorem{remark}{Remark}[section]
+\usepackage[dvipsnames,table]{xcolor}
+\definecolor{navydark}{RGB}{10,25,60}
+\definecolor{navymid}{RGB}{25,60,120}
+\definecolor{navylight}{RGB}{55,105,180}
+\definecolor{navyghost}{RGB}{225,232,245}
+\definecolor{navyfrost}{RGB}{240,244,252}
+\definecolor{navyrule}{RGB}{80,130,200}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{colortbl}
+\usepackage{adjustbox}
+\usepackage{pdflscape}
+\newcolumntype{V}{!{\color{navyrule}\vrule}}
+\newcommand{\rowA}{\rowcolor{white}}
+\newcommand{\rowB}{\rowcolor{navyfrost}}
+\setlength{\tabcolsep}{5pt}
+\usepackage{caption}
+\usepackage{subcaption}
+\captionsetup{font=small,labelfont={bf,color=navydark},justification=justified,skip=6pt}
+\captionsetup[figure]{labelfont={bf,color=navymid},font=small}
+\usepackage{graphicx}
+\usepackage{float}
+\graphicspath{{./figures/}}
+\usepackage{titlesec}
+\titleformat{\section}{\large\bfseries\color{navydark}}{\color{navymid}\thesection.}{0.8em}{}[\vspace{-0.5em}\textcolor{navylight}{\rule{\linewidth}{0.6pt}}]
+\titleformat{\subsection}{\normalsize\bfseries\color{navymid}}{\thesubsection.}{0.8em}{}
+\titleformat{\subsubsection}{\normalsize\itshape\color{navylight}}{\thesubsubsection.}{0.8em}{}
+\usepackage{tcolorbox}
+\tcbuselibrary{theorems,skins,breakable}
+\tcbset{theorembox/.style={enhanced,breakable,colback=navyghost,colframe=navydark,leftrule=4pt,rightrule=0.4pt,toprule=0.4pt,bottomrule=0.4pt,left=8pt,right=8pt,top=6pt,bottom=6pt,fonttitle=\bfseries\color{navydark}}}
+\tcolorboxenvironment{theorem}{theorembox}
+\tcolorboxenvironment{proposition}{theorembox}
+\tcolorboxenvironment{lemma}{theorembox}
+\usepackage[colorlinks=true,linkcolor=navylight,citecolor=navymid,urlcolor=navylight]{hyperref}
+\usepackage[numbers,sort&compress]{natbib}
+\usepackage[bottom,hang]{footmisc}
+\setlength{\footnotemargin}{1.5em}
+\renewcommand{\footnoterule}{\kern-3pt\textcolor{navylight}{\rule{2in}{0.4pt}}\kern 2.6pt}
+\usepackage{placeins}
+\usepackage{enumitem}
+\newcommand{\tablenote}[1]{\smallskip\par\noindent{\footnotesize\color{navymid}\textit{Notes:} #1}}
+\begin{document}
+\thispagestyle{empty}
+\vspace*{1.5cm}
+{\centering
+{\Large\bfseries Procedural Stress Testing of Actuarial Models: Design and Preliminary Evaluation of the ARCCRAFT Framework}\par
+\vspace{0.5em}
+{\large Elia Batako and Manuel Ntumba}\par
+{\small Reviewed companion candidate; author affiliations and archive DOI pending.}\par
+{\large\itshape Does integrating explicit multi-period transitions, structural validation, separated random streams, replay semantics, and failure attribution produce measurable improvements in reproducibility, diagnostic information, failure detection, or empirical prediction relative to transparent comparators, and at what cost?}\par
+\par}
+\vspace{1.8cm}
+\begin{center}
+\textbf{Abstract}
+\end{center}
+\begin{quote}
+\small
+Insurance stress tests commonly apply predefined shocks or simulate losses from static frequency-severity models. These approaches estimate adverse outcomes but do not necessarily integrate scenario sequencing, structural consistency, deterministic replay, and failure attribution. This paper proposes ARCCRAFT (Actuarial Risk \& Contingency Computational, Reproducible Architecture for Failure Testing), a versioned procedural architecture in which synthetic insurance worlds evolve over multiple periods under explicit states, transitions, bounds, stochastic streams, and failure predicates. The evaluation separates computational verification from empirical prediction. First, a retrospective motor-insurance study uses 354,140 policy-year observations from 2022-2024 and two temporal forecast origins. Policy-level Poisson pseudo-maximum-likelihood frequency modelling reduces held-out count deviance from 0.8481 to 0.7871 in 2023 and from 0.9153 to 0.8330 in 2024, but does not improve every aggregate error. A policy-level cost model is unstable across years: its incurred-loss error is +9.58\% in 2023 and -4.44\% in 2024. No model covers observed incurred loss with its process-only interval, and no model covers the 2024 claim count. Second, a synthetic ablation study using three seeds and 10,000 worlds per configuration establishes exact local replay and shows that named PCG64 substreams isolate claim and behavioural results from irrelevant world-stream consumption. Validator and transition ablations alter the selected population and coded failure rates, but the full model’s failures are almost entirely generated by its operational traceability gate. The results support ARCCRAFT as a reproducible audit and diagnostic architecture in the inspected environment; they do not establish calibrated scenario plausibility, general predictive superiority, causal failure attribution, or external validity. Independent portfolios, claim-level losses, operational labels, and prospectively untouched forecast periods are required for confirmatory validation.
+\end{quote}
+\vspace{1em}
+\noindent\textbf{Keywords:} actuarial stress testing; procedural simulation; non-life insurance; model risk; reproducibility; reverse stress testing; predictive calibration.
+\newpage
+\setcounter{tocdepth}{2}
+\addtocontents{toc}{\protect\setlength{\parskip}{1pt}}
+\tableofcontents
+\newpage
+\twocolumn
+\input{sections/01_literature}
+\input{sections/02_meth_intro}
+\input{sections/03_results}
+\input{sections/04_conclusion}
+\onecolumn
+\newpage
+\nocite{*}
+\bibliographystyle{unsrtnat}
+\bibliography{references}
+\end{document}

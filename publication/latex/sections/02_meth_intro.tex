@@ -1,0 +1,70 @@
+\section{Research methodology}\label{sec:research-methodology}
+
+\subsection{Study design and evidence layers}\label{sec:study-design-and-evidence-layers}
+
+The study has two evidence layers. The empirical layer evaluates aggregate and policy-level forecasts on a public motor portfolio. The procedural layer evaluates the internal behaviour of the synthetic ARCCRAFT engine. The layers are intentionally not conflated: the motor benchmark does not empirically validate the synthetic world grammar, and synthetic replay does not validate the motor predictions.
+
+The protocol is retrospective. The 2024 outcome and an earlier implementation were inspected before the final policy-level specification was frozen. The final transformations, predictors, penalty, temporal origins, and metrics were recorded in \path{16_RETROSPECTIVE_ANALYSIS_SPECIFICATION.md} before executing the reported final notebook, but the analysis is not preregistered or confirmatory.
+
+\subsection{Motor data and quality controls}\label{sec:motor-data-and-quality-controls}
+
+The normalized SQLite table contains 354,140 policy-year records for 185,678 insured identifiers from 2022-2024 and 47 fields documented in the supplied dictionary. The database passed its integrity check, its schema exactly matched the dictionary, no duplicate insured-year keys or exact duplicate groups were detected, and premium, claim-count, and incurred totals reconciled with their recorded components.
+
+Quality controls covered completeness, range, categorical levels, internal consistency, temporal composition, and leakage. Missingness affected 513 vehicle values, two vehicle ages, and two licence values. One zero-exposure record had reported claims and was excluded from frequency fitting. Among 50,807 claim-bearing records, 8,543 (16.81\%) had zero incurred cost; consequently, a positive-only Gamma severity model was not appropriate. The field \path{age_driving_licence} is described as a calendar year but ranges from 0 to 80, so it was retained only as an unidentified numeric proxy. \path{policy_status} was excluded because current cancellation status may contain post-inception information. The undocumented \texttt{NA} fuel category was retained as an explicit level. Portfolio rows increased from 67,172 in 2022 to 168,133 in 2024, and the largest business-type share moved by 40.57 percentage points, indicating material temporal composition change.
+
+\subsection{Empirical comparators}\label{sec:empirical-comparators}
+
+Two rolling temporal origins were used: 2022 to predict 2023, and 2022-2023 to predict 2024. Target-year policy characteristics and exposure were treated as known at forecast inception. Three specifications shared the same data partitions:
+
+\begin{enumerate}[leftmargin=*]
+\item \textbf{B0, aggregate pooled:} pooled claims per unit exposure and pooled incurred loss per reported claim;
+\item \textbf{B1, policy frequency with pooled severity:} a policy-level frequency model and pooled cost per claim;
+\item \textbf{B2, policy frequency with policy severity:} policy-level models for both frequency and incurred cost per reported claim.
+\end{enumerate}
+
+For policy (i), frequency was fitted by penalized Poisson pseudo-maximum likelihood,
+
+\begin{equation}
+\mu_i^{N}=E_i\exp(x_i^{\top}\beta),
+\label{eq:1}
+\end{equation}
+
+where ($E_i>0$) is exposure. The cost model used total incurred amount as the response and reported claim count as exposure,
+
+\begin{equation}
+\mu_i^{L}=N_i\exp(x_i^{\top}\gamma),
+\label{eq:2}
+\end{equation}
+
+on claim-bearing calibration rows. This is a non-negative conditional-mean model and not a literal claim-level Poisson distribution for currency. It accommodates zero-incurred claim rows but cannot recover individual loss severity from policy-year aggregates.
+
+The design matrix included driver age, vehicle age, the ambiguous licence proxy, log vehicle value, seats, log power-to-weight ratio, selected squared terms, and categorical indicators for policy type, business type, payment frequency, bonus score, fuel, vehicle brand, municipality type, and circulation area. Numerical values were median-imputed and clipped at calibration-period 0.5\% and 99.5\% quantiles before standardization. Rare brands were pooled. The L2 penalty was fixed at ($10^{-4}$), excluding the intercept, and models were estimated by L-BFGS-B. Calendar trend and policy status were excluded.
+
+Evaluation used aggregate relative error, policy-level Poisson deviance, risk-decile observed-to-predicted ratios, and approximate aggregate process intervals. These intervals combine Poisson count variation with the existing lognormal cost-dispersion proxy. They exclude parameter, feature, model, and distribution-shift uncertainty and are therefore labelled process-only.
+
+\subsection{ARCCRAFT architecture}\label{sec:arccraft-architecture}
+
+An ARCCRAFT world contains a scenario class, regime, initial values for eleven state variables, and a twelve-period path. The current synthetic implementation allocates PCG64 substreams to \texttt{world}, \texttt{claims}, and \texttt{behaviour} using \path{SeedSequence.spawn}. World states are drawn around a central state and perturbed by regime and scenario-class intensity. Scenario classes are baseline, alternative, adverse, severe-plausible, and exploratory; reverse stress is produced by a separate local search. Because no external probability or divergence criterion calibrates the labels, “severe-plausible” denotes a configured class name rather than demonstrated economic plausibility.
+
+The validator first applies hard bounds that trigger rejection and then soft bounds that clip accepted states and record repair. Simulation uses copies of validated state arrays. Premium, claims, and a payment-traceability score accumulate over twelve periods while behavioural noise updates state variables when transitions are active. A world fails first on a non-compensatory traceability threshold of 0.95 and otherwise on a combined-ratio threshold of 1.0. The Failure Atlas stores the world identifier, regime, class, failed gate, output values, master seed, and stable substream descriptors. It currently records terminal gate attribution, not the full first-failure trajectory or a causal mechanism.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{Figure1.png}
+\caption{\textbf{ARCCRAFT procedural architecture and evidence boundaries.} The specification layer registers the experiment, generates procedural worlds, separates stochastic streams, and validates states before simulation. The simulation layer links transitions and noncompensatory gates to replayable Failure Atlas records and reverse stress search, while the evaluation layer keeps computational replay distinct from empirical validation and classifies the resulting evidence as supported, mixed, or unsupported.}
+\label{fig:1}
+\end{figure*}
+
+\subsection{Procedural ablations}\label{sec:procedural-ablations}
+
+Five configurations were executed for master seeds 20260825, 20260826, and 20260827 with 10,000 worlds per seed:
+
+\begin{itemize}[leftmargin=*]
+\item full ARCCRAFT;
+\item no validator, passing raw initial states into the simulator;
+\item strict rejection, changing every repair into rejection;
+\item no transitions, holding validated initial states fixed over all twelve periods;
+\item shared stream, replacing the three named substreams with one sequential PCG64 generator.
+\end{itemize}
+
+Every configuration was rerun and compared by a SHA-256 fingerprint of labels and numerical outputs. Stream isolation was tested by consuming 100 unused random draws after world generation and before simulation. The intervention should not affect claims or behaviour under separated streams but should affect a sequential shared stream. Outcomes included accepted sample size, repair and rejection counts, failure rate among accepted worlds, failure-or-rejection rate, gate-specific failures, mean combined ratio, mean traceability, rank correlation screening, and wall-clock runtime. Runtime is host-specific and descriptive.

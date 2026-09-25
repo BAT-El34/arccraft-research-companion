@@ -6,4 +6,15 @@ __pycache__/
 node_modules/
 .next/
 .vercel/
-
+.cache/
+out/
+test-results/
+playwright-report/
+*.tsbuildinfo
+publication/latex/*.aux
+publication/latex/*.log
+publication/latex/*.out
+publication/latex/*.bbl
+publication/latex/*.blg
+publication/latex/*.fdb_latexmk
+publication/latex/*.fls

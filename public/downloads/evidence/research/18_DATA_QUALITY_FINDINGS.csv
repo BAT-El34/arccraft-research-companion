@@ -1,0 +1,10 @@
+finding,evidence,severity,confidence,model_action
+Licence field semantic conflict,Dictionary says calendar year; observed range is 0 to 80,high,high,Use only as an unidentified numeric proxy
+Claim rows with zero incurred,"8,543 of 50,807 claim-bearing rows (16.81%)",high,high,Use non-negative pseudo-likelihood; do not fit positive-only Gamma severity
+Zero exposure with claims,1 row,medium,high,Exclude from frequency-offset fitting and retain in audit
+Missing vehicle attributes,513 vehicle values; 2 vehicle ages; 2 licence values,low,high,Calibration-period median imputation
+Fuel sentinel outside documented values,"1,287 rows coded NA",medium,high,Retain as explicit category; request source definition
+Cancellation leakage risk,Policy status is active/cancelled at analysis time,high,medium,Exclude policy_status from predictors
+Strong temporal portfolio growth,"Rows rise from 67,172 to 168,133",high,high,Use temporal origins and condition on target portfolio
+Totals reconcile to components,"0 premium, claim-count, or incurred mismatches at defined tolerance",pass,high,No repair
+Insured-year grain is unique,0 duplicate insured-year keys and 0 exact duplicate groups,pass,high,Use insured-year as analysis grain

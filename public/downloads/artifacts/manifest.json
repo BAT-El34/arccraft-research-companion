@@ -1,0 +1,708 @@
+{
+  "schema_version": "arccraft-artifact-manifest-0.1",
+  "status": "CANDIDATE_NOT_RELEASED",
+  "source_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+  "engine_declared_version": "0.1.0",
+  "engine_sha256": "1b951fafe742546f394f7312f6e40fea45622047716879d29f0ba32366421ffb",
+  "world_grammar_version": "world_grammar-0.1.0",
+  "package_version": "0.1.0.dev1",
+  "calibration_version": "motor-mendeley-v1-reconciled-20260925",
+  "product_version": "synthetic-product-content-sha256",
+  "historical_fingerprint_contract": "SHA-256 of compact JSON row arrays with metric rounding at 12 decimals",
+  "canonical_historical_fingerprint": "61616d6739a13b3fb5f53b9d6df04790db4cc744dbd0ba4bca49be86ecf23cf6",
+  "canonical_full_precision_semantic_sha256": "eaaee90c1b0c7e8a5ee5dccc95013dda8a7db08f0ee0e63085df7dd444b9650d",
+  "archive_doi": null,
+  "release_tag": null,
+  "artifacts": [
+    {
+      "artifact_id": "evidence/figure_package/code/Figure1_tikz.tex",
+      "bytes": 4140,
+      "sha256": "71520c6db53f9106be08d17d44580fdb64b9c24077c7bad65e3d9ffb2b113aef",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/figure_package/code/Figure2.py",
+      "bytes": 5129,
+      "sha256": "d2e3452f854f336b8461541f6d392d986899d75df15df5d8bf0245164485e632",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/figure_package/code/Figure3.py",
+      "bytes": 5161,
+      "sha256": "732d341aae8f49e132c562803c9bc50ce443d211244bff60e4d277f3ceb9b3b6",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/figure_package/code/Figure4.py",
+      "bytes": 7264,
+      "sha256": "3977a742d382ebbc926aaa78b3a61c0fadc48c48dff65fdc9b324d585a77fc53",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/figure_package/code/Figure5.py",
+      "bytes": 5812,
+      "sha256": "03c6eb02cccabedfe59891c2b01e8bd6f2823578c0b324a799fbf723c8406ebd",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/figure_package/code/Figure6.py",
+      "bytes": 4687,
+      "sha256": "251afee99ef06121bfd9dd2638db24ead8916aa761f2fcaed6b7a6ad444aa99e",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/figure_package/code/Figure7.py",
+      "bytes": 6076,
+      "sha256": "ff83af9c95c1488486d092213c08cca3bd15ada6dc581e9062ad229e71b584d4",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/figure_package/code/Figure8.py",
+      "bytes": 1048,
+      "sha256": "a6249ff6d88b4b506e792df7ea5ad1843ba5c235bbeaadf6a7147abdb0b36a0a",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/figure_package/figures/Figure1.png",
+      "bytes": 212365,
+      "sha256": "b9d142e1ed19df95134896ca0774fbabed3df31c0ef9cf6b86e34908e85e79b6",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/figure_package/figures/Figure2.png",
+      "bytes": 287942,
+      "sha256": "e3c38106782d98d58facd99ad179b0c91ec178dc3e6245d582d2a9d5365c3d2d",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/figure_package/figures/Figure3.png",
+      "bytes": 400430,
+      "sha256": "7d60f100538642df846a78655cef5b1244604ee1024ec8f26b6d91069201a581",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/figure_package/figures/Figure4.png",
+      "bytes": 564637,
+      "sha256": "83112db940b1ce21909c6517fc2231fea2612f96a539ae8225e0a7ad57f31ba7",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/figure_package/figures/Figure5.png",
+      "bytes": 358669,
+      "sha256": "0279785e73cf6d0e76a3c14167c276e79ac72d68e316467358cc291bd61195e3",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/figure_package/figures/Figure6.png",
+      "bytes": 261249,
+      "sha256": "f0c8407f73c002dcc0ed5064a201da5c5c2903afc7c52373af3e6ad444db678f",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/figure_package/figures/Figure7.png",
+      "bytes": 345938,
+      "sha256": "0cd937686b892a1933014de0412da3b38d1a81b256526935a622ace8e447f93b",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/figure_package/figures/Figure8.png",
+      "bytes": 13780,
+      "sha256": "24ce9d9668fe791f1b7f323d6846e41e5943898309fe4c8c537153f2d74087ae",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/figure_package/FIGURES_TOOLS_AND_SOURCES.md",
+      "bytes": 8756,
+      "sha256": "e3fa429175e186a36c40232b1d35cd562c8dd17864ffef0ac73ed3da358b5a1e",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/latex/main.tex",
+      "bytes": 6220,
+      "sha256": "7dd044394d393fd022533738024e8a7cd7360b74d45b0566ebc82ed7120e2076",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/latex/references.bib",
+      "bytes": 13952,
+      "sha256": "6c1f114cd34a17105322a61ec77766cc558f33811b9823b298fc2c8c60055615",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/latex/sections/01_literature.tex",
+      "bytes": 23195,
+      "sha256": "f6b51207a10520e89ea932d42139156d598036bd8d35510ea6b9cba30c18502d",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/latex/sections/02_meth_intro.tex",
+      "bytes": 8062,
+      "sha256": "0c5ee8142df094b742018fc69afe6ab557d8b5c32a3a6cde901fdb7914f712fa",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/latex/sections/03_results.tex",
+      "bytes": 14714,
+      "sha256": "880db66752a59f4e263b049a2e1020954d90956648d208531bb1f4d0170f86df",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/latex/sections/04_conclusion.tex",
+      "bytes": 7807,
+      "sha256": "e0f39621885db15728687cbebbf1c49b135d8241dc3a99d0e97c277e352be0fe",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/paper/ARCCRAFT_Procedural_Stress_Testing.pdf",
+      "bytes": 2312776,
+      "sha256": "7097a5566ef1477c573582c65f3fe4e65a3668176474c60d9085a64e5cdf024c",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/01_SEARCH_PROTOCOL.md",
+      "bytes": 12107,
+      "sha256": "fdc0e9a1c78e14472c2d0f31301cd5886b9892ff06355503d2509549edcfac78",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/02_LITERATURE_EXTRACTION.csv",
+      "bytes": 24639,
+      "sha256": "d47e9b66e35ab80739b414b221546c69b47511de0b7973a750db599020c186cb",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/03_SCREENING_LOG.md",
+      "bytes": 5629,
+      "sha256": "26e5f2d196be3349590081c212c40f51fa6d1dec14ce0ed7651162bf71db63ad",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/04_NOVELTY_AND_EVIDENCE_GAPS.md",
+      "bytes": 11978,
+      "sha256": "455870e17e515f12a758723351c3f13325758892dc1e3e23993d58dee2b7b4f3",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/05_PAPER_ARCHITECTURE.md",
+      "bytes": 14872,
+      "sha256": "de82af6af2f034e80a4075fff5d7e1fa0c0fc8445ffc00ddd200754f81eaa31c",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/06_LITERATURE_REVIEW_DRAFT.md",
+      "bytes": 25958,
+      "sha256": "b85d0376f44683b93ce66cbdac5307972228fa1c5de8a72708b35eec6a57f476",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/07_CLAIM_REGISTER.csv",
+      "bytes": 10848,
+      "sha256": "ba97d6ed3aa086bb1c8ac0261179e91d9b67371c7543656ecf7f8f92c8843fff",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/08_EMPIRICAL_BENCHMARK.ipynb",
+      "bytes": 268383,
+      "sha256": "7b1708e33b25e3dd2dbb48387bcee13b4af29df4b44723cc83398f2d66ff8811",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/09_ROLLING_ORIGIN_RESULTS.csv",
+      "bytes": 404,
+      "sha256": "00205cfda2dbeb60e05a46d806e76c21e03fb5b3f1a3a22023d48d122d8a9ddb",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/10_BENCHMARK_RESULTS_2024.csv",
+      "bytes": 537,
+      "sha256": "549e778f220049fdd1e63fbf6a657679f413ab61129ab98960cb0262d0896a8b",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/11_STRESS_SURFACE_RESULTS.csv",
+      "bytes": 1852,
+      "sha256": "30954304e6396381eb32fc03fa34eabe2e39be1a7b70816116f63b232cd2c6c4",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/12_SYNTHETIC_AUDIT_RESULTS.csv",
+      "bytes": 472,
+      "sha256": "7a8257eac777b0a4bffc4996a2a733f9ec8092b4e990fbe7992f4f9c42ff12bc",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/13_SCENARIO_CLASS_RESULTS.csv",
+      "bytes": 448,
+      "sha256": "7611438f70361ef235cec676d34b8e398618d7501631dd085f2aee8d06518c42",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/14_FAILURE_ATLAS_COUNTS.csv",
+      "bytes": 104,
+      "sha256": "d5f487e296aa7b4da1dd9cffab91bd08dd98713eeaeeb5747234d16972ef1bd1",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/15_EMPIRICAL_FINDINGS_AND_METHOD_AUDIT.md",
+      "bytes": 9750,
+      "sha256": "e9a110bb29e3b4291e663bf2282ffcea30a34ce90658878a9b4152614fd219d0",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/16_RETROSPECTIVE_ANALYSIS_SPECIFICATION.md",
+      "bytes": 5252,
+      "sha256": "8dddc281216787b1c08087d3f71182df1950cb6a8b061e794d011ad4d205d633",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/17_DATA_QUALITY_POLICY_BENCHMARK.ipynb",
+      "bytes": 271934,
+      "sha256": "faf80d9a0374d00a0af028e8bbbb91089d24ad675992769c612dde19bb402ee5",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/18_DATA_QUALITY_FINDINGS.csv",
+      "bytes": 1234,
+      "sha256": "a2a40cea0369ae6c4483905ca3a34b253c959763f62288f6f6c19abe5a25332c",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/19_POLICY_BENCHMARK_RESULTS.csv",
+      "bytes": 1873,
+      "sha256": "92bd7a187da51050c087f4fbafd7add7b18ba74bcd2e179ed17d7ab67c2dbc1e",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/20_POLICY_DECILE_CALIBRATION.csv",
+      "bytes": 2935,
+      "sha256": "7fb06c5f83fbe5a2e720f26a9a024162e04ca5725effdba81919ee52b8adb260",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/21_POLICY_MODEL_DIAGNOSTICS.csv",
+      "bytes": 536,
+      "sha256": "5cadcfafa2d7560af9813d7e18928ffb10b0c63eb8043516c811dccd0bffda8b",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/22_NUMERIC_PROFILE.csv",
+      "bytes": 708,
+      "sha256": "225f9126e207c1c5cc4e34559ef3a9751382f1c7793618478c42f722d7df910c",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/23_CATEGORY_PROFILE.csv",
+      "bytes": 457,
+      "sha256": "5e01bb6b821fb1629562475fc3cd8016dd9a240322f6985f8318873f23b96e4d",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/24_TEMPORAL_CATEGORY_SHIFT.csv",
+      "bytes": 374,
+      "sha256": "6b8d0aaaa4a980b16670b22fea921944469bce86909d919ced15b8ad0abf7d66",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/25_ARCCRAFT_ABLATION_RESULTS.csv",
+      "bytes": 5099,
+      "sha256": "7fbeb3c3b352743b41a9f086f40ebe7772dd70680bea00912716b805dd1ef82e",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/26_ARCCRAFT_ABLATION_SUMMARY.csv",
+      "bytes": 3625,
+      "sha256": "06cf36680758fbccb17651a2c3b5e1e1bc6820382e7290ed6b51bbdbb6d460a4",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/27_STREAM_ISOLATION_TEST.csv",
+      "bytes": 485,
+      "sha256": "94f4fb9e37d2d259fa90a5adb5cc8abb4479310cd19ce8cb149566695a838ab6",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/28_ARCCRAFT_ABLATION_REPORT.md",
+      "bytes": 3066,
+      "sha256": "a43752007a597c592e91fab22f4123c97d9c2d1092bcead038c00bb6fccd6ed3",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/29_ARCCRAFT_MANUSCRIPT_DRAFT.md",
+      "bytes": 39287,
+      "sha256": "e3b52da44d4cba842bfad6476a92734a5aaa8ffba5a72a44aa1b6b6decc6a815",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/30_FINAL_AUDIT.md",
+      "bytes": 3129,
+      "sha256": "223a19898f2f03741d228080ec9ed44eade9a2bd54bd854ef5f19b5928371628",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/31_ARCCRAFT_FULL_MANUSCRIPT.md",
+      "bytes": 60614,
+      "sha256": "2c098bb80faef8c8983ce0f213f9316a4e023613fdc083c6c8198e9b2cf787db",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/32_CLAIM_METRIC_AUDIT.csv",
+      "bytes": 1679,
+      "sha256": "ef5675aad6369f4372b305af7fb7fa8fa4f21daf411d8026626a38a689846eae",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/33_CAHIER_DES_CHARGES_APPLICATION_PUBLICATION_ARCCRAFT.md",
+      "bytes": 55011,
+      "sha256": "2045ef93f48cc0b80d51afff569e2f7bbe0cc9ad4c36602f8f9a507cd87fcffe",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/build_empirical_notebook.py",
+      "bytes": 20585,
+      "sha256": "12aed9160c615988fd2148282674c2124487cae7d16aadec4bf308454210ff73",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/build_policy_benchmark_notebook.py",
+      "bytes": 21961,
+      "sha256": "acdbcca4cf9b251f45e1d490bacbe6e4182a1f092e3d88d2e6ddae0925e2b1e6",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/research_requirements.txt",
+      "bytes": 161,
+      "sha256": "5a3e9904d2e13656d1946ecfe0dfd22681fbfdae30690b347b412d2fc04e64b5",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/run_arccraft_ablation.py",
+      "bytes": 11083,
+      "sha256": "64e7fe6ee0fa91888fd13caed030d4f5272255020a07b10c9827ecd98a3275e6",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "evidence/research/WORK_PLAN.md",
+      "bytes": 29177,
+      "sha256": "8961e33c01f5e0bf9f6704b191b509bb0e0957d68b50a2a724cb358d768cf882",
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "version": "phase0-candidate-1",
+      "license": "AUTHOR_DECISION_PENDING"
+    },
+    {
+      "artifact_id": "artifacts/candidate/canonical-worlds.json",
+      "bytes": 2523718,
+      "sha256": "1663e204e1a812fbf057443bf2d84f02a86148576aecbf5e2322247211cd1f89",
+      "proof_status": "CANDIDATE_REPLAY",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "version": "phase0-candidate-1",
+      "license": "CODE_AND_DERIVED_ARTIFACT_LICENSE_PENDING"
+    },
+    {
+      "artifact_id": "artifacts/candidate/failure-atlas-counts-10000.csv",
+      "bytes": 104,
+      "sha256": "0be922e5c37c89851b74a0896f3e1a0c252eb04bd80d978dc454bc011c33da71",
+      "proof_status": "CANDIDATE_REPLAY",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "version": "phase0-candidate-1",
+      "license": "CODE_AND_DERIVED_ARTIFACT_LICENSE_PENDING"
+    },
+    {
+      "artifact_id": "artifacts/candidate/failure-atlas.json",
+      "bytes": 2285518,
+      "sha256": "5d05ff8f21680505428651a07e9ed7dddbef421ef5307a783e052533b4530da9",
+      "proof_status": "CANDIDATE_REPLAY",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "version": "phase0-candidate-1",
+      "license": "CODE_AND_DERIVED_ARTIFACT_LICENSE_PENDING"
+    },
+    {
+      "artifact_id": "artifacts/candidate/motor-forecast.json",
+      "bytes": 3978,
+      "sha256": "3c37c4cd31ee30cbcba50c41fa4836ce1ae9f3eda11a582893536e6d966dc107",
+      "proof_status": "CANDIDATE_REPLAY",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "version": "phase0-candidate-1",
+      "license": "CODE_AND_DERIVED_ARTIFACT_LICENSE_PENDING"
+    },
+    {
+      "artifact_id": "artifacts/candidate/reverse-stress.json",
+      "bytes": 204,
+      "sha256": "4d479de17d85208a315f767aba34e5c2a63e44ad8f27e7d7ef5452566c856fdf",
+      "proof_status": "CANDIDATE_REPLAY",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "version": "phase0-candidate-1",
+      "license": "CODE_AND_DERIVED_ARTIFACT_LICENSE_PENDING"
+    },
+    {
+      "artifact_id": "artifacts/candidate/scenario-classes-10000.csv",
+      "bytes": 458,
+      "sha256": "92e96721c7ac0994d7a7f9161451d8f70ee46456ece19712152c9715399aaeb1",
+      "proof_status": "CANDIDATE_REPLAY",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "version": "phase0-candidate-1",
+      "license": "CODE_AND_DERIVED_ARTIFACT_LICENSE_PENDING"
+    },
+    {
+      "artifact_id": "artifacts/candidate/stress-surface.csv",
+      "bytes": 1734,
+      "sha256": "632aab5ce42fd867c35100f3e4bcdb5ca39163159c527282c4e347cc0c53e8a4",
+      "proof_status": "CANDIDATE_REPLAY",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "version": "phase0-candidate-1",
+      "license": "CODE_AND_DERIVED_ARTIFACT_LICENSE_PENDING"
+    }
+  ]
+}
