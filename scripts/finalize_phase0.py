@@ -54,7 +54,7 @@ def main():
         ns={};exec(compile(s,f'Figure{n}:data','exec'),ns);return ns
     def fc(name,actual,expected,tolerance):
         fig_checks.append({'check':name,'passed':bool(np.allclose(actual,expected,rtol=0,atol=tolerance)),'absolute_tolerance':tolerance})
-    f=loaded(2);annual=json.loads((ROOT/'audit/data-reconciliation.json').read_text())['annual']
+    f=loaded(2);annual=json.loads((ROOT/'audit/data-reconciliation.json').read_text(encoding='utf-8'))['annual']
     fc('Figure2 rows',f['policy_rows'],[x['policy_rows'] for x in annual],0)
     for field in ['claim_frequency','loss_ratio']:fc('Figure2 '+field,f[field],[x[field] for x in annual],.000005)
     f=loaded(3)
@@ -83,7 +83,7 @@ def main():
     diff=''.join(difflib.unified_diff(orig.splitlines(keepends=True),revised.splitlines(keepends=True),fromfile='original/31_ARCCRAFT_FULL_MANUSCRIPT.md',tofile='proposed/31_ARCCRAFT_FULL_MANUSCRIPT.md'))
     (proposal/'manuscript-corrections.patch').write_text(diff,encoding='utf-8')
     # Manifest distinguishes original evidence, newly replayed outputs and candidate freeze.
-    checks_report=json.loads((ROOT/'audit/scientific-checks.json').read_text())
+    checks_report=json.loads((ROOT/'audit/scientific-checks.json').read_text(encoding='utf-8'))
     artifact_list=[]
     for folder,status in [('evidence','ORIGINAL_RESEARCH_SNAPSHOT'),('artifacts/candidate','CANDIDATE_REPLAY')]:
         for p in sorted((ROOT/folder).rglob('*')):
@@ -98,9 +98,9 @@ def main():
         'canonical_historical_fingerprint':checks_report['canonical_fingerprint_rounded_12'],'canonical_full_precision_semantic_sha256':checks_report['canonical_raw_semantic_sha256'],
         'archive_doi':None,'release_tag':None,'artifacts':artifact_list})
     # Ensure audit execution did not change a single inventoried original resource.
-    inventory=json.loads((ROOT/'audit/inventory.json').read_text())
+    inventory=json.loads((ROOT/'audit/inventory.json').read_text(encoding='utf-8'))
     changes=[x['path'] for x in inventory if not Path(x['path']).is_file() or sha(Path(x['path']))!=x['sha256']]
-    before=json.loads((ROOT/'audit/source-git.json').read_text())['status_before']
+    before=json.loads((ROOT/'audit/source-git.json').read_text(encoding='utf-8'))['status_before']
     after=subprocess.check_output(['git','status','--porcelain'],cwd=LEGACY,text=True)
     write(ROOT/'audit/source-integrity-after.json',{'checked_files':len(inventory),'changed_files':changes,'legacy_git_status_unchanged':before==after,'passed':not changes and before==after})
     print(json.dumps({'notebook_outputs_match':all(x['passed'] for x in checks),'figure_arrays_match':all(c['passed'] for c in fig_checks),'source_changes':changes,'source_commit':source_commit},indent=2))
