@@ -1,0 +1,8 @@
+{
+  "source": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\backend\\model_service.py",
+  "source_sha256": "96c227f3c018542d7aa298d025267dec0e1b4efa8e6926df48d0666c768545bd",
+  "function": "arccraft_empirical_motor",
+  "formula_changes": false,
+  "provider_change": "SQLite read-only calibration replaced by verified arccraft/calibration/motor-v1.json",
+  "target_sha256": "0f852b7be914504cd8ef82833cfd64c7ea775c0258c6273557c863e225a74f6d"
+}

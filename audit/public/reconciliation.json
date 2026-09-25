@@ -1,0 +1,38 @@
+{
+  "public_commit": "NOT_EXPOSED",
+  "base_commit": "b3df670227efa4aecf5383979b90f3eab15ae528",
+  "public_matches_base": {
+    "reverse_stress": true,
+    "failure_atlas_summary": true,
+    "top_correlations": true,
+    "scenario_classes": true
+  },
+  "public_matches_local": {
+    "reverse_stress": false,
+    "failure_atlas_summary": true,
+    "top_correlations": true,
+    "scenario_classes": true
+  },
+  "reverse_public": {
+    "world_id_perturbation": 184,
+    "distance_standardisee": 0.9534068136272545,
+    "porte_ratee": "tracabilite",
+    "tracabilite_score": 0.9482548446253604,
+    "combined_ratio": 0.4175040666250729
+  },
+  "reverse_base": {
+    "world_id_perturbation": 184,
+    "distance_standardisee": 0.9534068136272545,
+    "porte_ratee": "tracabilite",
+    "tracabilite_score": 0.9482548446253604,
+    "combined_ratio": 0.4175040666250729
+  },
+  "reverse_local": {
+    "world_id_perturbation": 196,
+    "distance_standardisee": 1.0123246492985973,
+    "porte_ratee": "tracabilite",
+    "tracabilite_score": 0.9320731505217082,
+    "combined_ratio": 0.4017452053356689
+  },
+  "scope": "100 worlds, seed 20260825; behavioural agreement cannot establish deployed source SHA."
+}

@@ -1,0 +1,1097 @@
+{
+  "schema_version": "arccraft-api-1.0",
+  "mode": "SYNTHETIC_DEMO",
+  "seed": 20260825,
+  "n_worlds": 100,
+  "validation_status": {
+    "PASS": 86,
+    "REPAIR": 14,
+    "REJECT": 0
+  },
+  "scenario_classes": {
+    "BASELINE": {
+      "mondes_acceptes": 13,
+      "taux_echec_synthetique": 0.0,
+      "ratio_combine_moyen": 0.4033849981289194,
+      "statut_usage": "synthese_centrale"
+    },
+    "ALTERNATIVE": {
+      "mondes_acceptes": 27,
+      "taux_echec_synthetique": 0.18518518518518517,
+      "ratio_combine_moyen": 0.4208297319314787,
+      "statut_usage": "synthese_centrale"
+    },
+    "ADVERSE": {
+      "mondes_acceptes": 36,
+      "taux_echec_synthetique": 0.4722222222222222,
+      "ratio_combine_moyen": 0.4440349405277667,
+      "statut_usage": "synthese_centrale"
+    },
+    "SEVERE_PLAUSIBLE": {
+      "mondes_acceptes": 13,
+      "taux_echec_synthetique": 0.46153846153846156,
+      "ratio_combine_moyen": 0.5214961902274724,
+      "statut_usage": "synthese_centrale_separable"
+    },
+    "EXPLORATORY": {
+      "mondes_acceptes": 11,
+      "taux_echec_synthetique": 0.45454545454545453,
+      "ratio_combine_moyen": 0.4527720809719979,
+      "statut_usage": "rapporte_separement"
+    }
+  },
+  "failure_atlas_summary": {
+    "echecs_tracabilite": 33,
+    "echecs_ratio_combine": 0,
+    "mondes_rejetes_avant_simulation": 0
+  },
+  "top_correlations": [
+    {
+      "variable": "claim_freq_mult",
+      "rho_rank": 0.7313171317131713
+    },
+    {
+      "variable": "claim_sev_mult",
+      "rho_rank": 0.5292769276927692
+    },
+    {
+      "variable": "network_availability",
+      "rho_rank": 0.42006600660066
+    },
+    {
+      "variable": "liquidite",
+      "rho_rank": -0.32002400240024
+    },
+    {
+      "variable": "fraud_pressure",
+      "rho_rank": 0.2864926492649265
+    },
+    {
+      "variable": "medical_inflation",
+      "rho_rank": 0.2779237923792379
+    },
+    {
+      "variable": "digital_reliability",
+      "rho_rank": 0.16768076807680765
+    },
+    {
+      "variable": "backlog_capacity",
+      "rho_rank": 0.14971497149714968
+    },
+    {
+      "variable": "adoption_load",
+      "rho_rank": -0.11327932793279327
+    },
+    {
+      "variable": "lapse_rate",
+      "rho_rank": 0.04705670567056705
+    }
+  ],
+  "reverse_stress": {
+    "world_id_perturbation": 196,
+    "distance_standardisee": 1.0123246492985973,
+    "porte_ratee": "tracabilite",
+    "tracabilite_score": 0.9320731505217082,
+    "combined_ratio": 0.4017452053356689
+  },
+  "readiness": {
+    "status": "BLOCKED",
+    "missing": [
+      "backtesting_portefeuille",
+      "validation_hors_echantillon"
+    ]
+  },
+  "failure_atlas_sample": [
+    {
+      "world_id": 0,
+      "regime": "B7",
+      "regime_label": "backlog_operationnel",
+      "classe": "ADVERSE",
+      "porte_ratee": "tracabilite",
+      "combined_ratio": 0.4052873881335215,
+      "tracabilite_score": 0.9090605952070616,
+      "seed_master": 20260825,
+      "sous_flux": {
+        "world": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            0
+          ]
+        },
+        "claims": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            1
+          ]
+        },
+        "behaviour": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "world_id": 1,
+      "regime": "B7",
+      "regime_label": "backlog_operationnel",
+      "classe": "SEVERE_PLAUSIBLE",
+      "porte_ratee": "tracabilite",
+      "combined_ratio": 0.39189269396201637,
+      "tracabilite_score": 0.7461372318333228,
+      "seed_master": 20260825,
+      "sous_flux": {
+        "world": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            0
+          ]
+        },
+        "claims": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            1
+          ]
+        },
+        "behaviour": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "world_id": 8,
+      "regime": "B7",
+      "regime_label": "backlog_operationnel",
+      "classe": "ADVERSE",
+      "porte_ratee": "tracabilite",
+      "combined_ratio": 0.40599060739093473,
+      "tracabilite_score": 0.8332366559276312,
+      "seed_master": 20260825,
+      "sous_flux": {
+        "world": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            0
+          ]
+        },
+        "claims": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            1
+          ]
+        },
+        "behaviour": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "world_id": 10,
+      "regime": "B7",
+      "regime_label": "backlog_operationnel",
+      "classe": "ADVERSE",
+      "porte_ratee": "tracabilite",
+      "combined_ratio": 0.4019720276419097,
+      "tracabilite_score": 0.8483418023268978,
+      "seed_master": 20260825,
+      "sous_flux": {
+        "world": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            0
+          ]
+        },
+        "claims": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            1
+          ]
+        },
+        "behaviour": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "world_id": 11,
+      "regime": "B4",
+      "regime_label": "defaillance_numerique",
+      "classe": "ALTERNATIVE",
+      "porte_ratee": "tracabilite",
+      "combined_ratio": 0.4038124480104704,
+      "tracabilite_score": 0.8724588050594208,
+      "seed_master": 20260825,
+      "sous_flux": {
+        "world": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            0
+          ]
+        },
+        "claims": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            1
+          ]
+        },
+        "behaviour": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "world_id": 13,
+      "regime": "B7",
+      "regime_label": "backlog_operationnel",
+      "classe": "ADVERSE",
+      "porte_ratee": "tracabilite",
+      "combined_ratio": 0.40282937960531257,
+      "tracabilite_score": 0.8260960014406065,
+      "seed_master": 20260825,
+      "sous_flux": {
+        "world": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            0
+          ]
+        },
+        "claims": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            1
+          ]
+        },
+        "behaviour": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "world_id": 15,
+      "regime": "B7",
+      "regime_label": "backlog_operationnel",
+      "classe": "ALTERNATIVE",
+      "porte_ratee": "tracabilite",
+      "combined_ratio": 0.3989093920330113,
+      "tracabilite_score": 0.9290852413000956,
+      "seed_master": 20260825,
+      "sous_flux": {
+        "world": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            0
+          ]
+        },
+        "claims": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            1
+          ]
+        },
+        "behaviour": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "world_id": 19,
+      "regime": "B4",
+      "regime_label": "defaillance_numerique",
+      "classe": "EXPLORATORY",
+      "porte_ratee": "tracabilite",
+      "combined_ratio": 0.41340600896067964,
+      "tracabilite_score": 0.38409279568293203,
+      "seed_master": 20260825,
+      "sous_flux": {
+        "world": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            0
+          ]
+        },
+        "claims": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            1
+          ]
+        },
+        "behaviour": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "world_id": 25,
+      "regime": "B8",
+      "regime_label": "stress_compose",
+      "classe": "ADVERSE",
+      "porte_ratee": "tracabilite",
+      "combined_ratio": 0.45866711691187184,
+      "tracabilite_score": 0.7987023678069535,
+      "seed_master": 20260825,
+      "sous_flux": {
+        "world": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            0
+          ]
+        },
+        "claims": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            1
+          ]
+        },
+        "behaviour": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "world_id": 29,
+      "regime": "B5",
+      "regime_label": "pression_fraude",
+      "classe": "SEVERE_PLAUSIBLE",
+      "porte_ratee": "tracabilite",
+      "combined_ratio": 0.467939204132548,
+      "tracabilite_score": 0.9226229626451888,
+      "seed_master": 20260825,
+      "sous_flux": {
+        "world": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            0
+          ]
+        },
+        "claims": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            1
+          ]
+        },
+        "behaviour": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "world_id": 30,
+      "regime": "B8",
+      "regime_label": "stress_compose",
+      "classe": "ADVERSE",
+      "porte_ratee": "tracabilite",
+      "combined_ratio": 0.4745734573057004,
+      "tracabilite_score": 0.8630042535808808,
+      "seed_master": 20260825,
+      "sous_flux": {
+        "world": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            0
+          ]
+        },
+        "claims": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            1
+          ]
+        },
+        "behaviour": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "world_id": 33,
+      "regime": "B4",
+      "regime_label": "defaillance_numerique",
+      "classe": "ALTERNATIVE",
+      "porte_ratee": "tracabilite",
+      "combined_ratio": 0.41504561128274614,
+      "tracabilite_score": 0.831416279506786,
+      "seed_master": 20260825,
+      "sous_flux": {
+        "world": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            0
+          ]
+        },
+        "claims": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            1
+          ]
+        },
+        "behaviour": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "world_id": 34,
+      "regime": "B5",
+      "regime_label": "pression_fraude",
+      "classe": "ADVERSE",
+      "porte_ratee": "tracabilite",
+      "combined_ratio": 0.439317200330905,
+      "tracabilite_score": 0.9058896241373792,
+      "seed_master": 20260825,
+      "sous_flux": {
+        "world": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            0
+          ]
+        },
+        "claims": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            1
+          ]
+        },
+        "behaviour": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "world_id": 37,
+      "regime": "B7",
+      "regime_label": "backlog_operationnel",
+      "classe": "ADVERSE",
+      "porte_ratee": "tracabilite",
+      "combined_ratio": 0.4005752078652443,
+      "tracabilite_score": 0.8507645021037255,
+      "seed_master": 20260825,
+      "sous_flux": {
+        "world": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            0
+          ]
+        },
+        "claims": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            1
+          ]
+        },
+        "behaviour": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "world_id": 38,
+      "regime": "B4",
+      "regime_label": "defaillance_numerique",
+      "classe": "ADVERSE",
+      "porte_ratee": "tracabilite",
+      "combined_ratio": 0.38724745373626995,
+      "tracabilite_score": 0.6654161845759256,
+      "seed_master": 20260825,
+      "sous_flux": {
+        "world": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            0
+          ]
+        },
+        "claims": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            1
+          ]
+        },
+        "behaviour": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "world_id": 39,
+      "regime": "B5",
+      "regime_label": "pression_fraude",
+      "classe": "ADVERSE",
+      "porte_ratee": "tracabilite",
+      "combined_ratio": 0.4438624385042011,
+      "tracabilite_score": 0.9399511587500625,
+      "seed_master": 20260825,
+      "sous_flux": {
+        "world": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            0
+          ]
+        },
+        "claims": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            1
+          ]
+        },
+        "behaviour": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "world_id": 44,
+      "regime": "B8",
+      "regime_label": "stress_compose",
+      "classe": "SEVERE_PLAUSIBLE",
+      "porte_ratee": "tracabilite",
+      "combined_ratio": 0.629546631080192,
+      "tracabilite_score": 0.6653061910908865,
+      "seed_master": 20260825,
+      "sous_flux": {
+        "world": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            0
+          ]
+        },
+        "claims": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            1
+          ]
+        },
+        "behaviour": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "world_id": 46,
+      "regime": "B8",
+      "regime_label": "stress_compose",
+      "classe": "ADVERSE",
+      "porte_ratee": "tracabilite",
+      "combined_ratio": 0.4687634891229428,
+      "tracabilite_score": 0.8239310438285722,
+      "seed_master": 20260825,
+      "sous_flux": {
+        "world": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            0
+          ]
+        },
+        "claims": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            1
+          ]
+        },
+        "behaviour": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "world_id": 47,
+      "regime": "B7",
+      "regime_label": "backlog_operationnel",
+      "classe": "ADVERSE",
+      "porte_ratee": "tracabilite",
+      "combined_ratio": 0.39565940939230426,
+      "tracabilite_score": 0.8254229185331653,
+      "seed_master": 20260825,
+      "sous_flux": {
+        "world": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            0
+          ]
+        },
+        "claims": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            1
+          ]
+        },
+        "behaviour": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "world_id": 51,
+      "regime": "B7",
+      "regime_label": "backlog_operationnel",
+      "classe": "ADVERSE",
+      "porte_ratee": "tracabilite",
+      "combined_ratio": 0.41935109532468284,
+      "tracabilite_score": 0.8618928577851549,
+      "seed_master": 20260825,
+      "sous_flux": {
+        "world": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            0
+          ]
+        },
+        "claims": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            1
+          ]
+        },
+        "behaviour": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "world_id": 54,
+      "regime": "B7",
+      "regime_label": "backlog_operationnel",
+      "classe": "EXPLORATORY",
+      "porte_ratee": "tracabilite",
+      "combined_ratio": 0.38633414620885403,
+      "tracabilite_score": 0.7942240325683491,
+      "seed_master": 20260825,
+      "sous_flux": {
+        "world": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            0
+          ]
+        },
+        "claims": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            1
+          ]
+        },
+        "behaviour": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "world_id": 56,
+      "regime": "B7",
+      "regime_label": "backlog_operationnel",
+      "classe": "SEVERE_PLAUSIBLE",
+      "porte_ratee": "tracabilite",
+      "combined_ratio": 0.42087502704165153,
+      "tracabilite_score": 0.6757781249772248,
+      "seed_master": 20260825,
+      "sous_flux": {
+        "world": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            0
+          ]
+        },
+        "claims": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            1
+          ]
+        },
+        "behaviour": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "world_id": 57,
+      "regime": "B4",
+      "regime_label": "defaillance_numerique",
+      "classe": "SEVERE_PLAUSIBLE",
+      "porte_ratee": "tracabilite",
+      "combined_ratio": 0.37117888424371825,
+      "tracabilite_score": 0.4144202834797596,
+      "seed_master": 20260825,
+      "sous_flux": {
+        "world": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            0
+          ]
+        },
+        "claims": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            1
+          ]
+        },
+        "behaviour": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "world_id": 65,
+      "regime": "B7",
+      "regime_label": "backlog_operationnel",
+      "classe": "ADVERSE",
+      "porte_ratee": "tracabilite",
+      "combined_ratio": 0.41487411855985185,
+      "tracabilite_score": 0.8884955750246021,
+      "seed_master": 20260825,
+      "sous_flux": {
+        "world": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            0
+          ]
+        },
+        "claims": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            1
+          ]
+        },
+        "behaviour": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "world_id": 67,
+      "regime": "B8",
+      "regime_label": "stress_compose",
+      "classe": "ADVERSE",
+      "porte_ratee": "tracabilite",
+      "combined_ratio": 0.49138759709795854,
+      "tracabilite_score": 0.8347145153535477,
+      "seed_master": 20260825,
+      "sous_flux": {
+        "world": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            0
+          ]
+        },
+        "claims": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            1
+          ]
+        },
+        "behaviour": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "world_id": 72,
+      "regime": "B7",
+      "regime_label": "backlog_operationnel",
+      "classe": "EXPLORATORY",
+      "porte_ratee": "tracabilite",
+      "combined_ratio": 0.41415757195326147,
+      "tracabilite_score": 0.8649027490214244,
+      "seed_master": 20260825,
+      "sous_flux": {
+        "world": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            0
+          ]
+        },
+        "claims": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            1
+          ]
+        },
+        "behaviour": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "world_id": 74,
+      "regime": "B8",
+      "regime_label": "stress_compose",
+      "classe": "ADVERSE",
+      "porte_ratee": "tracabilite",
+      "combined_ratio": 0.4832401543900658,
+      "tracabilite_score": 0.8219834338920208,
+      "seed_master": 20260825,
+      "sous_flux": {
+        "world": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            0
+          ]
+        },
+        "claims": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            1
+          ]
+        },
+        "behaviour": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "world_id": 76,
+      "regime": "B8",
+      "regime_label": "stress_compose",
+      "classe": "ALTERNATIVE",
+      "porte_ratee": "tracabilite",
+      "combined_ratio": 0.4242341094664036,
+      "tracabilite_score": 0.9450761466297393,
+      "seed_master": 20260825,
+      "sous_flux": {
+        "world": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            0
+          ]
+        },
+        "claims": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            1
+          ]
+        },
+        "behaviour": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "world_id": 78,
+      "regime": "B4",
+      "regime_label": "defaillance_numerique",
+      "classe": "EXPLORATORY",
+      "porte_ratee": "tracabilite",
+      "combined_ratio": 0.39713069574188653,
+      "tracabilite_score": 0.3002778943099621,
+      "seed_master": 20260825,
+      "sous_flux": {
+        "world": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            0
+          ]
+        },
+        "claims": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            1
+          ]
+        },
+        "behaviour": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "world_id": 80,
+      "regime": "B7",
+      "regime_label": "backlog_operationnel",
+      "classe": "EXPLORATORY",
+      "porte_ratee": "tracabilite",
+      "combined_ratio": 0.41164453441304855,
+      "tracabilite_score": 0.7841006960113698,
+      "seed_master": 20260825,
+      "sous_flux": {
+        "world": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            0
+          ]
+        },
+        "claims": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            1
+          ]
+        },
+        "behaviour": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "world_id": 84,
+      "regime": "B4",
+      "regime_label": "defaillance_numerique",
+      "classe": "SEVERE_PLAUSIBLE",
+      "porte_ratee": "tracabilite",
+      "combined_ratio": 0.42305033883625204,
+      "tracabilite_score": 0.38198363684552517,
+      "seed_master": 20260825,
+      "sous_flux": {
+        "world": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            0
+          ]
+        },
+        "claims": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            1
+          ]
+        },
+        "behaviour": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "world_id": 96,
+      "regime": "B8",
+      "regime_label": "stress_compose",
+      "classe": "ALTERNATIVE",
+      "porte_ratee": "tracabilite",
+      "combined_ratio": 0.416391198320846,
+      "tracabilite_score": 0.9266636504479434,
+      "seed_master": 20260825,
+      "sous_flux": {
+        "world": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            0
+          ]
+        },
+        "claims": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            1
+          ]
+        },
+        "behaviour": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            2
+          ]
+        }
+      }
+    },
+    {
+      "world_id": 99,
+      "regime": "B4",
+      "regime_label": "defaillance_numerique",
+      "classe": "ADVERSE",
+      "porte_ratee": "tracabilite",
+      "combined_ratio": 0.3932509195342514,
+      "tracabilite_score": 0.701654365650335,
+      "seed_master": 20260825,
+      "sous_flux": {
+        "world": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            0
+          ]
+        },
+        "claims": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            1
+          ]
+        },
+        "behaviour": {
+          "algorithme": "PCG64",
+          "spawn_key": [
+            2
+          ]
+        }
+      }
+    }
+  ],
+  "warning": "This procedural layer uses SCENARIO_ASSUMPTION and SYNTHETIC_DEMO inputs. Backtesting and out-of-sample validation remain unavailable for the application case."
+}

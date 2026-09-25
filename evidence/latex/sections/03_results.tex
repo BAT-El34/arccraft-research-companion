@@ -1,0 +1,160 @@
+\section{Results and findings}\label{sec:results-and-findings}
+
+\subsection{Data integrity and temporal shift}\label{sec:data-integrity-and-temporal-shift}
+
+The database was mechanically consistent at the insured-year grain, but semantic and temporal risks were material. The mismatch between the licence-field definition and observed values prevented a substantive interpretation of that predictor. Zero-incurred claim rows ruled out an unmodified positive-only severity model. The rapid portfolio growth and composition shift made random row splitting inappropriate and justified temporal evaluation. These limitations were handled in modelling but cannot be removed without the source documentation and claim-level records.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{Figure2.png}
+\caption{\textbf{Motor portfolio scale, outcome dynamics, and composition shift, 2022 to 2024.} Panel A reports the growth from 67,172 to 168,133 policy year records. Panel B shows annual claim frequency and loss ratio, while Panel C shows the decline in the new business share from 97.91\% to 57.34\%, a 40.57 percentage point change that supports temporal rather than random evaluation. Source: public Spanish motor insurance portfolio, 2022 to 2024.}
+\label{fig:2}
+\end{figure*}
+
+\subsection{External temporal benchmark}\label{sec:external-temporal-benchmark}
+
+Both policy models converged at both origins. The 2023 design contained 54 encoded features and the 2024 design 63; fitted training totals reconciled approximately to observed totals.
+
+\begin{table*}[t]
+\caption{Temporal forecast performance across matched actuarial comparators.}
+\label{tab:1}
+\setlength{\arrayrulewidth}{0.4pt}
+\arrayrulecolor{navyrule}
+\setlength{\tabcolsep}{3pt}
+\scriptsize
+\begin{tabularx}{\linewidth}{|c V >{\raggedright\arraybackslash}X V >{\centering\arraybackslash}p{1.35cm} V >{\centering\arraybackslash}p{1.35cm} V >{\centering\arraybackslash}p{1.55cm} V >{\centering\arraybackslash}p{1.35cm} V >{\centering\arraybackslash}p{1.35cm} V >{\centering\arraybackslash}p{1.55cm}|}
+\toprule
+\rowcolor{navydark}
+\color{white}\textbf{Target} & \color{white}\textbf{Model} & \color{white}\textbf{Claim error} & \color{white}\textbf{Count deviance} & \color{white}\textbf{Count in 95\% process interval} & \color{white}\textbf{Incurred error} & \color{white}\textbf{Incurred deviance} & \color{white}\textbf{Incurred in 95\% process interval} \\
+\rowA
+2023 & B0 aggregate pooled & -1.03\% & 0.8481 & Yes & +2.70\% & 1200.08 & No \\
+\rowB
+2023 & B1 policy frequency, pooled severity & -0.86\% & 0.7871 & Yes & +2.87\% & 1150.35 & No \\
+\rowA
+2023 & B2 policy frequency, policy severity & -0.86\% & 0.7871 & Yes & +9.58\% & 1174.04 & No \\
+\rowB
+2024 & B0 aggregate pooled & -2.38\% & 0.9153 & No & -4.88\% & 1353.54 & No \\
+\rowA
+2024 & B1 policy frequency, pooled severity & -2.43\% & 0.8330 & No & -4.92\% & 1296.26 & No \\
+\rowB
+2024 & B2 policy frequency, policy severity & -2.43\% & 0.8330 & No & -4.44\% & 1302.42 & No \\
+\bottomrule
+\end{tabularx}
+\end{table*}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{Figure3.png}
+\caption{\textbf{Temporal forecast performance across matched actuarial comparators.} Panels A and B report aggregate errors relative to observed claim counts and incurred losses, where zero denotes perfect aggregate prediction. Panels C and D report policy level Poisson deviance, where smaller values indicate better predictive discrimination; policy level frequency improves deviance in both years, but the policy level cost model produces a pronounced 2023 aggregate error and never dominates the pooled cost comparator. Source: retrospective ARCCRAFT benchmark using the public Spanish motor insurance portfolio.}
+\label{fig:3}
+\end{figure*}
+
+Policy-level frequency improved held-out count deviance in both years and improved the 2023 aggregate count error slightly. Its 2024 aggregate count error was slightly worse than B0. B1 also achieved lower incurred deviance because differentiated count predictions change expected incurred cost even with pooled severity.
+
+B2 did not demonstrate severity-model superiority. It reduced the absolute 2024 incurred error by 0.43 percentage points relative to B0, but increased the 2023 error from +2.70\% to +9.58\% and had higher incurred deviance than B1 in both years. This temporal instability is a negative result.
+
+Calibration-by-decile also qualified the deviance improvement. In the lowest predicted count-risk decile, observed-to-predicted ratios were 1.31 in 2023 and 1.44 in 2024. Incurred-cost ratios in the lowest decile were approximately 1.68 and 1.93, respectively. The miss was therefore structured across risk groups rather than confined to aggregate sampling noise. All incurred totals fell outside their process-only intervals, and all three 2024 count forecasts missed their intervals. With only two origins, long-run interval coverage and tail calibration remain unidentifiable.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{Figure4.png}
+\caption{\textbf{Risk decile calibration and process interval coverage.} Panels A and B plot observed to predicted ratios by predicted risk decile, with 1.00 denoting perfect calibration; the lowest predicted risk groups are materially underpredicted, particularly for 2024 incurred loss. Panels C and D normalize predictions and their 95\% process only intervals to the observed aggregate, showing count coverage in 2023, count misses in 2024, and incurred loss misses for every comparator and year. Source: retrospective ARCCRAFT benchmark using the public Spanish motor insurance portfolio.}
+\label{fig:4}
+\end{figure*}
+
+\subsection{Synthetic engine and Failure Atlas}\label{sec:synthetic-engine-and-failure-atlas}
+
+The separate aggregate sensitivity analysis produced a monotone 5 by 5 frequency and severity response surface under the implemented multiplicative shocks. At a joint frequency multiplier of 1.25 and severity multiplier of 1.25, the mean loss ratio was 1.10985, with a 95\% process interval from 1.09131 to 1.12822. This verifies the configured response and identifies a technical failure region, but it does not establish that the joint shock is historically calibrated or economically plausible.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{Figure5.png}
+\caption{\textbf{Frequency and severity stress surface for the motor portfolio.} Panel A reports the mean simulated loss ratio for the 25 combinations of frequency and severity multipliers, with the outlined cell identifying the joint 25\% stress. Panel B follows the equal multiplier path and shows the 95\% process interval; the joint 1.25 multiplier produces a mean loss ratio of 1.11, above the technical threshold of 1.00. Source: registered ARCCRAFT stress simulations using the retrospective motor calibration.}
+\label{fig:5}
+\end{figure*}
+
+The canonical full run at seed 20260825 yielded 8,037 pass, 1,958 repair, and five reject worlds. The Failure Atlas retained 3,588 traceability failures, one combined-ratio failure, and all five structural rejects. The reverse-stress search found a configured failure at standardized distance 1.0123, with traceability 0.9321 and combined ratio 0.4017. This is a local search result under the synthetic grammar, not proof of a globally minimal or economically plausible stress.
+
+The imbalance between 3,588 traceability failures and one combined-ratio failure is central to interpretation. The present experiment mainly evaluates an operational threshold embedded in the simulator; it offers almost no statistical power for comparing actuarial failure detection. Mean combined ratios around 0.44 in the ablation runs are also far below the failure threshold.
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{Figure6.png}
+\caption{\textbf{Scenario class failure rates and Failure Atlas composition.} Panel A reports failures among accepted worlds for each registered scenario class in the canonical 10,000 world run, from 0.00\% under Baseline to 49.88\% under Severe plausible conditions; Exploratory worlds remain analytically separate. Panel B reports atlas events on a logarithmic axis and shows that 3,588 traceability failures dominate one combined ratio failure and five structural rejections, so the experiment primarily tests the operational gate rather than actuarial insolvency detection. Source: canonical ARCCRAFT run, registered seed 20260825.}
+\label{fig:6}
+\end{figure*}
+
+\subsection{Reproducibility, ablation, and cost}\label{sec:reproducibility-ablation-and-cost}
+
+All 15 configuration-seed pairs replayed with identical fingerprints. Under the full configuration, consuming 100 unused world-stream draws before simulation left the fingerprint unchanged. Under the shared-stream configuration, the same intervention changed the fingerprint. H1 and H2 are therefore supported as local computational properties.
+
+\begin{table*}[t]
+\caption{Procedural ablation results across three registered seeds.}
+\label{tab:2}
+\setlength{\arrayrulewidth}{0.4pt}
+\arrayrulecolor{navyrule}
+\setlength{\tabcolsep}{3pt}
+\scriptsize
+\begin{tabularx}{\linewidth}{|>{\raggedright\arraybackslash}X V >{\centering\arraybackslash}p{2.2cm} V >{\centering\arraybackslash}p{1.7cm} V >{\centering\arraybackslash}p{2.1cm} V >{\centering\arraybackslash}p{1.8cm} V >{\centering\arraybackslash}p{2.2cm}|}
+\toprule
+\rowcolor{navydark}
+\color{white}\textbf{Configuration} & \color{white}\textbf{Mean accepted-world failure rate} & \color{white}\textbf{SD across three seeds} & \color{white}\textbf{Mean failure-or-reject rate} & \color{white}\textbf{Mean combined ratio} & \color{white}\textbf{Mean runtime for 10,000 worlds} \\
+\rowA
+Full & 35.95\% & 0.24 pp & 35.98\% & 0.4436 & 3.59 s \\
+\rowB
+No validator & 35.79\% & 0.22 pp & 35.79\% & 0.4436 & 4.74 s \\
+\rowA
+Strict reject & 36.83\% & 0.34 pp & 49.41\% & 0.4363 & 3.21 s \\
+\rowB
+No transitions & 35.70\% & 0.25 pp & 35.73\% & 0.4432 & 3.50 s \\
+\rowA
+Shared stream & 35.20\% & 0.69 pp & 35.24\% & 0.4429 & 3.97 s \\
+\bottomrule
+\end{tabularx}
+\end{table*}
+
+The full validator repaired an average of 1,986.3 worlds and rejected 4.7 per seed. Strict rejection accepted only the pass population and increased the total failure-or-rejection rate to 49.41\%. This supports H3 only in the narrow sense that validator policy changes selection and reporting; no external criterion establishes that repair creates more plausible worlds.
+
+Disabling transitions lowered the accepted-world failure rate by 0.25 percentage points relative to the full model. This supports H4 as a detectable computational effect, but the effect is small under the current grammar and three-seed design. The shared-stream failure-rate difference is not interpretable as an actuarial effect because sharing changes the random-number coupling. Its relevant result is the failed isolation test, not the lower observed rate.
+
+Runtime differences were modest and noisy. The full pipeline averaged 3.59 seconds, while configuration means ranged from 3.21 to 4.74 seconds. Removing the validator was not faster in these wall-clock observations, indicating that incidental runtime variation and changed downstream calculation dominate the validator's small direct cost. These timings should not be generalized across hosts.
+
+To prevent qualitative interpretation from exceeding the measured evidence, the principal empirical claims are mapped to their numerical support below. Relative changes are descriptive because the benchmark has only two temporal origins and the ablation has only three seeds per configuration.
+
+\begin{table*}[t]
+\caption{Claim-to-metric evidentiary audit.}
+\label{tab:3}
+\setlength{\arrayrulewidth}{0.4pt}
+\arrayrulecolor{navyrule}
+\setlength{\tabcolsep}{3pt}
+\scriptsize
+\begin{tabularx}{\linewidth}{|>{\raggedright\arraybackslash}p{3.4cm} V >{\raggedright\arraybackslash}p{3.2cm} V >{\raggedright\arraybackslash}p{4.0cm} V X|}
+\toprule
+\rowcolor{navydark}
+\color{white}\textbf{Claim} & \color{white}\textbf{Metric} & \color{white}\textbf{Observed result} & \color{white}\textbf{Evidential boundary} \\
+\rowA
+Policy-level frequency improves discrimination & Relative reduction in held-out count deviance versus B0 & 7.19\% in 2023; 8.99\% in 2024 & Supports discrimination only, not aggregate calibration or superiority \\
+\rowB
+Predictive intervals are inadequately calibrated & Observed outcomes inside 95\% process intervals & 3 of 12 target-model outcomes overall; 3 of 6 claim counts; 0 of 6 incurred totals & Two origins cannot estimate stable long-run coverage \\
+\rowA
+Registered runs replay exactly & Identical output fingerprints & 15 of 15 configuration-seed pairs, 100\% & Local computational verification only \\
+\rowB
+Named streams isolate irrelevant world draws & Fingerprint response to 100 unused world-stream draws & Unchanged with named streams; changed with one shared stream & One registered intervention, not universal robustness \\
+\rowA
+Validator policy changes the selected population & Strict rejection versus full configuration & 19.87\% fewer accepted worlds; failure-or-rejection rate higher by 13.43 percentage points & Demonstrates selection and reporting effects, not greater plausibility \\
+\rowB
+State transitions have a small observed effect & No-transition versus full accepted-world failure rate & Lower by 0.247 percentage points, 0.69\% relative & Descriptive result from three seeds \\
+\rowA
+The current Failure Atlas is dominated by the traceability gate & Share of canonical simulated failures attributed to traceability & 3,588 of 3,589, 99.97\% & Does not establish causal attribution or diagnostic accuracy \\
+\rowB
+Runtime comparison is noisy & Full-pipeline runtime mean, standard deviation, and coefficient of variation & 3.59 s; 1.05 s; 29.09\% & Host-specific descriptive timing \\
+\bottomrule
+\end{tabularx}
+\end{table*}
+
+\begin{figure*}[t]
+\centering
+\includegraphics[width=\textwidth]{Figure7.png}
+\caption{\textbf{Procedural ablations, computational cost, and stream isolation.} Panel A compares failures among accepted worlds with the broader failure or rejection measure across three registered runs per configuration; strict rejection creates the largest divergence because repaired worlds become structural rejections. Panel B reports mean runtime with one standard deviation, while Panel C shows exact replay in all 15 runs and confirms that named streams preserve claims and behavioural outputs after 100 irrelevant world draws, whereas a shared stream does not. Source: ARCCRAFT ablation and stream isolation experiments at registered seeds 20260825, 20260826, and 20260827.}
+\label{fig:7}
+\end{figure*}

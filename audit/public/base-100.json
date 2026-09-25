@@ -1,0 +1,88 @@
+{
+  "reverse_stress": {
+    "world_id_perturbation": 184,
+    "distance_standardisee": 0.9534068136272545,
+    "porte_ratee": "tracabilite",
+    "tracabilite_score": 0.9482548446253604,
+    "combined_ratio": 0.4175040666250729
+  },
+  "failure_atlas_summary": {
+    "echecs_tracabilite": 33,
+    "echecs_ratio_combine": 0,
+    "mondes_rejetes_avant_simulation": 0
+  },
+  "top_correlations": [
+    {
+      "variable": "claim_freq_mult",
+      "rho_rank": 0.7313171317131713
+    },
+    {
+      "variable": "claim_sev_mult",
+      "rho_rank": 0.5292769276927692
+    },
+    {
+      "variable": "network_availability",
+      "rho_rank": 0.42006600660066
+    },
+    {
+      "variable": "liquidite",
+      "rho_rank": -0.32002400240024
+    },
+    {
+      "variable": "fraud_pressure",
+      "rho_rank": 0.2864926492649265
+    },
+    {
+      "variable": "medical_inflation",
+      "rho_rank": 0.2779237923792379
+    },
+    {
+      "variable": "digital_reliability",
+      "rho_rank": 0.16768076807680765
+    },
+    {
+      "variable": "backlog_capacity",
+      "rho_rank": 0.14971497149714968
+    },
+    {
+      "variable": "adoption_load",
+      "rho_rank": -0.11327932793279327
+    },
+    {
+      "variable": "lapse_rate",
+      "rho_rank": 0.04705670567056705
+    }
+  ],
+  "scenario_classes": {
+    "BASELINE": {
+      "mondes_acceptes": 13,
+      "taux_echec_synthetique": 0.0,
+      "ratio_combine_moyen": 0.4033849981289194,
+      "statut_usage": "synthese_centrale"
+    },
+    "ALTERNATIVE": {
+      "mondes_acceptes": 27,
+      "taux_echec_synthetique": 0.18518518518518517,
+      "ratio_combine_moyen": 0.4208297319314787,
+      "statut_usage": "synthese_centrale"
+    },
+    "ADVERSE": {
+      "mondes_acceptes": 36,
+      "taux_echec_synthetique": 0.4722222222222222,
+      "ratio_combine_moyen": 0.4440349405277667,
+      "statut_usage": "synthese_centrale"
+    },
+    "SEVERE_PLAUSIBLE": {
+      "mondes_acceptes": 13,
+      "taux_echec_synthetique": 0.46153846153846156,
+      "ratio_combine_moyen": 0.5214961902274724,
+      "statut_usage": "synthese_centrale_separable"
+    },
+    "EXPLORATORY": {
+      "mondes_acceptes": 11,
+      "taux_echec_synthetique": 0.45454545454545453,
+      "ratio_combine_moyen": 0.4527720809719979,
+      "statut_usage": "rapporte_separement"
+    }
+  }
+}

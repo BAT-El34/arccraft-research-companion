@@ -1,0 +1,3 @@
+target,n_features,frequency_converged,frequency_iterations,frequency_training_total_ratio,severity_converged,severity_iterations,severity_training_total_ratio,frequency_message,severity_message
+2023,54,True,161,1.0000001131331313,True,192,0.9999996043039997,CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH,CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH
+2024,63,True,182,0.999999159981236,True,279,0.9999998445406064,CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH,CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH

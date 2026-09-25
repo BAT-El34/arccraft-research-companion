@@ -1,0 +1,29 @@
+PASS SQLite integrity - ok
+PASS FAS study coverage - 19 ISO3 economies
+PASS Findex available study coverage - 17 economies; GNB/GNQ absent from source
+PASS WDI study coverage - 19 economies
+PASS GFD source-limited coverage - 13 economies; no imputation
+PASS API health - {'status': 'ok', 'api_version': '2.1.0', 'data_store': True}
+PASS Bilingual data catalog - ['benchmark', 'fas', 'findex', 'gfd', 'gsma', 'mmpi', 'motor', 'wdi']
+PASS Static leak blocked /data/platform.db - status=404 type=application/json
+PASS Static leak blocked /backend/app.py - status=404 type=application/json
+PASS Static leak blocked /README.md - status=404 type=application/json
+PASS Motor yearly summary - {'year': 2024, 'policy_rows': 168133, 'insured_count': 168133, 'exposure': 126014.36438356164, 'premium': 51037433.00066149, 'claims': 39276, 'incurred': 38106351.28, 'claim_frequency': 0.31167875338760576, 'avg_severity': 970.2197596496588, 'loss_ratio': 0.7466353427200405}
+PASS Findex Togo scale - [{'geo': 'TGO', 'year': 2024, 'value': 53.0959719314091, 'series_name': 'Made or received a digital payment (%, age 15+)'}]
+PASS Findex comparator available - [{'geo': 'CHN', 'year': 2024, 'value': 88.7201133472321, 'series_name': 'Made or received a digital payment (%, age 15+)'}]
+PASS Whitelisted generic query - {"dataset":"benchmark","fields":["row_id","entite"],"rows":[{"row_id":140,"entite":"ACA SA"},{"row_id":141,"entite":"ACA SA"},{"row_id":142,"entite":"ACA SA"},{
+PASS Query field injection rejected - {"detail":"Unsupported field(s): row_id; DROP TABLE benchmark_insurance"}
+PASS MAPTA backend simulation - [{'assureur_id': 'A_DEMO_TECH', 'label': 'Profil Tech', 'gate_status': 'PASS', 'mean': 0.601911378352685, 'median': 0.6010228393070438, 'q5': 0.5710403031263684, 'q95': 0.6326179392686335, 'p_fit_ge_tau': 0.0, 'p_rank_1': 0.77, 'p_top3': 1.0}]
+PASS MAPTA input validation - {"detail":[{"type":"less_than_equal","loc":["body","tau"],"msg":"Input should be less than or equal to 1","input":1.5,"ctx":{"le":1.0}}]}
+PASS COMPASS backend recommendation - {"schema_version":"compass-api-1.1","mode_status":"SYNTHETIC_DEMO","recommendation":{"schema_version":"compass-output-1.0","execution_id":"fc3e754f-d211-4614-a8f0-6538c9d1fbc9","cas_id":"QA","mode":"C0_ZERODATA","statut":"ELIGIBLE","produit
+PASS ARCCRAFT synthetic simulation - {"schema_version":"arccraft-api-1.0","mode":"SYNTHETIC_DEMO","seed":20260825,"n_worlds":300,"validation_status":{"PASS":230,"REPAIR":70,"REJECT":0},"scenario_classes":{"BASELINE":{"mondes_acceptes":35,"taux_echec_synthetique":0.0,"ratio_com
+PASS ARCCRAFT validation state is immutable during simulation - 
+PASS ARCCRAFT exact same-seed replay - 
+PASS Failure Atlas records executed seed - 
+PASS Failure Atlas retains structural rejects - 
+PASS Failure Atlas reject is strict-JSON compatible - 
+PASS ARCCRAFT external motor claims - 38339.8075
+PASS ARCCRAFT external motor incurred - 36251420.053990826
+PASS External validation remains partial - {'observed_claims': 39276.0, 'observed_incurred': 38106351.28, 'observed_loss_ratio': 0.7466353427200405, 'claim_count_error_pct': -2.3836248599653667, 'incurred_error_pct': -4.867774435761133, 'observed_claims_in_95_interval': False, 'observed_incurred_in_95_interval': False}
+
+27/27 backend checks passed

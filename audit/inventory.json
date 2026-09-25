@@ -1,0 +1,1892 @@
+[
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\01_SEARCH_PROTOCOL.md",
+    "relative_path": "01_SEARCH_PROTOCOL.md",
+    "bytes": 12107,
+    "sha256": "fdc0e9a1c78e14472c2d0f31301cd5886b9892ff06355503d2509549edcfac78"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\02_LITERATURE_EXTRACTION.csv",
+    "relative_path": "02_LITERATURE_EXTRACTION.csv",
+    "bytes": 24639,
+    "sha256": "d47e9b66e35ab80739b414b221546c69b47511de0b7973a750db599020c186cb"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\03_SCREENING_LOG.md",
+    "relative_path": "03_SCREENING_LOG.md",
+    "bytes": 5629,
+    "sha256": "26e5f2d196be3349590081c212c40f51fa6d1dec14ce0ed7651162bf71db63ad"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\04_NOVELTY_AND_EVIDENCE_GAPS.md",
+    "relative_path": "04_NOVELTY_AND_EVIDENCE_GAPS.md",
+    "bytes": 11978,
+    "sha256": "455870e17e515f12a758723351c3f13325758892dc1e3e23993d58dee2b7b4f3"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\05_PAPER_ARCHITECTURE.md",
+    "relative_path": "05_PAPER_ARCHITECTURE.md",
+    "bytes": 14872,
+    "sha256": "de82af6af2f034e80a4075fff5d7e1fa0c0fc8445ffc00ddd200754f81eaa31c"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\06_LITERATURE_REVIEW_DRAFT.md",
+    "relative_path": "06_LITERATURE_REVIEW_DRAFT.md",
+    "bytes": 25958,
+    "sha256": "b85d0376f44683b93ce66cbdac5307972228fa1c5de8a72708b35eec6a57f476"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\07_CLAIM_REGISTER.csv",
+    "relative_path": "07_CLAIM_REGISTER.csv",
+    "bytes": 10848,
+    "sha256": "ba97d6ed3aa086bb1c8ac0261179e91d9b67371c7543656ecf7f8f92c8843fff"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\08_EMPIRICAL_BENCHMARK.html",
+    "relative_path": "08_EMPIRICAL_BENCHMARK.html",
+    "bytes": 601116,
+    "sha256": "f37c74f73d7ff7ccec5bc87d7e7275f93369a547e24847b9a4e2cc7c3536b0c5"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\08_EMPIRICAL_BENCHMARK.ipynb",
+    "relative_path": "08_EMPIRICAL_BENCHMARK.ipynb",
+    "bytes": 268383,
+    "sha256": "7b1708e33b25e3dd2dbb48387bcee13b4af29df4b44723cc83398f2d66ff8811"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\09_ROLLING_ORIGIN_RESULTS.csv",
+    "relative_path": "09_ROLLING_ORIGIN_RESULTS.csv",
+    "bytes": 404,
+    "sha256": "00205cfda2dbeb60e05a46d806e76c21e03fb5b3f1a3a22023d48d122d8a9ddb"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\10_BENCHMARK_RESULTS_2024.csv",
+    "relative_path": "10_BENCHMARK_RESULTS_2024.csv",
+    "bytes": 537,
+    "sha256": "549e778f220049fdd1e63fbf6a657679f413ab61129ab98960cb0262d0896a8b"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\11_STRESS_SURFACE_RESULTS.csv",
+    "relative_path": "11_STRESS_SURFACE_RESULTS.csv",
+    "bytes": 1852,
+    "sha256": "30954304e6396381eb32fc03fa34eabe2e39be1a7b70816116f63b232cd2c6c4"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\12_SYNTHETIC_AUDIT_RESULTS.csv",
+    "relative_path": "12_SYNTHETIC_AUDIT_RESULTS.csv",
+    "bytes": 472,
+    "sha256": "7a8257eac777b0a4bffc4996a2a733f9ec8092b4e990fbe7992f4f9c42ff12bc"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\13_SCENARIO_CLASS_RESULTS.csv",
+    "relative_path": "13_SCENARIO_CLASS_RESULTS.csv",
+    "bytes": 448,
+    "sha256": "7611438f70361ef235cec676d34b8e398618d7501631dd085f2aee8d06518c42"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\14_FAILURE_ATLAS_COUNTS.csv",
+    "relative_path": "14_FAILURE_ATLAS_COUNTS.csv",
+    "bytes": 104,
+    "sha256": "d5f487e296aa7b4da1dd9cffab91bd08dd98713eeaeeb5747234d16972ef1bd1"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\15_EMPIRICAL_FINDINGS_AND_METHOD_AUDIT.md",
+    "relative_path": "15_EMPIRICAL_FINDINGS_AND_METHOD_AUDIT.md",
+    "bytes": 9750,
+    "sha256": "e9a110bb29e3b4291e663bf2282ffcea30a34ce90658878a9b4152614fd219d0"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\16_RETROSPECTIVE_ANALYSIS_SPECIFICATION.md",
+    "relative_path": "16_RETROSPECTIVE_ANALYSIS_SPECIFICATION.md",
+    "bytes": 5252,
+    "sha256": "8dddc281216787b1c08087d3f71182df1950cb6a8b061e794d011ad4d205d633"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\17_DATA_QUALITY_POLICY_BENCHMARK.html",
+    "relative_path": "17_DATA_QUALITY_POLICY_BENCHMARK.html",
+    "bytes": 586284,
+    "sha256": "6b95e987a095ca4bd69d85935c847ae0522eeb20c1a59dc860514aae42730ed2"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\17_DATA_QUALITY_POLICY_BENCHMARK.ipynb",
+    "relative_path": "17_DATA_QUALITY_POLICY_BENCHMARK.ipynb",
+    "bytes": 271934,
+    "sha256": "faf80d9a0374d00a0af028e8bbbb91089d24ad675992769c612dde19bb402ee5"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\18_DATA_QUALITY_FINDINGS.csv",
+    "relative_path": "18_DATA_QUALITY_FINDINGS.csv",
+    "bytes": 1234,
+    "sha256": "a2a40cea0369ae6c4483905ca3a34b253c959763f62288f6f6c19abe5a25332c"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\19_POLICY_BENCHMARK_RESULTS.csv",
+    "relative_path": "19_POLICY_BENCHMARK_RESULTS.csv",
+    "bytes": 1873,
+    "sha256": "92bd7a187da51050c087f4fbafd7add7b18ba74bcd2e179ed17d7ab67c2dbc1e"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\20_POLICY_DECILE_CALIBRATION.csv",
+    "relative_path": "20_POLICY_DECILE_CALIBRATION.csv",
+    "bytes": 2935,
+    "sha256": "7fb06c5f83fbe5a2e720f26a9a024162e04ca5725effdba81919ee52b8adb260"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\21_POLICY_MODEL_DIAGNOSTICS.csv",
+    "relative_path": "21_POLICY_MODEL_DIAGNOSTICS.csv",
+    "bytes": 536,
+    "sha256": "5cadcfafa2d7560af9813d7e18928ffb10b0c63eb8043516c811dccd0bffda8b"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\22_NUMERIC_PROFILE.csv",
+    "relative_path": "22_NUMERIC_PROFILE.csv",
+    "bytes": 708,
+    "sha256": "225f9126e207c1c5cc4e34559ef3a9751382f1c7793618478c42f722d7df910c"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\23_CATEGORY_PROFILE.csv",
+    "relative_path": "23_CATEGORY_PROFILE.csv",
+    "bytes": 457,
+    "sha256": "5e01bb6b821fb1629562475fc3cd8016dd9a240322f6985f8318873f23b96e4d"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\24_TEMPORAL_CATEGORY_SHIFT.csv",
+    "relative_path": "24_TEMPORAL_CATEGORY_SHIFT.csv",
+    "bytes": 374,
+    "sha256": "6b8d0aaaa4a980b16670b22fea921944469bce86909d919ced15b8ad0abf7d66"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\25_ARCCRAFT_ABLATION_RESULTS.csv",
+    "relative_path": "25_ARCCRAFT_ABLATION_RESULTS.csv",
+    "bytes": 5099,
+    "sha256": "7fbeb3c3b352743b41a9f086f40ebe7772dd70680bea00912716b805dd1ef82e"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\26_ARCCRAFT_ABLATION_SUMMARY.csv",
+    "relative_path": "26_ARCCRAFT_ABLATION_SUMMARY.csv",
+    "bytes": 3625,
+    "sha256": "06cf36680758fbccb17651a2c3b5e1e1bc6820382e7290ed6b51bbdbb6d460a4"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\27_STREAM_ISOLATION_TEST.csv",
+    "relative_path": "27_STREAM_ISOLATION_TEST.csv",
+    "bytes": 485,
+    "sha256": "94f4fb9e37d2d259fa90a5adb5cc8abb4479310cd19ce8cb149566695a838ab6"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\28_ARCCRAFT_ABLATION_REPORT.md",
+    "relative_path": "28_ARCCRAFT_ABLATION_REPORT.md",
+    "bytes": 3066,
+    "sha256": "a43752007a597c592e91fab22f4123c97d9c2d1092bcead038c00bb6fccd6ed3"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\29_ARCCRAFT_MANUSCRIPT_DRAFT.md",
+    "relative_path": "29_ARCCRAFT_MANUSCRIPT_DRAFT.md",
+    "bytes": 39287,
+    "sha256": "e3b52da44d4cba842bfad6476a92734a5aaa8ffba5a72a44aa1b6b6decc6a815"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\30_FINAL_AUDIT.md",
+    "relative_path": "30_FINAL_AUDIT.md",
+    "bytes": 3129,
+    "sha256": "223a19898f2f03741d228080ec9ed44eade9a2bd54bd854ef5f19b5928371628"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\31_ARCCRAFT_FULL_MANUSCRIPT.md",
+    "relative_path": "31_ARCCRAFT_FULL_MANUSCRIPT.md",
+    "bytes": 60614,
+    "sha256": "2c098bb80faef8c8983ce0f213f9316a4e023613fdc083c6c8198e9b2cf787db"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\32_CLAIM_METRIC_AUDIT.csv",
+    "relative_path": "32_CLAIM_METRIC_AUDIT.csv",
+    "bytes": 1679,
+    "sha256": "ef5675aad6369f4372b305af7fb7fa8fa4f21daf411d8026626a38a689846eae"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\33_CAHIER_DES_CHARGES_APPLICATION_PUBLICATION_ARCCRAFT.md",
+    "relative_path": "33_CAHIER_DES_CHARGES_APPLICATION_PUBLICATION_ARCCRAFT.md",
+    "bytes": 55011,
+    "sha256": "2045ef93f48cc0b80d51afff569e2f7bbe0cc9ad4c36602f8f9a507cd87fcffe"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\_rime_template.zip",
+    "relative_path": "_rime_template.zip",
+    "bytes": 278692,
+    "sha256": "76767838c55547a4f695c0697899477a3c230c0a42e779afd771ae2f0e5f74ef"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\_rime_template_style.json",
+    "relative_path": "_rime_template_style.json",
+    "bytes": 4187,
+    "sha256": "db766c9e183c5ddb233816d0901f701a6cc46bae1ad0a2a91059058f54af81f4"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\_rime_template_unzip\\[Content_Types].xml",
+    "relative_path": "_rime_template_unzip/[Content_Types].xml",
+    "bytes": 2019,
+    "sha256": "177a300f77b4af7913cbf6abcb899b4fc198508cf2f8256bb9b2b99e17d680ba"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\_rime_template_unzip\\_rels\\.rels",
+    "relative_path": "_rime_template_unzip/_rels/.rels",
+    "bytes": 590,
+    "sha256": "e19238d7a71fa7a2490776252686f70e2de6238c87cd509b5e3a3cc07c2ea4df"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\_rime_template_unzip\\customXml\\_rels\\item1.xml.rels",
+    "relative_path": "_rime_template_unzip/customXml/_rels/item1.xml.rels",
+    "bytes": 296,
+    "sha256": "80482f86e196171d66001e0e74d1900408a3aaf2463e54005d251b5f2db9a0b0"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\_rime_template_unzip\\customXml\\item1.xml",
+    "relative_path": "_rime_template_unzip/customXml/item1.xml",
+    "bytes": 270,
+    "sha256": "c8092edbb672f8c93f1d5ef66539a6f169462ba8738b785b59cc5d96f4aca59a"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\_rime_template_unzip\\customXml\\itemProps1.xml",
+    "relative_path": "_rime_template_unzip/customXml/itemProps1.xml",
+    "bytes": 341,
+    "sha256": "fe1d2dcc1fc1964892ac0b8314520aed31dd33c660d9eef6438ea9ab94453cab"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\_rime_template_unzip\\docProps\\app.xml",
+    "relative_path": "_rime_template_unzip/docProps/app.xml",
+    "bytes": 1268,
+    "sha256": "4d389859d7728b2edcf89fc09dd34e4666de6f0bb5ce9c3b63a6bb1833d9e461"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\_rime_template_unzip\\docProps\\core.xml",
+    "relative_path": "_rime_template_unzip/docProps/core.xml",
+    "bytes": 785,
+    "sha256": "a889e7412e35fefa853bdfea3a48d3175dfef46d55a90bd3ce8ed2dc56fe5e7e"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\_rime_template_unzip\\word\\_rels\\document.xml.rels",
+    "relative_path": "_rime_template_unzip/word/_rels/document.xml.rels",
+    "bytes": 1751,
+    "sha256": "d6c1ed1e65ddbdd167103e48b27bba9deaad8827b1b47d8016002e09f67f3066"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\_rime_template_unzip\\word\\document.xml",
+    "relative_path": "_rime_template_unzip/word/document.xml",
+    "bytes": 106240,
+    "sha256": "61e6f39a03079a47c82cc9d0524f4063b0cd1b9fcf1a58f0760372ab4149087d"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\_rime_template_unzip\\word\\endnotes.xml",
+    "relative_path": "_rime_template_unzip/word/endnotes.xml",
+    "bytes": 3078,
+    "sha256": "03bc8b9908669dac2526a85b03eec30c6c1a4de4cd3258323d087ff1b78b3f80"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\_rime_template_unzip\\word\\fontTable.xml",
+    "relative_path": "_rime_template_unzip/word/fontTable.xml",
+    "bytes": 3716,
+    "sha256": "72dc43fe06be60965735e1462e526b27457fa710d511dc3af2fcb08b2c5e7b8f"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\_rime_template_unzip\\word\\footnotes.xml",
+    "relative_path": "_rime_template_unzip/word/footnotes.xml",
+    "bytes": 3084,
+    "sha256": "7a2cdfac32bd284816576a6e2c1612827d1eaff88707ecd0969005890cd05eac"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\_rime_template_unzip\\word\\header1.xml",
+    "relative_path": "_rime_template_unzip/word/header1.xml",
+    "bytes": 3036,
+    "sha256": "8d4637e370c75a10b998b9623a974b52f72bdb2ffb7a717e9f77b9c933e38002"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\_rime_template_unzip\\word\\media\\image1.png",
+    "relative_path": "_rime_template_unzip/word/media/image1.png",
+    "bytes": 127631,
+    "sha256": "38f7c393465444e805feb84ef223ab646552888f53a5db1146ebfd52db7692cf"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\_rime_template_unzip\\word\\media\\image2.png",
+    "relative_path": "_rime_template_unzip/word/media/image2.png",
+    "bytes": 122488,
+    "sha256": "4a92bde82029dc4d1812152c80030ef2f579cbbcf44c34d9176fc58eeb7a63d8"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\_rime_template_unzip\\word\\numbering.xml",
+    "relative_path": "_rime_template_unzip/word/numbering.xml",
+    "bytes": 36992,
+    "sha256": "6b85e319f83a336e686e0b472f868e26d1d419aeb0a54452f1601bdf3cd1c75f"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\_rime_template_unzip\\word\\settings.xml",
+    "relative_path": "_rime_template_unzip/word/settings.xml",
+    "bytes": 23164,
+    "sha256": "a8814964d5d91d544558dc1b282ffc2be4f565875c07df82a6b455e495975ed9"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\_rime_template_unzip\\word\\styles.xml",
+    "relative_path": "_rime_template_unzip/word/styles.xml",
+    "bytes": 33761,
+    "sha256": "14ef11702929d3b52971166175762993b9694608efa0dd1b4886d7790407e291"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\_rime_template_unzip\\word\\theme\\theme1.xml",
+    "relative_path": "_rime_template_unzip/word/theme/theme1.xml",
+    "bytes": 6993,
+    "sha256": "e980e8b20e6d2306c6405eb5ddac74c10e640b9b0e82a709f0179f0169a6ddc2"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\_rime_template_unzip\\word\\webSettings.xml",
+    "relative_path": "_rime_template_unzip/word/webSettings.xml",
+    "bytes": 1083,
+    "sha256": "4a225c07c64feb7f5e4ef8b4444bfe94c0f81e35cb00632fef988cf909172f82"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\ARCCRAFT_Procedural_Stress_Testing.zip",
+    "relative_path": "ARCCRAFT_Procedural_Stress_Testing.zip",
+    "bytes": 4163511,
+    "sha256": "d6c8922d5f02edcd1cb0494f3ad49968da0afec8f7b314f922bd72e67cc064dd"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\audit_existing_app\\screenshots\\01-home-fr-light.png",
+    "relative_path": "audit_existing_app/screenshots/01-home-fr-light.png",
+    "bytes": 323246,
+    "sha256": "bbd90e0bf240eb63caac8ac28dc8d91f2ede37224bbbed0a4c7097dc61f17aa6"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\audit_existing_app\\screenshots\\02-arccraft-fr-light.png",
+    "relative_path": "audit_existing_app/screenshots/02-arccraft-fr-light.png",
+    "bytes": 501545,
+    "sha256": "253898354d264e4743ddaa66a6aafa17a9e1a2f852a96770361f25e48c12a20f"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\audit_existing_app\\screenshots\\03-data-fr-light.png",
+    "relative_path": "audit_existing_app/screenshots/03-data-fr-light.png",
+    "bytes": 408130,
+    "sha256": "5a798b024b58ed3521b4026a530f8980929bd89d74033d8f4bf033f7f77a5a9e"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\audit_existing_app\\screenshots\\04-method-fr-light.png",
+    "relative_path": "audit_existing_app/screenshots/04-method-fr-light.png",
+    "bytes": 339337,
+    "sha256": "06d23f1163e13ddec69ef21767f670e7b12e112b0f97ed1cb20ce8d6c39db958"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\audit_existing_app\\screenshots\\05-arccraft-en-dark.png",
+    "relative_path": "audit_existing_app/screenshots/05-arccraft-en-dark.png",
+    "bytes": 481402,
+    "sha256": "c9831544fa73553d434dc29587a315c8b41bd5cd9d693e51397ff0b8901e3666"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\audit_existing_app\\screenshots\\06-mapta-current-theme.png",
+    "relative_path": "audit_existing_app/screenshots/06-mapta-current-theme.png",
+    "bytes": 379776,
+    "sha256": "d94b6f5fab35bc570696113145db6bdd697fd8ce88da4ca17135c9f505c4dfbb"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\audit_existing_app\\screenshots\\07-compass-current-theme.png",
+    "relative_path": "audit_existing_app/screenshots/07-compass-current-theme.png",
+    "bytes": 376196,
+    "sha256": "bcb9e350859a23121865a052d0ab760e277d777f1ac8d498b28912ca8f8561e2"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\build_empirical_notebook.py",
+    "relative_path": "build_empirical_notebook.py",
+    "bytes": 20585,
+    "sha256": "12aed9160c615988fd2148282674c2124487cae7d16aadec4bf308454210ff73"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\build_full_manuscript.py",
+    "relative_path": "build_full_manuscript.py",
+    "bytes": 1535,
+    "sha256": "7614444e255948447f4be4146435b3d32ce53319907e9e01dda9b08a501ff025"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\build_policy_benchmark_notebook.py",
+    "relative_path": "build_policy_benchmark_notebook.py",
+    "bytes": 21961,
+    "sha256": "acdbcca4cf9b251f45e1d490bacbe6e4182a1f092e3d88d2e6ddae0925e2b1e6"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\_archive_staging\\code\\Figure1_tikz.tex",
+    "relative_path": "figure_package/_archive_staging/code/Figure1_tikz.tex",
+    "bytes": 4140,
+    "sha256": "71520c6db53f9106be08d17d44580fdb64b9c24077c7bad65e3d9ffb2b113aef"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\_archive_staging\\code\\Figure2.py",
+    "relative_path": "figure_package/_archive_staging/code/Figure2.py",
+    "bytes": 5129,
+    "sha256": "d2e3452f854f336b8461541f6d392d986899d75df15df5d8bf0245164485e632"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\_archive_staging\\code\\Figure3.py",
+    "relative_path": "figure_package/_archive_staging/code/Figure3.py",
+    "bytes": 5161,
+    "sha256": "732d341aae8f49e132c562803c9bc50ce443d211244bff60e4d277f3ceb9b3b6"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\_archive_staging\\code\\Figure4.py",
+    "relative_path": "figure_package/_archive_staging/code/Figure4.py",
+    "bytes": 7264,
+    "sha256": "3977a742d382ebbc926aaa78b3a61c0fadc48c48dff65fdc9b324d585a77fc53"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\_archive_staging\\code\\Figure5.py",
+    "relative_path": "figure_package/_archive_staging/code/Figure5.py",
+    "bytes": 5812,
+    "sha256": "03c6eb02cccabedfe59891c2b01e8bd6f2823578c0b324a799fbf723c8406ebd"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\_archive_staging\\code\\Figure6.py",
+    "relative_path": "figure_package/_archive_staging/code/Figure6.py",
+    "bytes": 4687,
+    "sha256": "251afee99ef06121bfd9dd2638db24ead8916aa761f2fcaed6b7a6ad444aa99e"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\_archive_staging\\code\\Figure7.py",
+    "relative_path": "figure_package/_archive_staging/code/Figure7.py",
+    "bytes": 6076,
+    "sha256": "ff83af9c95c1488486d092213c08cca3bd15ada6dc581e9062ad229e71b584d4"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\_archive_staging\\code\\Figure8.py",
+    "relative_path": "figure_package/_archive_staging/code/Figure8.py",
+    "bytes": 1048,
+    "sha256": "a6249ff6d88b4b506e792df7ea5ad1843ba5c235bbeaadf6a7147abdb0b36a0a"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\_archive_staging\\figures\\Figure1.png",
+    "relative_path": "figure_package/_archive_staging/figures/Figure1.png",
+    "bytes": 212365,
+    "sha256": "b9d142e1ed19df95134896ca0774fbabed3df31c0ef9cf6b86e34908e85e79b6"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\_archive_staging\\figures\\Figure2.png",
+    "relative_path": "figure_package/_archive_staging/figures/Figure2.png",
+    "bytes": 287942,
+    "sha256": "e3c38106782d98d58facd99ad179b0c91ec178dc3e6245d582d2a9d5365c3d2d"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\_archive_staging\\figures\\Figure3.png",
+    "relative_path": "figure_package/_archive_staging/figures/Figure3.png",
+    "bytes": 400430,
+    "sha256": "7d60f100538642df846a78655cef5b1244604ee1024ec8f26b6d91069201a581"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\_archive_staging\\figures\\Figure4.png",
+    "relative_path": "figure_package/_archive_staging/figures/Figure4.png",
+    "bytes": 564637,
+    "sha256": "83112db940b1ce21909c6517fc2231fea2612f96a539ae8225e0a7ad57f31ba7"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\_archive_staging\\figures\\Figure5.png",
+    "relative_path": "figure_package/_archive_staging/figures/Figure5.png",
+    "bytes": 358669,
+    "sha256": "0279785e73cf6d0e76a3c14167c276e79ac72d68e316467358cc291bd61195e3"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\_archive_staging\\figures\\Figure6.png",
+    "relative_path": "figure_package/_archive_staging/figures/Figure6.png",
+    "bytes": 261249,
+    "sha256": "f0c8407f73c002dcc0ed5064a201da5c5c2903afc7c52373af3e6ad444db678f"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\_archive_staging\\figures\\Figure7.png",
+    "relative_path": "figure_package/_archive_staging/figures/Figure7.png",
+    "bytes": 345938,
+    "sha256": "0cd937686b892a1933014de0412da3b38d1a81b256526935a622ace8e447f93b"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\_archive_staging\\figures\\Figure8.png",
+    "relative_path": "figure_package/_archive_staging/figures/Figure8.png",
+    "bytes": 13780,
+    "sha256": "24ce9d9668fe791f1b7f323d6846e41e5943898309fe4c8c537153f2d74087ae"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\_archive_staging\\FIGURES_TOOLS_AND_SOURCES.md",
+    "relative_path": "figure_package/_archive_staging/FIGURES_TOOLS_AND_SOURCES.md",
+    "bytes": 8756,
+    "sha256": "e3fa429175e186a36c40232b1d35cd562c8dd17864ffef0ac73ed3da358b5a1e"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\code\\Figure1_tikz.aux",
+    "relative_path": "figure_package/code/Figure1_tikz.aux",
+    "bytes": 32,
+    "sha256": "fbabe80c887f95a1ede6847f22dd91b380bda9d17ae8bfaa72e1741b16aa41e9"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\code\\Figure1_tikz.log",
+    "relative_path": "figure_package/code/Figure1_tikz.log",
+    "bytes": 20391,
+    "sha256": "bdce1006be6dbe371efd386144cea7714692c18f7a746de5f821e837e77b7f57"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\code\\Figure1_tikz.pdf",
+    "relative_path": "figure_package/code/Figure1_tikz.pdf",
+    "bytes": 49321,
+    "sha256": "99ed93480f451304c0bcd95b3fd0b37765ea9344e6a17157b5ca67ccefa466b0"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\code\\Figure1_tikz.tex",
+    "relative_path": "figure_package/code/Figure1_tikz.tex",
+    "bytes": 4140,
+    "sha256": "71520c6db53f9106be08d17d44580fdb64b9c24077c7bad65e3d9ffb2b113aef"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\code\\Figure2.py",
+    "relative_path": "figure_package/code/Figure2.py",
+    "bytes": 5129,
+    "sha256": "d2e3452f854f336b8461541f6d392d986899d75df15df5d8bf0245164485e632"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\code\\Figure3.py",
+    "relative_path": "figure_package/code/Figure3.py",
+    "bytes": 5161,
+    "sha256": "732d341aae8f49e132c562803c9bc50ce443d211244bff60e4d277f3ceb9b3b6"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\code\\Figure4.py",
+    "relative_path": "figure_package/code/Figure4.py",
+    "bytes": 7264,
+    "sha256": "3977a742d382ebbc926aaa78b3a61c0fadc48c48dff65fdc9b324d585a77fc53"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\code\\Figure5.py",
+    "relative_path": "figure_package/code/Figure5.py",
+    "bytes": 5812,
+    "sha256": "03c6eb02cccabedfe59891c2b01e8bd6f2823578c0b324a799fbf723c8406ebd"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\code\\Figure6.py",
+    "relative_path": "figure_package/code/Figure6.py",
+    "bytes": 4687,
+    "sha256": "251afee99ef06121bfd9dd2638db24ead8916aa761f2fcaed6b7a6ad444aa99e"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\code\\Figure7.py",
+    "relative_path": "figure_package/code/Figure7.py",
+    "bytes": 6076,
+    "sha256": "ff83af9c95c1488486d092213c08cca3bd15ada6dc581e9062ad229e71b584d4"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\code\\Figure8.py",
+    "relative_path": "figure_package/code/Figure8.py",
+    "bytes": 1048,
+    "sha256": "a6249ff6d88b4b506e792df7ea5ad1843ba5c235bbeaadf6a7147abdb0b36a0a"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\figures\\Figure1.png",
+    "relative_path": "figure_package/figures/Figure1.png",
+    "bytes": 212365,
+    "sha256": "b9d142e1ed19df95134896ca0774fbabed3df31c0ef9cf6b86e34908e85e79b6"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\figures\\Figure2.png",
+    "relative_path": "figure_package/figures/Figure2.png",
+    "bytes": 287942,
+    "sha256": "e3c38106782d98d58facd99ad179b0c91ec178dc3e6245d582d2a9d5365c3d2d"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\figures\\Figure3.png",
+    "relative_path": "figure_package/figures/Figure3.png",
+    "bytes": 400430,
+    "sha256": "7d60f100538642df846a78655cef5b1244604ee1024ec8f26b6d91069201a581"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\figures\\Figure4.png",
+    "relative_path": "figure_package/figures/Figure4.png",
+    "bytes": 564637,
+    "sha256": "83112db940b1ce21909c6517fc2231fea2612f96a539ae8225e0a7ad57f31ba7"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\figures\\Figure5.png",
+    "relative_path": "figure_package/figures/Figure5.png",
+    "bytes": 358669,
+    "sha256": "0279785e73cf6d0e76a3c14167c276e79ac72d68e316467358cc291bd61195e3"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\figures\\Figure6.png",
+    "relative_path": "figure_package/figures/Figure6.png",
+    "bytes": 261249,
+    "sha256": "f0c8407f73c002dcc0ed5064a201da5c5c2903afc7c52373af3e6ad444db678f"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\figures\\Figure7.png",
+    "relative_path": "figure_package/figures/Figure7.png",
+    "bytes": 345938,
+    "sha256": "0cd937686b892a1933014de0412da3b38d1a81b256526935a622ace8e447f93b"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\figures\\Figure8.png",
+    "relative_path": "figure_package/figures/Figure8.png",
+    "bytes": 13780,
+    "sha256": "24ce9d9668fe791f1b7f323d6846e41e5943898309fe4c8c537153f2d74087ae"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\FIGURES_ARCCRAFT_Procedural_Stress_Testing.zip",
+    "relative_path": "figure_package/FIGURES_ARCCRAFT_Procedural_Stress_Testing.zip",
+    "bytes": 2203731,
+    "sha256": "b278f5e3da47d12bd66d0fe2782f2ed3a6b608caa15d2a51580f44c14617ff65"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figure_package\\FIGURES_TOOLS_AND_SOURCES.md",
+    "relative_path": "figure_package/FIGURES_TOOLS_AND_SOURCES.md",
+    "bytes": 8756,
+    "sha256": "e3fa429175e186a36c40232b1d35cd562c8dd17864ffef0ac73ed3da358b5a1e"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figures\\arccraft_ablation_failure_runtime.png",
+    "relative_path": "figures/arccraft_ablation_failure_runtime.png",
+    "bytes": 80963,
+    "sha256": "e4c8d5084d3466c3cce38d5be7ed3d0096d02247187c26783817964f1c97c74d"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figures\\benchmark_errors_2024.png",
+    "relative_path": "figures/benchmark_errors_2024.png",
+    "bytes": 73715,
+    "sha256": "848244e47eb5bc5bbbf3953350f226c50b0d009f16d74b6ea7deb183f804055a"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figures\\data_quality_temporal_shift.png",
+    "relative_path": "figures/data_quality_temporal_shift.png",
+    "bytes": 74633,
+    "sha256": "3f079e62bd6ea71afd43dde4b43edac14957a48d352128bc82ce320bd70a30df"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figures\\observed_annual_metrics.png",
+    "relative_path": "figures/observed_annual_metrics.png",
+    "bytes": 84135,
+    "sha256": "09a45d7a60c2b893dfd3c5441e75ce2f875c0a58492c29f2ba3d786788834c67"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figures\\policy_benchmark_decile_calibration.png",
+    "relative_path": "figures/policy_benchmark_decile_calibration.png",
+    "bytes": 160096,
+    "sha256": "063f4ee9d75f4e2186d9b969583040ca1044ae1d649846e185687ee2b73660f9"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figures\\policy_benchmark_errors.png",
+    "relative_path": "figures/policy_benchmark_errors.png",
+    "bytes": 66436,
+    "sha256": "99209b7605d703386572eb3997808c44388e08601acfdee5ea43455d0fe887f6"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figures\\stress_surface.png",
+    "relative_path": "figures/stress_surface.png",
+    "bytes": 75438,
+    "sha256": "ca4b5ecb1396e23d0f9c90a12c351f150f5812706e02e3cbf590363334fffe1d"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\figures\\synthetic_failure_diagnostics.png",
+    "relative_path": "figures/synthetic_failure_diagnostics.png",
+    "bytes": 87586,
+    "sha256": "414db66f8cd26f8fe2be8052b7450850a0039322feaa54f50b3101e96fc8114f"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\FIGURES_ARCCRAFT_PROCEDURAL_STRESS\\build\\Figure1_tikz.aux",
+    "relative_path": "FIGURES_ARCCRAFT_PROCEDURAL_STRESS/build/Figure1_tikz.aux",
+    "bytes": 32,
+    "sha256": "fbabe80c887f95a1ede6847f22dd91b380bda9d17ae8bfaa72e1741b16aa41e9"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\FIGURES_ARCCRAFT_PROCEDURAL_STRESS\\build\\Figure1_tikz.log",
+    "relative_path": "FIGURES_ARCCRAFT_PROCEDURAL_STRESS/build/Figure1_tikz.log",
+    "bytes": 20098,
+    "sha256": "6018d0b522954d78c18b69a4a158e7a282b1b626ba0d0953e7437cae599203a2"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\FIGURES_ARCCRAFT_PROCEDURAL_STRESS\\build\\Figure1_tikz.pdf",
+    "relative_path": "FIGURES_ARCCRAFT_PROCEDURAL_STRESS/build/Figure1_tikz.pdf",
+    "bytes": 49579,
+    "sha256": "b6934529274da8ea50c0b182e97eda49fe1909046eb7d06147d56586c1549cb7"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\FIGURES_ARCCRAFT_PROCEDURAL_STRESS\\code\\Figure1_tikz.tex",
+    "relative_path": "FIGURES_ARCCRAFT_PROCEDURAL_STRESS/code/Figure1_tikz.tex",
+    "bytes": 6256,
+    "sha256": "e11838ec1859bd3fae5d45f6b14be263eb96d8fc0b80de24c9a87490bf1ba3c6"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\FIGURES_ARCCRAFT_PROCEDURAL_STRESS\\figures\\Figure1.png",
+    "relative_path": "FIGURES_ARCCRAFT_PROCEDURAL_STRESS/figures/Figure1.png",
+    "bytes": 280255,
+    "sha256": "009e58147b23f7a0da94733901db5112a8c94d994910f5e722c249ea4f90cbeb"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_delivery\\ARCCRAFT_Procedural_Stress_Testing\\latex_code\\figures\\Figure1.png",
+    "relative_path": "latex_delivery/ARCCRAFT_Procedural_Stress_Testing/latex_code/figures/Figure1.png",
+    "bytes": 212365,
+    "sha256": "b9d142e1ed19df95134896ca0774fbabed3df31c0ef9cf6b86e34908e85e79b6"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_delivery\\ARCCRAFT_Procedural_Stress_Testing\\latex_code\\figures\\Figure2.png",
+    "relative_path": "latex_delivery/ARCCRAFT_Procedural_Stress_Testing/latex_code/figures/Figure2.png",
+    "bytes": 287942,
+    "sha256": "e3c38106782d98d58facd99ad179b0c91ec178dc3e6245d582d2a9d5365c3d2d"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_delivery\\ARCCRAFT_Procedural_Stress_Testing\\latex_code\\figures\\Figure3.png",
+    "relative_path": "latex_delivery/ARCCRAFT_Procedural_Stress_Testing/latex_code/figures/Figure3.png",
+    "bytes": 400430,
+    "sha256": "7d60f100538642df846a78655cef5b1244604ee1024ec8f26b6d91069201a581"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_delivery\\ARCCRAFT_Procedural_Stress_Testing\\latex_code\\figures\\Figure4.png",
+    "relative_path": "latex_delivery/ARCCRAFT_Procedural_Stress_Testing/latex_code/figures/Figure4.png",
+    "bytes": 564637,
+    "sha256": "83112db940b1ce21909c6517fc2231fea2612f96a539ae8225e0a7ad57f31ba7"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_delivery\\ARCCRAFT_Procedural_Stress_Testing\\latex_code\\figures\\Figure5.png",
+    "relative_path": "latex_delivery/ARCCRAFT_Procedural_Stress_Testing/latex_code/figures/Figure5.png",
+    "bytes": 358669,
+    "sha256": "0279785e73cf6d0e76a3c14167c276e79ac72d68e316467358cc291bd61195e3"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_delivery\\ARCCRAFT_Procedural_Stress_Testing\\latex_code\\figures\\Figure6.png",
+    "relative_path": "latex_delivery/ARCCRAFT_Procedural_Stress_Testing/latex_code/figures/Figure6.png",
+    "bytes": 261249,
+    "sha256": "f0c8407f73c002dcc0ed5064a201da5c5c2903afc7c52373af3e6ad444db678f"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_delivery\\ARCCRAFT_Procedural_Stress_Testing\\latex_code\\figures\\Figure7.png",
+    "relative_path": "latex_delivery/ARCCRAFT_Procedural_Stress_Testing/latex_code/figures/Figure7.png",
+    "bytes": 345938,
+    "sha256": "0cd937686b892a1933014de0412da3b38d1a81b256526935a622ace8e447f93b"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_delivery\\ARCCRAFT_Procedural_Stress_Testing\\latex_code\\figures\\Figure8.png",
+    "relative_path": "latex_delivery/ARCCRAFT_Procedural_Stress_Testing/latex_code/figures/Figure8.png",
+    "bytes": 13780,
+    "sha256": "24ce9d9668fe791f1b7f323d6846e41e5943898309fe4c8c537153f2d74087ae"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_delivery\\ARCCRAFT_Procedural_Stress_Testing\\latex_code\\main.tex",
+    "relative_path": "latex_delivery/ARCCRAFT_Procedural_Stress_Testing/latex_code/main.tex",
+    "bytes": 6220,
+    "sha256": "7dd044394d393fd022533738024e8a7cd7360b74d45b0566ebc82ed7120e2076"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_delivery\\ARCCRAFT_Procedural_Stress_Testing\\latex_code\\references.bib",
+    "relative_path": "latex_delivery/ARCCRAFT_Procedural_Stress_Testing/latex_code/references.bib",
+    "bytes": 13952,
+    "sha256": "6c1f114cd34a17105322a61ec77766cc558f33811b9823b298fc2c8c60055615"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_delivery\\ARCCRAFT_Procedural_Stress_Testing\\latex_code\\sections\\01_literature.tex",
+    "relative_path": "latex_delivery/ARCCRAFT_Procedural_Stress_Testing/latex_code/sections/01_literature.tex",
+    "bytes": 23195,
+    "sha256": "f6b51207a10520e89ea932d42139156d598036bd8d35510ea6b9cba30c18502d"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_delivery\\ARCCRAFT_Procedural_Stress_Testing\\latex_code\\sections\\02_meth_intro.tex",
+    "relative_path": "latex_delivery/ARCCRAFT_Procedural_Stress_Testing/latex_code/sections/02_meth_intro.tex",
+    "bytes": 8062,
+    "sha256": "0c5ee8142df094b742018fc69afe6ab557d8b5c32a3a6cde901fdb7914f712fa"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_delivery\\ARCCRAFT_Procedural_Stress_Testing\\latex_code\\sections\\03_results.tex",
+    "relative_path": "latex_delivery/ARCCRAFT_Procedural_Stress_Testing/latex_code/sections/03_results.tex",
+    "bytes": 14714,
+    "sha256": "880db66752a59f4e263b049a2e1020954d90956648d208531bb1f4d0170f86df"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_delivery\\ARCCRAFT_Procedural_Stress_Testing\\latex_code\\sections\\04_conclusion.tex",
+    "relative_path": "latex_delivery/ARCCRAFT_Procedural_Stress_Testing/latex_code/sections/04_conclusion.tex",
+    "bytes": 7807,
+    "sha256": "e0f39621885db15728687cbebbf1c49b135d8241dc3a99d0e97c277e352be0fe"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_delivery\\ARCCRAFT_Procedural_Stress_Testing\\main.pdf",
+    "relative_path": "latex_delivery/ARCCRAFT_Procedural_Stress_Testing/main.pdf",
+    "bytes": 2312776,
+    "sha256": "7097a5566ef1477c573582c65f3fe4e65a3668176474c60d9085a64e5cdf024c"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_project\\latex_code\\figures\\Figure1.png",
+    "relative_path": "latex_project/latex_code/figures/Figure1.png",
+    "bytes": 212365,
+    "sha256": "b9d142e1ed19df95134896ca0774fbabed3df31c0ef9cf6b86e34908e85e79b6"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_project\\latex_code\\figures\\Figure2.png",
+    "relative_path": "latex_project/latex_code/figures/Figure2.png",
+    "bytes": 287942,
+    "sha256": "e3c38106782d98d58facd99ad179b0c91ec178dc3e6245d582d2a9d5365c3d2d"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_project\\latex_code\\figures\\Figure3.png",
+    "relative_path": "latex_project/latex_code/figures/Figure3.png",
+    "bytes": 400430,
+    "sha256": "7d60f100538642df846a78655cef5b1244604ee1024ec8f26b6d91069201a581"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_project\\latex_code\\figures\\Figure4.png",
+    "relative_path": "latex_project/latex_code/figures/Figure4.png",
+    "bytes": 564637,
+    "sha256": "83112db940b1ce21909c6517fc2231fea2612f96a539ae8225e0a7ad57f31ba7"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_project\\latex_code\\figures\\Figure5.png",
+    "relative_path": "latex_project/latex_code/figures/Figure5.png",
+    "bytes": 358669,
+    "sha256": "0279785e73cf6d0e76a3c14167c276e79ac72d68e316467358cc291bd61195e3"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_project\\latex_code\\figures\\Figure6.png",
+    "relative_path": "latex_project/latex_code/figures/Figure6.png",
+    "bytes": 261249,
+    "sha256": "f0c8407f73c002dcc0ed5064a201da5c5c2903afc7c52373af3e6ad444db678f"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_project\\latex_code\\figures\\Figure7.png",
+    "relative_path": "latex_project/latex_code/figures/Figure7.png",
+    "bytes": 345938,
+    "sha256": "0cd937686b892a1933014de0412da3b38d1a81b256526935a622ace8e447f93b"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_project\\latex_code\\figures\\Figure8.png",
+    "relative_path": "latex_project/latex_code/figures/Figure8.png",
+    "bytes": 13780,
+    "sha256": "24ce9d9668fe791f1b7f323d6846e41e5943898309fe4c8c537153f2d74087ae"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_project\\latex_code\\main.aux",
+    "relative_path": "latex_project/latex_code/main.aux",
+    "bytes": 21077,
+    "sha256": "9adff39428224b62b7cfb1159416c8adbd1fbccda60729678906dbd987083217"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_project\\latex_code\\main.bbl",
+    "relative_path": "latex_project/latex_code/main.bbl",
+    "bytes": 14366,
+    "sha256": "50827bfa6a08dce3dc2e72245dfa364359e997267b69afd2e8aa7a2bbf8b53b0"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_project\\latex_code\\main.blg",
+    "relative_path": "latex_project/latex_code/main.blg",
+    "bytes": 912,
+    "sha256": "4c873de5ea547930a77ffe942d0a139fd1f77cf8e8a53f7d47f3eefb7364eda7"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_project\\latex_code\\main.log",
+    "relative_path": "latex_project/latex_code/main.log",
+    "bytes": 46328,
+    "sha256": "05754404401e185af96eecb54af85094f08d7de3a6cea1fb99355543fa16b5d6"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_project\\latex_code\\main.out",
+    "relative_path": "latex_project/latex_code/main.out",
+    "bytes": 5381,
+    "sha256": "17d1b28016a18db2b26e96d3c5368f535374206525e89465c63a6cd007b4b2ec"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_project\\latex_code\\main.pdf",
+    "relative_path": "latex_project/latex_code/main.pdf",
+    "bytes": 2312776,
+    "sha256": "7097a5566ef1477c573582c65f3fe4e65a3668176474c60d9085a64e5cdf024c"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_project\\latex_code\\main.tex",
+    "relative_path": "latex_project/latex_code/main.tex",
+    "bytes": 6220,
+    "sha256": "7dd044394d393fd022533738024e8a7cd7360b74d45b0566ebc82ed7120e2076"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_project\\latex_code\\main.toc",
+    "relative_path": "latex_project/latex_code/main.toc",
+    "bytes": 2370,
+    "sha256": "6cfb0b24e46654e1216b288e3e5b70515e6940618357a39e682af8978a8e8f8c"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_project\\latex_code\\references.bib",
+    "relative_path": "latex_project/latex_code/references.bib",
+    "bytes": 13952,
+    "sha256": "6c1f114cd34a17105322a61ec77766cc558f33811b9823b298fc2c8c60055615"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_project\\latex_code\\sections\\01_literature.tex",
+    "relative_path": "latex_project/latex_code/sections/01_literature.tex",
+    "bytes": 23195,
+    "sha256": "f6b51207a10520e89ea932d42139156d598036bd8d35510ea6b9cba30c18502d"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_project\\latex_code\\sections\\02_meth_intro.tex",
+    "relative_path": "latex_project/latex_code/sections/02_meth_intro.tex",
+    "bytes": 8062,
+    "sha256": "0c5ee8142df094b742018fc69afe6ab557d8b5c32a3a6cde901fdb7914f712fa"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_project\\latex_code\\sections\\03_results.tex",
+    "relative_path": "latex_project/latex_code/sections/03_results.tex",
+    "bytes": 14714,
+    "sha256": "880db66752a59f4e263b049a2e1020954d90956648d208531bb1f4d0170f86df"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\latex_project\\latex_code\\sections\\04_conclusion.tex",
+    "relative_path": "latex_project/latex_code/sections/04_conclusion.tex",
+    "bytes": 7807,
+    "sha256": "e0f39621885db15728687cbebbf1c49b135d8241dc3a99d0e97c277e352be0fe"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\policy_benchmark_core.py",
+    "relative_path": "policy_benchmark_core.py",
+    "bytes": 14106,
+    "sha256": "561fd6e238a419f71db0190581c28fcc9be9ae383a382fd4662b370d1b2789dc"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\research_requirements.txt",
+    "relative_path": "research_requirements.txt",
+    "bytes": 161,
+    "sha256": "5a3e9904d2e13656d1946ecfe0dfd22681fbfdae30690b347b412d2fc04e64b5"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\RIME_TEMPLATE_ORIGINAL.docx",
+    "relative_path": "RIME_TEMPLATE_ORIGINAL.docx",
+    "bytes": 278692,
+    "sha256": "76767838c55547a4f695c0697899477a3c230c0a42e779afd771ae2f0e5f74ef"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\run_arccraft_ablation.py",
+    "relative_path": "run_arccraft_ablation.py",
+    "bytes": 11083,
+    "sha256": "64e7fe6ee0fa91888fd13caed030d4f5272255020a07b10c9827ecd98a3275e6"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\tmp_build_latex.py",
+    "relative_path": "tmp_build_latex.py",
+    "bytes": 18017,
+    "sha256": "d27e7632b1d21509b7f89822546f8f019b6b598afdb5674b54afcb9ddd7c6fe9"
+  },
+  {
+    "category": "research",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\ARCCRAFT\\WORK_PLAN.md",
+    "relative_path": "WORK_PLAN.md",
+    "bytes": 29177,
+    "sha256": "8961e33c01f5e0bf9f6704b191b509bb0e0957d68b50a2a724cb358d768cf882"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\.gitignore",
+    "relative_path": ".gitignore",
+    "bytes": 40,
+    "sha256": "6593495c1b8c1b850a636d38dc3df41e4d5d218477b19412e3816c04283f2a27"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\api\\index.py",
+    "relative_path": "api/index.py",
+    "bytes": 28,
+    "sha256": "1ee9722c9b33e2ba366dcf8da057abab28382caf6fd09f9aedcebc4c70f88cd6"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\backend\\__init__.py",
+    "relative_path": "backend/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\backend\\api\\__init__.py",
+    "relative_path": "backend/api/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\backend\\app.py",
+    "relative_path": "backend/app.py",
+    "bytes": 6705,
+    "sha256": "9c64d624147afcaa14c3e68e4e2101c382e256a81f894860d1549a1a5a3f3d27"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\backend\\build_data_store.py",
+    "relative_path": "backend/build_data_store.py",
+    "bytes": 26290,
+    "sha256": "34e09ee12479e159dee13665b6ce767843ebc39bcdef9eedbc4e0964468a54e7"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\backend\\data_service.py",
+    "relative_path": "backend/data_service.py",
+    "bytes": 15590,
+    "sha256": "7449f6b642f251e1ea47d6e60a26692bcbece3c65566de6d7dd0400cd0389ea1"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\backend\\engine\\__init__.py",
+    "relative_path": "backend/engine/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\backend\\engine\\arccraft_engine.py",
+    "relative_path": "backend/engine/arccraft_engine.py",
+    "bytes": 30800,
+    "sha256": "1b951fafe742546f394f7312f6e40fea45622047716879d29f0ba32366421ffb"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\backend\\engine\\compass_engine.py",
+    "relative_path": "backend/engine/compass_engine.py",
+    "bytes": 31716,
+    "sha256": "c1961cf379a0bfecd20027604b2507ecb0216fbcc6f1db2874e6dd99b6f967bb"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\backend\\engine\\mapta_engine.py",
+    "relative_path": "backend/engine/mapta_engine.py",
+    "bytes": 23462,
+    "sha256": "ccb5c7c69953ba74bb28c6d0c1ff795164c6ef16ae7668a972cb54fafe30af33"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\backend\\model_service.py",
+    "relative_path": "backend/model_service.py",
+    "bytes": 11385,
+    "sha256": "96c227f3c018542d7aa298d025267dec0e1b4efa8e6926df48d0666c768545bd"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\backend\\server.py",
+    "relative_path": "backend/server.py",
+    "bytes": 165,
+    "sha256": "3c6d21d45a9519cdf3a47889407773335ffa651c08d81dcb7823d3dc7e439497"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\data\\manifest.json",
+    "relative_path": "data/manifest.json",
+    "bytes": 4753,
+    "sha256": "97bd444aeadc69c78e84b4228d3a0970f658ca817ddb95524befabf1a946b439"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\data\\platform.db",
+    "relative_path": "data/platform.db",
+    "bytes": 205217792,
+    "sha256": "c2bf54460e0613c7ad12eab7d0169ffc4259e121ae3ce8ce80c8ce1ae5c852a8"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\data\\raw\\benchmark_v26.csv",
+    "relative_path": "data/raw/benchmark_v26.csv",
+    "bytes": 602333,
+    "sha256": "a3ebec0a4e27618e2ab146b0a1a24b14b31328370b7687960b92756b4a5a449d"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\data\\raw\\motor_variables.csv",
+    "relative_path": "data/raw/motor_variables.csv",
+    "bytes": 6184,
+    "sha256": "cf27ebbce9077e3d1eadc6e384668e361af10b94462f8bc4b19381809e57c14c"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\dist\\api.js",
+    "relative_path": "dist/api.js",
+    "bytes": 1278,
+    "sha256": "8dee1e9afd15dfac8a290cfcf5e29223e5a883add9582394294bd426f8d9af18"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\dist\\components.js",
+    "relative_path": "dist/components.js",
+    "bytes": 4878,
+    "sha256": "9029a45ec83f24fd220e790eb00f4086aec433cfd25f16f124be6cb0c137d5a8"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\dist\\data.js",
+    "relative_path": "dist/data.js",
+    "bytes": 54061,
+    "sha256": "42dd103d094bc9ce6f2451c7f1f53cbe0438af8c62049ef0a8abbea1634c52fa"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\dist\\i18n.js",
+    "relative_path": "dist/i18n.js",
+    "bytes": 7735,
+    "sha256": "3e7b05ed697d3c6f6e742ec1d6b7236c53c1c17095fff9185fb6a6e6fb54dcf3"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\dist\\main.js",
+    "relative_path": "dist/main.js",
+    "bytes": 98634,
+    "sha256": "ac64c27c1a181cb23c4ed211531ee1b6c7044fa0a59a6d9747555d86582ea4cb"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\dist\\models\\arccraft.js",
+    "relative_path": "dist/models/arccraft.js",
+    "bytes": 465,
+    "sha256": "60795a0f1280a0d776fd9cf1cb345ae84fb85a82180cbd04ee7713187bb094fa"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\dist\\models\\compass.js",
+    "relative_path": "dist/models/compass.js",
+    "bytes": 3084,
+    "sha256": "73500a851ec183e76001011c8b059556af33b1dfc26cc4e5450ccb322deb5950"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\dist\\models\\mapta.js",
+    "relative_path": "dist/models/mapta.js",
+    "bytes": 289,
+    "sha256": "fed1e5af439404a5efac1ec5b50405d500f5d2e9ebef1b99be0f9bc788700224"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\dist\\utils.js",
+    "relative_path": "dist/utils.js",
+    "bytes": 1450,
+    "sha256": "c26ba328f226242751f0fd286863136382ea2dcc274a82e152521afc366d163e"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\docs\\AUDIT_V2.1.md",
+    "relative_path": "docs/AUDIT_V2.1.md",
+    "bytes": 3706,
+    "sha256": "1e9a5a115ba98a4998e765389d5c0158cbc71f6724aeb4f34be15a09acfe6a3c"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\docs\\DATA_ARCHITECTURE.md",
+    "relative_path": "docs/DATA_ARCHITECTURE.md",
+    "bytes": 3387,
+    "sha256": "3f6d867a60595e89c86ce0a3f32a9f3cebb5ee6b463b3174108b96de4e34ef5e"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\docs\\DESIGN_QA.md",
+    "relative_path": "docs/DESIGN_QA.md",
+    "bytes": 1674,
+    "sha256": "0726f2814377e2b93b49335d0f9ce6fcffab64066691897320232cab164c0568"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\docs\\VERIFICATION.md",
+    "relative_path": "docs/VERIFICATION.md",
+    "bytes": 2183,
+    "sha256": "d64a3fe2b279aa9b3b33120a99d773885813ccd8ff6a67cf11b7e44ba813d64e"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\index.html",
+    "relative_path": "index.html",
+    "bytes": 1130,
+    "sha256": "8e4cb613fcf0a24721fb223fd91bdb43ab0e06b1cfa325db970fa223e71cea1a"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\package-lock.json",
+    "relative_path": "package-lock.json",
+    "bytes": 736,
+    "sha256": "b1df4fac5e88dff5153b80393844ee65cd8df9e148305267af04021c213e279d"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\package.json",
+    "relative_path": "package.json",
+    "bytes": 626,
+    "sha256": "1c17012ed06353b2e92457a872fe8023a4a1956d29db9a6b3304f4e7d27325dc"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\README.md",
+    "relative_path": "README.md",
+    "bytes": 6181,
+    "sha256": "9ccf5d71067c5b50c55fe01d15d9740cd36cd091da9e85fd78377c6faa3ef17a"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\reference\\python\\arccraft.py",
+    "relative_path": "reference/python/arccraft.py",
+    "bytes": 29579,
+    "sha256": "1a71e2c319a1b9ebe0154b5a328f6f335eec53389fe07cc8337f0fa85c4ab008"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\reference\\python\\compass.py",
+    "relative_path": "reference/python/compass.py",
+    "bytes": 31716,
+    "sha256": "c1961cf379a0bfecd20027604b2507ecb0216fbcc6f1db2874e6dd99b6f967bb"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\reference\\python\\mapta.py",
+    "relative_path": "reference/python/mapta.py",
+    "bytes": 23462,
+    "sha256": "ccb5c7c69953ba74bb28c6d0c1ff795164c6ef16ae7668a972cb54fafe30af33"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\reference\\reports\\arccraft.txt",
+    "relative_path": "reference/reports/arccraft.txt",
+    "bytes": 1617,
+    "sha256": "e272d12b99c388b002ae7a417eb56dc322724fe75d78c90748d337e0debe8cdf"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\reference\\reports\\compass.txt",
+    "relative_path": "reference/reports/compass.txt",
+    "bytes": 998,
+    "sha256": "3bf282de2f96f0e48e6d018aae7bcde30a8c4f7c51a8fa114ced2354fc1b0fc6"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\reference\\reports\\mapta_accident.txt",
+    "relative_path": "reference/reports/mapta_accident.txt",
+    "bytes": 3051,
+    "sha256": "595e8a93f79ab2c5bc7334f71575787ac84ae10311b2692e278758b20545a321"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\reference\\reports\\mapta_funeraire.txt",
+    "relative_path": "reference/reports/mapta_funeraire.txt",
+    "bytes": 3052,
+    "sha256": "17a259c94ca5151fbcad085880b2cce921b052ec9844c45bb277e94c6918afcc"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\requirements.txt",
+    "relative_path": "requirements.txt",
+    "bytes": 83,
+    "sha256": "76101fdc4b770dc231ded4d9bc3fd944a713cf1ecff4f6f9d3d75c4387dddbf8"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\scripts\\smoke.mjs",
+    "relative_path": "scripts/smoke.mjs",
+    "bytes": 1821,
+    "sha256": "afae09b3e8fe1f8d1e8e86a4421ed3ee54ff4fbec7d31ac207dcc8d11157c5a7"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\scripts\\verify_backend.py",
+    "relative_path": "scripts/verify_backend.py",
+    "bytes": 7971,
+    "sha256": "3b05fc5f8976a63948f97980c3ea0c752bd7d22a351be6f4682ea3d993d7629b"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\scripts\\verify_design.py",
+    "relative_path": "scripts/verify_design.py",
+    "bytes": 5615,
+    "sha256": "489f4cd587ed1f0c5a30cbec89587ac28fdc3ab7a678448998308b50ca804161"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\src\\api.ts",
+    "relative_path": "src/api.ts",
+    "bytes": 1285,
+    "sha256": "89a1f6106addcb24b6a141fc070b02dfc27f4a95ef806c78c536440a477944f8"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\src\\components.ts",
+    "relative_path": "src/components.ts",
+    "bytes": 5184,
+    "sha256": "5e2f223857008f4c16081d37d763c505c4ed875d1f4a9fb127ba464dfa4997b7"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\src\\data.ts",
+    "relative_path": "src/data.ts",
+    "bytes": 41186,
+    "sha256": "07d57060b72b076186d737474721a56799240b7e616a00cfb9c663ce62578337"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\src\\i18n.ts",
+    "relative_path": "src/i18n.ts",
+    "bytes": 8186,
+    "sha256": "1fed87a70fc538ca5ce3344dcc39716a98a32fd5f0f70cb3d946daa4ef7d8caf"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\src\\main.ts",
+    "relative_path": "src/main.ts",
+    "bytes": 101119,
+    "sha256": "dd3f8df95c68bb47744fb565df48bb09ece34550333712e650248b5756926d5d"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\src\\models\\arccraft.ts",
+    "relative_path": "src/models/arccraft.ts",
+    "bytes": 462,
+    "sha256": "67659cbdd27082e56f1ff047bf07e670f9e386801e35761b5d17c9e31b89be5d"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\src\\models\\compass.ts",
+    "relative_path": "src/models/compass.ts",
+    "bytes": 3760,
+    "sha256": "6d6705d2f6d3e45d5af3f03b670d2f939cc0c0906e5e8e21cfbb5d3a8ed1b76b"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\src\\models\\mapta.ts",
+    "relative_path": "src/models/mapta.ts",
+    "bytes": 516,
+    "sha256": "50e9004a2696854ad70dd385aba8a13597a7b78fed9b72682bb7b92738cac290"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\src\\utils.ts",
+    "relative_path": "src/utils.ts",
+    "bytes": 1553,
+    "sha256": "6c7738eab8c8406db351ac3f1cc9d7d730f8881e2b49d4028d232e3adb578071"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\styles.css",
+    "relative_path": "styles.css",
+    "bytes": 31333,
+    "sha256": "3a50b348cfa099840717ff41279bb2debbaf7fcb84a1a601690b467a243f2aac"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\tsconfig.json",
+    "relative_path": "tsconfig.json",
+    "bytes": 347,
+    "sha256": "94fbb3df5df9c9eb5df4a87b76c4a8035b4f2503241df389bfbd88a8ed05e5ba"
+  },
+  {
+    "category": "reference_app",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\mapta-compass-arccraft-platform-v2.1-FINAL\\mapta-compass-arccraft-poc\\vercel.json",
+    "relative_path": "vercel.json",
+    "bytes": 455,
+    "sha256": "7ddd705141ac36dea48918ef42957af9c10e300abb37359ad284da3773494075"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\A detailed dataset of motor insurance policies wit.zip",
+    "relative_path": "A detailed dataset of motor insurance policies wit.zip",
+    "bytes": 25742846,
+    "sha256": "be07e1a4c57ea8ca4da87e10d157ffa7eaf2516d6eca9aad023be9e74d36b588"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Dataset of motor insurance portfolio (1).csv",
+    "relative_path": "Dataset of motor insurance portfolio (1).csv",
+    "bytes": 94710312,
+    "sha256": "6a47d19d5278a049ea0aeaf39c955cc26068639bdc58cb4523b201e740f0faf4"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Descriptive of variables (1).xlsx",
+    "relative_path": "Descriptive of variables (1).xlsx",
+    "bytes": 15413,
+    "sha256": "cde44e797a7fd34de29199c78c9301d6f00ed94fd725b4fe8e67e6c2c4cc2e41"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\00_Catalogue_et_controle_des_donnees.xlsx",
+    "relative_path": "Quantitative Datasets - Clean/00_Catalogue_et_controle_des_donnees.xlsx",
+    "bytes": 84733,
+    "sha256": "053d489d5cdb174f05557faeb4190770175dc67f8cd0adc733319fbb86ba8fc4"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\CLASS_2026_07_15.xlsx",
+    "relative_path": "Quantitative Datasets - Clean/CLASS_2026_07_15.xlsx",
+    "bytes": 74732,
+    "sha256": "854ccec1e59aae1de42c3ae435163204c456f2bb33ae719a01f51c12b7d5a4c8"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\databank-bulk-manifest.json",
+    "relative_path": "Quantitative Datasets - Clean/databank-bulk-manifest.json",
+    "bytes": 255,
+    "sha256": "dbfe266aa3160dd877c25cbde09c5388ec3d00d6d4af2ce54d0d51e62d371cf0"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\dataset_2026-07-30T03_02_48.902627713Z_DEFAULT_INTEGRATION_IMF.STA_FAS_5.0.0.csv",
+    "relative_path": "Quantitative Datasets - Clean/dataset_2026-07-30T03_02_48.902627713Z_DEFAULT_INTEGRATION_IMF.STA_FAS_5.0.0.csv",
+    "bytes": 113908926,
+    "sha256": "14dcade7a7750f33fc95bfc7b06c548b933c730d308bb1e95ddd5bd59e989310"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\Global_Findex_Database_2025_Report.pdf",
+    "relative_path": "Quantitative Datasets - Clean/Global_Findex_Database_2025_Report.pdf",
+    "bytes": 14309364,
+    "sha256": "f9c5bf8a1091dea7f94f140951abaf63a4259fe93dc77b9f9151de59db94322e"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\Global_Mobile_Money_Dataset_2025.xlsx",
+    "relative_path": "Quantitative Datasets - Clean/Global_Mobile_Money_Dataset_2025.xlsx",
+    "bytes": 1022542,
+    "sha256": "d279189ee9a99cf39478264b8703bd8d3ba2c474306a7af617ade986085d39da"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\GlobalFindexDatabase2025.xlsx",
+    "relative_path": "Quantitative Datasets - Clean/GlobalFindexDatabase2025.xlsx",
+    "bytes": 17935735,
+    "sha256": "b6c991f8e46bcbd4b6423cc962d5b2fa030e3db99832b9016bb4f400f57c772f"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\HCI_CSV\\HCICountry.csv",
+    "relative_path": "Quantitative Datasets - Clean/HCI_CSV/HCICountry.csv",
+    "bytes": 117155,
+    "sha256": "96074d7cb8b9b96cfeb682efe6c29fcbf92d42f628af76080d9061422b4b70a2"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\HCI_CSV\\HCIData.csv",
+    "relative_path": "Quantitative Datasets - Clean/HCI_CSV/HCIData.csv",
+    "bytes": 872589,
+    "sha256": "306613aa22f6b2f92db1d6f0dc9e4af4cda65d09fbaf43fcf80e9731700a2437"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\HCI_CSV\\HCIFootNote.csv",
+    "relative_path": "Quantitative Datasets - Clean/HCI_CSV/HCIFootNote.csv",
+    "bytes": 929392,
+    "sha256": "ba1173058f49ba57f7d501aba007ed68b90a0c5b28cf8ef422cff6cb4bd89139"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\HCI_CSV\\HCISeries.csv",
+    "relative_path": "Quantitative Datasets - Clean/HCI_CSV/HCISeries.csv",
+    "bytes": 20177,
+    "sha256": "236e30da9b35ec151fd4465fb7dd657a0a44d6c15212e1b16bf013c625c1367b"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\hci_data_september_2020.xlsx",
+    "relative_path": "Quantitative Datasets - Clean/hci_data_september_2020.xlsx",
+    "bytes": 278226,
+    "sha256": "67963aa5270bc5c601122707212eabf88952a9bc9543423a960ba9d3d27c6e94"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\hcidataoctober2018.xlsx",
+    "relative_path": "Quantitative Datasets - Clean/hcidataoctober2018.xlsx",
+    "bytes": 581027,
+    "sha256": "8c1702e12f7d13945e3b05816e9a6e9f3da0cd33e3cba0b40b6b2873b2323aa4"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\MMPI-2020-2025_Public.xlsx",
+    "relative_path": "Quantitative Datasets - Clean/MMPI-2020-2025_Public.xlsx",
+    "bytes": 40324,
+    "sha256": "f673e34e1534a229f86608bf43c46e33f57670fefd2d8a8fe60ac68efe2ae373"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\P_Data_Extract_From_Africa_Infrastructure_Railways.xlsx",
+    "relative_path": "Quantitative Datasets - Clean/P_Data_Extract_From_Africa_Infrastructure_Railways.xlsx",
+    "bytes": 22229,
+    "sha256": "2d9b52e607a89e43ea137acfef59ebad3e03a66dc62ec778c6204c6b349bc374"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\P_Data_Extract_From_Country_Policy_and_Institutional_Assessment.xlsx",
+    "relative_path": "Quantitative Datasets - Clean/P_Data_Extract_From_Country_Policy_and_Institutional_Assessment.xlsx",
+    "bytes": 14253,
+    "sha256": "e1beb3fb64c8e38f4b70638071ea0a864d9b8335abf7d13fb6b50a4549ba862c"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\P_Data_Extract_From_Doing_Business.xlsx",
+    "relative_path": "Quantitative Datasets - Clean/P_Data_Extract_From_Doing_Business.xlsx",
+    "bytes": 132220,
+    "sha256": "05ab2231e59c4e8483268b900b41b57d20bb0466797a376c453f6e39f6e319c2"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\P_Data_Extract_From_Economic_Fitness.xlsx",
+    "relative_path": "Quantitative Datasets - Clean/P_Data_Extract_From_Economic_Fitness.xlsx",
+    "bytes": 11869,
+    "sha256": "eb34e5e04674b59ac5871eb36138c2396e406e576207ff09fc7402968b186f34"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\P_Data_Extract_From_Education_Statistics_-_All_Indicators.xlsx",
+    "relative_path": "Quantitative Datasets - Clean/P_Data_Extract_From_Education_Statistics_-_All_Indicators.xlsx",
+    "bytes": 174567,
+    "sha256": "ab81c5faa6543f49727a07eff03d6cc7b981056121b5650621ff496fcfd0d34e"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\P_Data_Extract_From_Environment_Social_and_Governance_(ESG)_Data.xlsx",
+    "relative_path": "Quantitative Datasets - Clean/P_Data_Extract_From_Environment_Social_and_Governance_(ESG)_Data.xlsx",
+    "bytes": 379087,
+    "sha256": "04a4e93d4005f02ea00474ebc68f5486aa0c64d98d25726abda5b31cd9148dac"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\P_Data_Extract_From_Exporter_Dynamics_Database_–_Indicators_at_Country-Destination-Year_Level.xlsx",
+    "relative_path": "Quantitative Datasets - Clean/P_Data_Extract_From_Exporter_Dynamics_Database_–_Indicators_at_Country-Destination-Year_Level.xlsx",
+    "bytes": 10983682,
+    "sha256": "0c5793c67a99cb4d0e88a3713197bd26ad06c390770c893e91fa4f569233418b"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\P_Data_Extract_From_Exporter_Dynamics_Database_–_Indicators_at_Country-Product_HS6-Year_Level.xlsx",
+    "relative_path": "Quantitative Datasets - Clean/P_Data_Extract_From_Exporter_Dynamics_Database_–_Indicators_at_Country-Product_HS6-Year_Level.xlsx",
+    "bytes": 5679,
+    "sha256": "a441f5ea7c097977cdf9bd711954c86bc6e09f02dd6fc5b86ec0f3377722d88c"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\P_Data_Extract_From_Gender_Statistics.xlsx",
+    "relative_path": "Quantitative Datasets - Clean/P_Data_Extract_From_Gender_Statistics.xlsx",
+    "bytes": 421115,
+    "sha256": "d38fcd41e9a5174ad442e02327688a36ccd0c1de0af90ef7c001f1bf26b175fe"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\P_Data_Extract_From_Global_Financial_Development.xlsx",
+    "relative_path": "Quantitative Datasets - Clean/P_Data_Extract_From_Global_Financial_Development.xlsx",
+    "bytes": 528272,
+    "sha256": "8e7de6bfa09ba076c4ed6eabbf36f247717cca3ea5a843c2cfac1e6f75d0948e"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\P_Data_Extract_From_Global_Findex_database.xlsx",
+    "relative_path": "Quantitative Datasets - Clean/P_Data_Extract_From_Global_Findex_database.xlsx",
+    "bytes": 901698,
+    "sha256": "bab68bac57262a33d8c02cec56b4f9d3f7a825829d3f9302bf3b0a9ed6bd8307"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\P_Data_Extract_From_Global_Partnership_for_Education.xlsx",
+    "relative_path": "Quantitative Datasets - Clean/P_Data_Extract_From_Global_Partnership_for_Education.xlsx",
+    "bytes": 168456,
+    "sha256": "8ac8f836094eb3f7dfd23fb599176a2edbe6fdc3c614b904dba79dc6470a98e9"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\P_Data_Extract_From_ICP_2017.xlsx",
+    "relative_path": "Quantitative Datasets - Clean/P_Data_Extract_From_ICP_2017.xlsx",
+    "bytes": 267397,
+    "sha256": "92ae1b97a36eb05be863e27d3074dd379a6a67b864db17eaa6b44e3cff947feb"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\P_Data_Extract_From_ICP_2021.xlsx",
+    "relative_path": "Quantitative Datasets - Clean/P_Data_Extract_From_ICP_2021.xlsx",
+    "bytes": 267572,
+    "sha256": "4befd2f0b076cd4deb3ca06ca4fc5ff4fca1d3ea341341928d26689d0b309acc"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\P_Data_Extract_From_IDA_Results_Measurement_System.xlsx",
+    "relative_path": "Quantitative Datasets - Clean/P_Data_Extract_From_IDA_Results_Measurement_System.xlsx",
+    "bytes": 104410,
+    "sha256": "4569247fba7685804a135a25359caba204a744de78f3b1f11834243ddb6af91e"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\P_Data_Extract_From_Jobs.xlsx",
+    "relative_path": "Quantitative Datasets - Clean/P_Data_Extract_From_Jobs.xlsx",
+    "bytes": 354191,
+    "sha256": "203cd02b84a17d5f1408677665f2456d7b8cd5a0baf8bc307a507574534896f1"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\P_Data_Extract_From_National_Poverty_Line_-_Subnational_Poverty.xlsx",
+    "relative_path": "Quantitative Datasets - Clean/P_Data_Extract_From_National_Poverty_Line_-_Subnational_Poverty.xlsx",
+    "bytes": 8752,
+    "sha256": "4c9c0b523c0526f1fda89cfb7eb4d23c3fd2da2be1097fdc588caca0c35c5e29"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\P_Data_Extract_From_Population_estimates_and_projections.xlsx",
+    "relative_path": "Quantitative Datasets - Clean/P_Data_Extract_From_Population_estimates_and_projections.xlsx",
+    "bytes": 1614207,
+    "sha256": "ceedbbd366d85ea73713a4c4b50cb79793032e4003d6760099e7d43e3073298d"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\P_Data_Extract_From_Remittance_Prices_Worldwide_(Receiving_Countries).xlsx",
+    "relative_path": "Quantitative Datasets - Clean/P_Data_Extract_From_Remittance_Prices_Worldwide_(Receiving_Countries).xlsx",
+    "bytes": 6868,
+    "sha256": "6abf6bbb80c3e366160d93e54ab1d4096bca86da9ac1ba5e59c52a06f70ba8c0"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\P_Data_Extract_From_Remittance_Prices_Worldwide_(Sending_Countries).xlsx",
+    "relative_path": "Quantitative Datasets - Clean/P_Data_Extract_From_Remittance_Prices_Worldwide_(Sending_Countries).xlsx",
+    "bytes": 5432,
+    "sha256": "475448fefb3b052dbbe06c41e4fbe544e819ae54b98e7535330f93df2db52935"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\P_Data_Extract_From_Service_Delivery_Indicators.xlsx",
+    "relative_path": "Quantitative Datasets - Clean/P_Data_Extract_From_Service_Delivery_Indicators.xlsx",
+    "bytes": 37882,
+    "sha256": "476c971e86200504ac3739db75653d5077770146bb10be460c3332db790ad9e1"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\P_Data_Extract_From_Statistical_Performance_Indicators_(SPI).xlsx",
+    "relative_path": "Quantitative Datasets - Clean/P_Data_Extract_From_Statistical_Performance_Indicators_(SPI).xlsx",
+    "bytes": 67375,
+    "sha256": "56140ed82852c5bb35cc03382644f02a3347cb5b677ae72c7c886cd7f6392117"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\P_Data_Extract_From_Subnational_Malnutrition.xlsx",
+    "relative_path": "Quantitative Datasets - Clean/P_Data_Extract_From_Subnational_Malnutrition.xlsx",
+    "bytes": 13119,
+    "sha256": "98e6a38d41c6805a97ba2fa3287d918b1a30a2cd835345c541456ca505c873b3"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\P_Data_Extract_From_Sustainable_Energy_for_All.xlsx",
+    "relative_path": "Quantitative Datasets - Clean/P_Data_Extract_From_Sustainable_Energy_for_All.xlsx",
+    "bytes": 25490,
+    "sha256": "ceeea670cf68ab9c4cf1fb57bcfc5877263f1354b34dcf0b735c3bf09e9553db"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\Rapport annuel sur les services financiers numériques dans l'UEMOA - 2024.pdf",
+    "relative_path": "Quantitative Datasets - Clean/Rapport annuel sur les services financiers numériques dans l'UEMOA - 2024.pdf",
+    "bytes": 5964812,
+    "sha256": "4336f53373896ccbd6f818778ed6594579583a562b9b33cd40da92f0e8325bdb"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\rapport-des-marches-CIMA-2022.pdf",
+    "relative_path": "Quantitative Datasets - Clean/rapport-des-marches-CIMA-2022.pdf",
+    "bytes": 7601034,
+    "sha256": "6d6c74c6917ebbf29a5fcbf7e95372b72f60397b0d821e974565831d11783f72"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\Rapport_Annuel_Inclusion_Financiere_2024.pdf",
+    "relative_path": "Quantitative Datasets - Clean/Rapport_Annuel_Inclusion_Financiere_2024.pdf",
+    "bytes": 6037990,
+    "sha256": "2c73d545830dcb1b9e415c29662169b637dca595e6535a6b9f0ce4c97a2eddb0"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\Reglement-01-24-Portant-sur-la-distribution-et-la-gestion-du-contrat-dassurance-par-voie-numerique-electronique.pdf",
+    "relative_path": "Quantitative Datasets - Clean/Reglement-01-24-Portant-sur-la-distribution-et-la-gestion-du-contrat-dassurance-par-voie-numerique-electronique.pdf",
+    "bytes": 2607226,
+    "sha256": "3ee8a48bbc6317b0dabf95a20777079f8747e710d3d9a5d10830a25c2730b617"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\WDI_CSV\\WDIcountry-series.csv",
+    "relative_path": "Quantitative Datasets - Clean/WDI_CSV/WDIcountry-series.csv",
+    "bytes": 1362558,
+    "sha256": "bac1c8404e89dc8ef1488bdd60f7bad37b2040a8acc97bdd3067056e6257cc46"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\WDI_CSV\\WDICountry.csv",
+    "relative_path": "Quantitative Datasets - Clean/WDI_CSV/WDICountry.csv",
+    "bytes": 156476,
+    "sha256": "51a28611df941dc10f6bcabcbb0e859ee5aae311f302b26561b5c4187cddce34"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\WDI_CSV\\WDICSV.csv",
+    "relative_path": "Quantitative Datasets - Clean/WDI_CSV/WDICSV.csv",
+    "bytes": 77332480,
+    "sha256": "865db0559148c10064c0064f7d316a733498a37aae19e533b64361cce0eb9ab5"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\WDI_CSV\\WDIfootnote.csv",
+    "relative_path": "Quantitative Datasets - Clean/WDI_CSV/WDIfootnote.csv",
+    "bytes": 76824428,
+    "sha256": "bb84c95ce40eb365fda65a5fcd799664f433e56dc89223ba35cb217c27a60d94"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\WDI_CSV\\WDIseries-time.csv",
+    "relative_path": "Quantitative Datasets - Clean/WDI_CSV/WDIseries-time.csv",
+    "bytes": 14388,
+    "sha256": "8a0dc3204a25075d58fbfa1b856cf0cba1a82bb72d50cc0542672a5375923a57"
+  },
+  {
+    "category": "datasets",
+    "path": "D:\\Projet\\SOUTENANCE\\Quantitative_Datasets_Clean_Final\\Quantitative Datasets - Clean\\WDI_CSV\\WDISeries.csv",
+    "relative_path": "Quantitative Datasets - Clean/WDI_CSV/WDISeries.csv",
+    "bytes": 5961768,
+    "sha256": "33b1b3813921e63f3ba9df816298d1b06641855ebe988700e91bc8afa1cad077"
+  },
+  {
+    "category": "paper_pdf",
+    "path": "D:\\Projet\\SOUTENANCE\\POC_ARCCRAFT\\output\\pdf\\ARCCRAFT_Procedural_Stress_Testing.pdf",
+    "relative_path": "ARCCRAFT_Procedural_Stress_Testing.pdf",
+    "bytes": 2312776,
+    "sha256": "7097a5566ef1477c573582c65f3fe4e65a3668176474c60d9085a64e5cdf024c"
+  }
+]

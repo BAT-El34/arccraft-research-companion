@@ -1,0 +1,22 @@
+{
+  "status": 200,
+  "url": "https://actuarial-digital-dashboard-rd-v3.vercel.app/api/health",
+  "retrieved_at": "2026-09-25T09:47:20.161316+00:00",
+  "headers": {
+    "Age": "0",
+    "Cache-Control": "public, max-age=0, must-revalidate",
+    "Content-Length": "55",
+    "Content-Type": "application/json",
+    "Date": "Fri, 25 Sep 2026 09:44:11 GMT",
+    "Server": "Vercel",
+    "Strict-Transport-Security": "max-age=63072000; includeSubDomains; preload",
+    "X-Vercel-Cache": "MISS",
+    "X-Vercel-Id": "cpt1::iad1::t7fnv-1790329640204-1a0e6d595e25",
+    "Connection": "close"
+  },
+  "body": {
+    "status": "ok",
+    "api_version": "2.1.0",
+    "data_store": true
+  }
+}

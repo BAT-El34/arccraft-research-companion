@@ -1,0 +1,4 @@
+08_EMPIRICAL_BENCHMARK.ipynb:cell5:26: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+08_EMPIRICAL_BENCHMARK.ipynb:cell9:48: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+08_EMPIRICAL_BENCHMARK.ipynb:cell12:50: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+08_EMPIRICAL_BENCHMARK.ipynb:cell15:27: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown

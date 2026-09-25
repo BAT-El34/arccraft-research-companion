@@ -1,0 +1,218 @@
+diff --git a/.gitignore b/.gitignore
+index 0f6234f..cd98daa 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -1 +1,3 @@
+ data/platform.db
++__pycache__/
++*.py[cod]
+diff --git a/backend/engine/arccraft_engine.py b/backend/engine/arccraft_engine.py
+index 07093a0..f2a5218 100644
+--- a/backend/engine/arccraft_engine.py
++++ b/backend/engine/arccraft_engine.py
+@@ -199,6 +199,17 @@ def construire_flux_nommes(seed_master: int = SEED_MASTER) -> dict[str, np.rando
+     }
+ 
+ 
++def decrire_flux_nommes(flux_nommes: dict[str, np.random.Generator]) -> dict[str, dict[str, Any]]:
++    """Expose des identifiants de sous-flux stables sans sérialiser leur état interne."""
++    return {
++        nom: {
++            "algorithme": type(rng.bit_generator).__name__,
++            "spawn_key": list(rng.bit_generator.seed_seq.spawn_key),
++        }
++        for nom, rng in flux_nommes.items()
++    }
++
++
+ # ---------------------------------------------------------------------------
+ # Génération de la grammaire de mondes (vectorisée sur N mondes)
+ # ---------------------------------------------------------------------------
+@@ -301,6 +312,7 @@ def simuler_trajectoires(
+     produit: dict[str, Any], mondes: Mondes, validation: ResultatValidation,
+     flux_claims: np.random.Generator, flux_behaviour: np.random.Generator,
+     t_periodes: int = T_PERIODES,
++    activer_transitions: bool = True,
+ ) -> list[ResultatMonde]:
+     """Simule chaque monde accepté (PASS/REPAIR) sur douze périodes et
+     applique la porte non compensatoire de traçabilité avant lecture du
+@@ -309,7 +321,9 @@ def simuler_trajectoires(
+     accepte = validation.statut != "REJECT"
+     idx_acceptes = np.where(accepte)[0]
+ 
+-    etat = validation.etat_valide
++    # Les trajectoires sont un état de travail. Ne jamais modifier l'objet de
++    # validation : il doit rester réutilisable pour les contrôles et replays.
++    etat = {var: valeurs.copy() for var, valeurs in validation.etat_valide.items()}
+     freq_an = 12
+     resultats: list[ResultatMonde] = []
+ 
+@@ -358,10 +372,12 @@ def simuler_trajectoires(
+         )
+         trace_cum += np.where(accepte, tracabilite_periode, 0.0)
+ 
+-        # Dérive légère des variables d'état d'une période à l'autre
+-        # (AR(1) faible retour vers l'état choqué, bruit de comportement).
+-        for var in VARIABLES_ETAT:
+-            etat[var] = etat[var] + flux_behaviour.normal(0.0, 0.01, size=n)
++        if activer_transitions:
++            # Dérive légère des variables d'état d'une période à l'autre.
++            # Le commutateur sert aux ablations documentées ; la valeur par
++            # défaut conserve le comportement versionné du moteur.
++            for var in VARIABLES_ETAT:
++                etat[var] = etat[var] + flux_behaviour.normal(0.0, 0.01, size=n)
+ 
+     frais = produit["expense_ratio"] * primes_cum
+     commissions = produit["commission_ratio"] * primes_cum
+@@ -419,17 +435,21 @@ def agreger_par_classe(resultats: list[ResultatMonde]) -> dict[str, dict[str, fl
+     return rapport
+ 
+ 
+-def construire_failure_atlas(resultats: list[ResultatMonde], flux_nommes: dict[str, str]) -> list[dict[str, Any]]:
+-    """Relie chaque échec à sa seed nommée, son régime et la porte ratée."""
++def construire_failure_atlas(
++    resultats: list[ResultatMonde], seed_master: int,
++    flux_nommes: dict[str, Any],
++) -> list[dict[str, Any]]:
++    """Relie chaque échec ou rejet à sa seed, son régime et sa porte."""
+     atlas = []
+     for r in resultats:
+-        if r.succes or r.statut_validation == "REJECT":
++        if r.succes:
+             continue
+         atlas.append({
+             "world_id": r.world_id, "regime": r.regime, "regime_label": REGIMES.get(r.regime, r.regime),
+             "classe": r.classe, "porte_ratee": r.porte_ratee,
+-            "combined_ratio": r.combined_ratio, "tracabilite_score": r.tracabilite_score,
+-            "seed_master": SEED_MASTER, "sous_flux": flux_nommes,
++            "combined_ratio": r.combined_ratio if np.isfinite(r.combined_ratio) else None,
++            "tracabilite_score": r.tracabilite_score if np.isfinite(r.tracabilite_score) else None,
++            "seed_master": int(seed_master), "sous_flux": flux_nommes,
+         })
+     return atlas
+ 
+@@ -479,13 +499,19 @@ def cribler_variables(resultats: list[ResultatMonde], mondes: Mondes, validation
+ # ---------------------------------------------------------------------------
+ 
+ def recherche_stress_inverse(
+-    produit: dict[str, Any], flux_nommes: dict[str, np.random.Generator],
++    produit: dict[str, Any], seed_master: int = SEED_MASTER,
+     n_perturbations: int = 500, pas_max: float = 2.5,
+ ) -> dict[str, Any] | None:
+     """Explore des perturbations croissantes autour du scénario central
+     (régime B0) et retient l'échec le plus proche selon une distance
+     standardisée — pas un optimum global."""
+-    rng_world = np.random.default_rng(flux_nommes["world"].bit_generator.seed_seq.spawn(1)[0])
++    # Domaine de seed dédié : le résultat ne dépend pas de la consommation
++    # antérieure des flux de la simulation principale.
++    seq_reverse = np.random.SeedSequence([int(seed_master), 0xAACC])
++    seq_world, seq_claims, seq_behaviour = seq_reverse.spawn(3)
++    rng_world = np.random.Generator(np.random.PCG64(seq_world))
++    rng_claims = np.random.Generator(np.random.PCG64(seq_claims))
++    rng_behaviour = np.random.Generator(np.random.PCG64(seq_behaviour))
+     n = n_perturbations
+     pas = np.linspace(0.05, pas_max, n)
+ 
+@@ -504,7 +530,7 @@ def recherche_stress_inverse(
+     mondes = Mondes(n=n, regime=regime, classe=classe, etat=etat)
+     validation = valider_mondes(mondes)
+     resultats = simuler_trajectoires(
+-        produit, mondes, validation, flux_nommes["claims"], flux_nommes["behaviour"],
++        produit, mondes, validation, rng_claims, rng_behaviour,
+     )
+ 
+     echecs = [(i, r, ecarts_std[i]) for i, r in enumerate(resultats) if not r.succes and r.statut_validation != "REJECT"]
+@@ -630,10 +656,10 @@ def main() -> None:
+     resultats = simuler_trajectoires(product, mondes, validation, flux["claims"], flux["behaviour"])
+ 
+     rapport_classes = agreger_par_classe(resultats)
+-    atlas = construire_failure_atlas(resultats, {k: str(k) for k in flux})
++    atlas = construire_failure_atlas(resultats, args.seed, decrire_flux_nommes(flux))
+     synthese_atlas = synthese_failure_atlas(atlas)
+     criblage = cribler_variables(resultats, mondes, validation)
+-    stress_inverse = recherche_stress_inverse(product, flux)
++    stress_inverse = recherche_stress_inverse(product, args.seed)
+     readiness = evaluer_readiness()
+ 
+     imprimer_rapport(rapport_classes, synthese_atlas, criblage, stress_inverse, readiness)
+diff --git a/backend/model_service.py b/backend/model_service.py
+index 6945996..895222c 100644
+--- a/backend/model_service.py
++++ b/backend/model_service.py
+@@ -118,10 +118,10 @@ def arccraft_synthetic(n_worlds: int=10_000, seed: int=20260825) -> dict[str,Any
+     validation=arccraft.valider_mondes(mondes)
+     resultats=arccraft.simuler_trajectoires(arccraft.product,mondes,validation,flux["claims"],flux["behaviour"])
+     classes=arccraft.agreger_par_classe(resultats)
+-    atlas=arccraft.construire_failure_atlas(resultats,{k:str(k) for k in flux})
++    atlas=arccraft.construire_failure_atlas(resultats,seed,arccraft.decrire_flux_nommes(flux))
+     atlas_summary=arccraft.synthese_failure_atlas(atlas)
+     correlations=arccraft.cribler_variables(resultats,mondes,validation)
+-    reverse=arccraft.recherche_stress_inverse(arccraft.product,flux)
++    reverse=arccraft.recherche_stress_inverse(arccraft.product,seed)
+     readiness=arccraft.evaluer_readiness()
+     status_counts={s:int(np.sum(validation.statut==s)) for s in ("PASS","REPAIR","REJECT")}
+     return {
+diff --git a/scripts/verify_backend.py b/scripts/verify_backend.py
+index 10567b5..22c0813 100644
+--- a/scripts/verify_backend.py
++++ b/scripts/verify_backend.py
+@@ -5,11 +5,14 @@ import sqlite3
+ import sys
+ from pathlib import Path
+ 
++import numpy as np
++
+ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+ 
+ from fastapi.testclient import TestClient
+ from backend.app import app
+ from backend import data_service
++from backend.engine import arccraft_engine as arccraft
+ 
+ c = TestClient(app)
+ checks: list[tuple[str, bool, str]] = []
+@@ -77,6 +80,44 @@ r = c.post('/api/arccraft/simulate', json={'n_worlds':300,'seed':20260825})
+ arc = r.json()
+ check('ARCCRAFT synthetic simulation', r.status_code == 200 and sum(arc.get('validation_status',{}).values()) == 300 and 'scenario_classes' in arc and 'top_correlations' in arc, r.text[:240])
+ 
++# Reproducibility invariants required by the research protocol.
++test_seed = 314159
++flux_a = arccraft.construire_flux_nommes(test_seed)
++mondes_a = arccraft.generer_mondes(flux_a['world'], n=120)
++validation_a = arccraft.valider_mondes(mondes_a)
++etat_avant = {k: v.copy() for k, v in validation_a.etat_valide.items()}
++resultats_a = arccraft.simuler_trajectoires(
++    arccraft.product, mondes_a, validation_a, flux_a['claims'], flux_a['behaviour']
++)
++check('ARCCRAFT validation state is immutable during simulation', all(np.array_equal(etat_avant[k], validation_a.etat_valide[k]) for k in etat_avant))
++
++flux_b = arccraft.construire_flux_nommes(test_seed)
++mondes_b = arccraft.generer_mondes(flux_b['world'], n=120)
++validation_b = arccraft.valider_mondes(mondes_b)
++resultats_b = arccraft.simuler_trajectoires(
++    arccraft.product, mondes_b, validation_b, flux_b['claims'], flux_b['behaviour']
++)
++same_labels = all(
++    (a.regime, a.classe, a.statut_validation, a.porte_ratee) ==
++    (b.regime, b.classe, b.statut_validation, b.porte_ratee)
++    for a, b in zip(resultats_a, resultats_b)
++)
++same_metrics = np.allclose(
++    [(x.combined_ratio, x.tracabilite_score) for x in resultats_a],
++    [(x.combined_ratio, x.tracabilite_score) for x in resultats_b],
++    rtol=0.0, atol=0.0, equal_nan=True,
++)
++check('ARCCRAFT exact same-seed replay', same_labels and same_metrics)
++
++atlas_test = arccraft.construire_failure_atlas(
++    resultats_a, test_seed, arccraft.decrire_flux_nommes(flux_a)
++)
++check('Failure Atlas records executed seed', all(x['seed_master'] == test_seed for x in atlas_test))
++rejet = arccraft.ResultatMonde(999, 'B0', 'EXPLORATORY', 'REJECT', float('nan'), float('nan'), 'rejete_avant_simulation', False)
++atlas_rejet = arccraft.construire_failure_atlas([rejet], test_seed, {})
++check('Failure Atlas retains structural rejects', arccraft.synthese_failure_atlas(atlas_rejet)['mondes_rejetes_avant_simulation'] == 1)
++check('Failure Atlas reject is strict-JSON compatible', atlas_rejet[0]['combined_ratio'] is None and atlas_rejet[0]['tracabilite_score'] is None)
++
+ r = c.post('/api/arccraft/motor-stress', json={'start_year':2022,'end_year':2023,'projection_year':2024,'n_simulations':2000,'seed':42,'frequency_multiplier':1.0,'severity_multiplier':1.0,'expense_ratio':None,'commission_ratio':None})
+ motor = r.json()
+ pred_claims = motor.get('predicted_claim_count',{}).get('mean')

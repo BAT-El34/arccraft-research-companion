@@ -1,0 +1,3 @@
+calibration,target,observed_claims,predicted_claims,claim_error_pct,claims_in_95_interval,observed_incurred,predicted_incurred,incurred_error_pct,incurred_in_95_interval
+2022-2022,2023,25158.0,24899.12658,-1.0289904602909608,True,23488354.354,24122995.806205966,2.701940896501715,False
+2022-2023,2024,39276.0,38341.0563,-2.3804453101130547,False,38106351.28,36248443.38593461,-4.875585910636647,False

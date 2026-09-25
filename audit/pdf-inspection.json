@@ -1,0 +1,24 @@
+{
+  "pages": 24,
+  "sha256": "7097a5566ef1477c573582c65f3fe4e65a3668176474c60d9085a64e5cdf024c",
+  "metadata": {
+    "/Producer": "pdfTeX-1.40.28",
+    "/Author": "",
+    "/Title": "",
+    "/Subject": "",
+    "/Creator": "LaTeX with hyperref",
+    "/Keywords": "",
+    "/CreationDate": "D:20260925075835Z",
+    "/ModDate": "D:20260925075835Z",
+    "/Trapped": "/False",
+    "/PTEX.Fullbanner": "This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) kpathsea version 6.4.1"
+  },
+  "findings": {
+    "1.68": true,
+    "-4.86": false,
+    "3,588": true,
+    "38,340": false,
+    "38340": false
+  },
+  "method": "Read-only PDF text extraction; not visual page validation"
+}

@@ -1,0 +1,104 @@
+{
+  "schema_version": "arccraft-motor-external-1.0",
+  "mode": "PUBLIC_EXTERNAL / EXPERIMENTAL_CALIBRATION",
+  "seed": 42,
+  "simulations": 50000,
+  "calibration_period": [
+    2022,
+    2023
+  ],
+  "projection_year": 2024,
+  "assumptions": {
+    "frequency_multiplier": 1.0,
+    "severity_multiplier": 1.0,
+    "expense_ratio": null,
+    "commission_ratio": null
+  },
+  "calibration": {
+    "period": {
+      "start_year": 2022,
+      "end_year": 2023
+    },
+    "policy_rows": 186007,
+    "exposure": 124311.53424657533,
+    "premium": 54042236.42652575,
+    "claims": 37823.0,
+    "incurred": 35758459.409,
+    "claim_frequency": 0.3042597795066791,
+    "average_severity": 945.4157366946039,
+    "loss_ratio": 0.6616761587506869,
+    "severity_proxy": {
+      "distribution": "lognormal",
+      "mu_log": 6.236753746297977,
+      "mu_log_raw": 6.364312101636903,
+      "sigma_log": 1.1089373449061706,
+      "method": "sigma from claim-weighted log policy-year average severity; mu re-centred so lognormal mean equals observed aggregate average severity"
+    },
+    "status": "PUBLIC_EXTERNAL / EXPERIMENTAL_CALIBRATION",
+    "limitations": [
+      "The dataset is an external public motor portfolio and is not automatically transferable to Togo, Mixx by Yas or the CIMA market.",
+      "Severity is observed as incurred amount aggregated by policy-year, not individual claim transactions.",
+      "Expense and commission ratios are not calibrated from this dataset and must not be inferred from premium/claim fields."
+    ]
+  },
+  "observed_projection_year": {
+    "period": {
+      "start_year": 2024,
+      "end_year": 2024
+    },
+    "policy_rows": 168133,
+    "exposure": 126014.36438356164,
+    "premium": 51037433.00066149,
+    "claims": 39276.0,
+    "incurred": 38106351.28,
+    "claim_frequency": 0.31167875338760576,
+    "average_severity": 970.2197596496588,
+    "loss_ratio": 0.7466353427200405,
+    "severity_proxy": {
+      "distribution": "lognormal",
+      "mu_log": 6.2912164675312905,
+      "mu_log_raw": 6.397525452265884,
+      "sigma_log": 1.0828722312867571,
+      "method": "sigma from claim-weighted log policy-year average severity; mu re-centred so lognormal mean equals observed aggregate average severity"
+    },
+    "status": "PUBLIC_EXTERNAL / EXPERIMENTAL_CALIBRATION",
+    "limitations": [
+      "The dataset is an external public motor portfolio and is not automatically transferable to Togo, Mixx by Yas or the CIMA market.",
+      "Severity is observed as incurred amount aggregated by policy-year, not individual claim transactions.",
+      "Expense and commission ratios are not calibrated from this dataset and must not be inferred from premium/claim fields."
+    ]
+  },
+  "predicted_claim_count": {
+    "mean": 38341.0563,
+    "q025": 37959.0,
+    "q50": 38341.0,
+    "q975": 38724.0
+  },
+  "predicted_incurred": {
+    "mean": 36248443.38593461,
+    "q025": 35574691.08295452,
+    "q50": 36248415.90797611,
+    "q975": 36919640.897579476
+  },
+  "predicted_loss_ratio": {
+    "mean": 0.7102324951465486,
+    "q025": 0.6970313550545035,
+    "q50": 0.7102319567582152,
+    "q975": 0.7233835780318528
+  },
+  "combined_ratio": null,
+  "validation": {
+    "observed_claims": 39276.0,
+    "observed_incurred": 38106351.28,
+    "observed_loss_ratio": 0.7466353427200405,
+    "claim_count_error_pct": -2.3804453101130547,
+    "incurred_error_pct": -4.875585910636647,
+    "observed_claims_in_95_interval": false,
+    "observed_incurred_in_95_interval": false
+  },
+  "limitations": [
+    "External public motor portfolio; not automatically transferable to Togo, Mixx by Yas or the CIMA market.",
+    "Policy-year incurred amount is not individual-claim severity; the lognormal calibration is an experimental proxy.",
+    "Expense and commission ratios are returned as NOT_AVAILABLE unless explicitly supplied as scenario assumptions."
+  ]
+}

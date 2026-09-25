@@ -1,0 +1,10 @@
+column,levels,top_level,top_share,blank_count,na_sentinel_count
+policy_type,5,CC,0.5778392726040549,0,0
+business_type,2,NB,0.6930507708815723,0,0
+payment_frequency,3,A,0.8129468571751285,0,0
+bonus_score,3,G,0.964474501609533,0,0
+fuel_type,3,D,0.6393008414751228,0,1287
+vehicle_brand,68,RENAULT,0.09700683345569548,0,0
+municipality_type,3,I,0.6455554300559101,0,0
+circulation_area,2,U,0.537945445304117,0,0
+policy_status,2,A,0.8917716157451855,0,0

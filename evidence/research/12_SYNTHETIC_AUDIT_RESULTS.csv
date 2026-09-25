@@ -1,0 +1,4 @@
+configuration,PASS,REPAIR,REJECT,accepted,failure_rate_accepted,mean_combined_ratio,mean_traceability,atlas_rows,input_state_immutable
+repair / master seed,2397,603,0,3000,0.3456666666666667,0.4448327737526712,0.9226405975858979,1037,True
+repair / alternate seed,2363,636,1,2999,0.37012337445815274,0.44448543074418445,0.9171539523874161,1111,True
+strict reject repairs / master seed,2397,0,603,2397,0.35210680016687523,0.4367618841400664,0.9262956128406247,1447,True

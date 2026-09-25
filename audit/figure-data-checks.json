@@ -1,0 +1,131 @@
+{
+  "scope": "Key numeric arrays of figures 2-7 checked against research CSVs / reconstructed canonical; does not certify rendered pixels or every annotation. Figure1 is conceptual. Figure8 excluded from future product.",
+  "checks": [
+    {
+      "check": "Figure2 rows",
+      "passed": true,
+      "absolute_tolerance": 0
+    },
+    {
+      "check": "Figure2 claim_frequency",
+      "passed": true,
+      "absolute_tolerance": 5e-06
+    },
+    {
+      "check": "Figure2 loss_ratio",
+      "passed": true,
+      "absolute_tolerance": 5e-06
+    },
+    {
+      "check": "Figure3 claim_error 2023",
+      "passed": true,
+      "absolute_tolerance": 5e-05
+    },
+    {
+      "check": "Figure3 incurred_error 2023",
+      "passed": true,
+      "absolute_tolerance": 5e-05
+    },
+    {
+      "check": "Figure3 claim_deviance 2023",
+      "passed": true,
+      "absolute_tolerance": 5e-06
+    },
+    {
+      "check": "Figure3 incurred_deviance 2023",
+      "passed": true,
+      "absolute_tolerance": 5e-05
+    },
+    {
+      "check": "Figure3 claim_error 2024",
+      "passed": true,
+      "absolute_tolerance": 5e-05
+    },
+    {
+      "check": "Figure3 incurred_error 2024",
+      "passed": false,
+      "absolute_tolerance": 5e-05
+    },
+    {
+      "check": "Figure3 claim_deviance 2024",
+      "passed": true,
+      "absolute_tolerance": 5e-06
+    },
+    {
+      "check": "Figure3 incurred_deviance 2024",
+      "passed": true,
+      "absolute_tolerance": 5e-05
+    },
+    {
+      "check": "Figure4 count_op 2023",
+      "passed": true,
+      "absolute_tolerance": 5e-06
+    },
+    {
+      "check": "Figure4 incurred_op 2023",
+      "passed": true,
+      "absolute_tolerance": 5e-06
+    },
+    {
+      "check": "Figure4 count_op 2024",
+      "passed": true,
+      "absolute_tolerance": 5e-06
+    },
+    {
+      "check": "Figure4 incurred_op 2024",
+      "passed": true,
+      "absolute_tolerance": 5e-06
+    },
+    {
+      "check": "Figure5 surface",
+      "passed": true,
+      "absolute_tolerance": 5e-06
+    },
+    {
+      "check": "Figure6 accepted worlds",
+      "passed": true,
+      "absolute_tolerance": 0
+    },
+    {
+      "check": "Figure6 failure rates percent",
+      "passed": true,
+      "absolute_tolerance": 0.005
+    },
+    {
+      "check": "Figure6 atlas",
+      "passed": true,
+      "absolute_tolerance": 0
+    },
+    {
+      "check": "Figure7 failure_accepted_mean",
+      "passed": true,
+      "absolute_tolerance": 5e-05
+    },
+    {
+      "check": "Figure7 failure_accepted_sd",
+      "passed": true,
+      "absolute_tolerance": 5e-05
+    },
+    {
+      "check": "Figure7 failure_or_reject_mean",
+      "passed": true,
+      "absolute_tolerance": 5e-05
+    },
+    {
+      "check": "Figure7 failure_or_reject_sd",
+      "passed": true,
+      "absolute_tolerance": 5e-05
+    },
+    {
+      "check": "Figure7 runtime_mean",
+      "passed": true,
+      "absolute_tolerance": 5e-05
+    },
+    {
+      "check": "Figure7 runtime_sd",
+      "passed": true,
+      "absolute_tolerance": 5e-05
+    }
+  ],
+  "all_passed": false
+}

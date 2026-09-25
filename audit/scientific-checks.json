@@ -1,0 +1,103 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "15 registered fingerprints match original paper evidence",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "15 same-seed fingerprint replays",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "All non-timing ablation columns match",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Isolation fingerprints match paper evidence",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Canonical raw full precision serialization identical on repeat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Validator arrays immutable",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Canonical PASS REPAIR REJECT counts",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Atlas includes 3588 traceability, one ratio failure and five rejects",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Atlas JSON strict",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Reverse stress matches manuscript rounding",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Atlas records actual nondefault seed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "25 registered motor stress means and intervals",
+      "passed": true,
+      "detail": {
+        "rtol": 1e-12,
+        "atol": 1e-12
+      }
+    },
+    {
+      "name": "Motor registered 2024 forecast",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "2024 observed counts and incurred",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "Partial external validation remains explicit",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "canonical_fingerprint_rounded_12": "61616d6739a13b3fb5f53b9d6df04790db4cc744dbd0ba4bca49be86ecf23cf6",
+  "canonical_raw_semantic_sha256": "eaaee90c1b0c7e8a5ee5dccc95013dda8a7db08f0ee0e63085df7dd444b9650d",
+  "engine_sha256": "1b951fafe742546f394f7312f6e40fea45622047716879d29f0ba32366421ffb",
+  "runtime": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "executable": "C:\\Users\\HP\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "architecture": "AMD64",
+    "dependencies": {
+      "numpy": "2.3.5",
+      "pandas": "3.0.1",
+      "scipy": "1.18.1",
+      "matplotlib": "3.11.2",
+      "fastapi": "0.141.1",
+      "nbclient": "0.11.0",
+      "nbformat": "5.11.1"
+    }
+  },
+  "timing_policy": "Original observed timings are historical evidence. New wall times are not equality targets and ran under concurrent audit load.",
+  "fingerprint_contract": "Historical paper SHA-256 rounds combined_ratio and tracabilite_score to 12 decimal places; raw full precision equality separately tested for the canonical run only."
+}

@@ -1,0 +1,260 @@
+{
+  "passed": true,
+  "source_sha256": "6a47d19d5278a049ea0aeaf39c955cc26068639bdc58cb4523b201e740f0faf4",
+  "rows": 354140,
+  "normalization_failures_reported": {
+    "vehicle_age": 2,
+    "age_driving_licence": 2,
+    "vehicle_value": 513
+  },
+  "rtol": 1e-10,
+  "atol": 1e-10,
+  "diagnostics": [
+    {
+      "target": 2023,
+      "frequency_converged": true,
+      "frequency_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "frequency_iterations": 161,
+      "frequency_training_observed": 12664.0,
+      "frequency_training_predicted": 12664.001432717974,
+      "severity_converged": true,
+      "severity_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "severity_iterations": 192,
+      "severity_training_observed": 12270105.055,
+      "severity_training_predicted": 12270100.199768506,
+      "n_features": 54,
+      "feature_names": [
+        "intercept",
+        "driver_age",
+        "vehicle_age",
+        "licence_value_proxy",
+        "log_vehicle_value",
+        "seats",
+        "log_power_to_weight",
+        "driver_age_squared",
+        "vehicle_age_squared",
+        "licence_value_proxy_squared",
+        "log_vehicle_value_squared",
+        "policy_type=COMP_E",
+        "policy_type=COMP_N",
+        "policy_type=TP",
+        "policy_type=TPG",
+        "policy_type=__OTHER__",
+        "business_type=P",
+        "business_type=__OTHER__",
+        "payment_frequency=Q",
+        "payment_frequency=S",
+        "payment_frequency=__OTHER__",
+        "bonus_score=B",
+        "bonus_score=N",
+        "bonus_score=__OTHER__",
+        "fuel_type=G",
+        "fuel_type=NA",
+        "fuel_type=__OTHER__",
+        "vehicle_brand=AUDI",
+        "vehicle_brand=BMW",
+        "vehicle_brand=CHEVROLET",
+        "vehicle_brand=CITROEN",
+        "vehicle_brand=FIAT",
+        "vehicle_brand=FORD",
+        "vehicle_brand=HONDA",
+        "vehicle_brand=HYUNDAI",
+        "vehicle_brand=KIA",
+        "vehicle_brand=MAZDA",
+        "vehicle_brand=MERCEDES",
+        "vehicle_brand=MITSUBISHI",
+        "vehicle_brand=NISSAN",
+        "vehicle_brand=OPEL",
+        "vehicle_brand=PEUGEOT",
+        "vehicle_brand=SEAT",
+        "vehicle_brand=SKODA",
+        "vehicle_brand=SUZUKI",
+        "vehicle_brand=TOYOTA",
+        "vehicle_brand=VOLKSWAGEN",
+        "vehicle_brand=VOLVO",
+        "vehicle_brand=__OTHER__",
+        "municipality_type=C",
+        "municipality_type=IS",
+        "municipality_type=__OTHER__",
+        "circulation_area=R",
+        "circulation_area=__OTHER__"
+      ]
+    },
+    {
+      "target": 2024,
+      "frequency_converged": true,
+      "frequency_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "frequency_iterations": 182,
+      "frequency_training_observed": 37822.0,
+      "frequency_training_predicted": 37821.96822881031,
+      "severity_converged": true,
+      "severity_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+      "severity_iterations": 279,
+      "severity_training_observed": 35758459.408999994,
+      "severity_training_predicted": 35758453.85001158,
+      "n_features": 63,
+      "feature_names": [
+        "intercept",
+        "driver_age",
+        "vehicle_age",
+        "licence_value_proxy",
+        "log_vehicle_value",
+        "seats",
+        "log_power_to_weight",
+        "driver_age_squared",
+        "vehicle_age_squared",
+        "licence_value_proxy_squared",
+        "log_vehicle_value_squared",
+        "policy_type=COMP_E",
+        "policy_type=COMP_N",
+        "policy_type=TP",
+        "policy_type=TPG",
+        "policy_type=__OTHER__",
+        "business_type=P",
+        "business_type=__OTHER__",
+        "payment_frequency=Q",
+        "payment_frequency=S",
+        "payment_frequency=__OTHER__",
+        "bonus_score=B",
+        "bonus_score=N",
+        "bonus_score=__OTHER__",
+        "fuel_type=G",
+        "fuel_type=NA",
+        "fuel_type=__OTHER__",
+        "vehicle_brand=ALFA ROMEO",
+        "vehicle_brand=AUDI",
+        "vehicle_brand=BMW",
+        "vehicle_brand=CHEVROLET",
+        "vehicle_brand=CHRYSLER",
+        "vehicle_brand=CITROEN",
+        "vehicle_brand=DACIA",
+        "vehicle_brand=DAEWOO",
+        "vehicle_brand=FIAT",
+        "vehicle_brand=FORD",
+        "vehicle_brand=HONDA",
+        "vehicle_brand=HYUNDAI",
+        "vehicle_brand=JEEP",
+        "vehicle_brand=KIA",
+        "vehicle_brand=LAND ROVER",
+        "vehicle_brand=MAZDA",
+        "vehicle_brand=MERCEDES",
+        "vehicle_brand=MINI",
+        "vehicle_brand=MITSUBISHI",
+        "vehicle_brand=NISSAN",
+        "vehicle_brand=OPEL",
+        "vehicle_brand=PEUGEOT",
+        "vehicle_brand=ROVER",
+        "vehicle_brand=SEAT",
+        "vehicle_brand=SKODA",
+        "vehicle_brand=SSANGYONG",
+        "vehicle_brand=SUZUKI",
+        "vehicle_brand=TOYOTA",
+        "vehicle_brand=VOLKSWAGEN",
+        "vehicle_brand=VOLVO",
+        "vehicle_brand=__OTHER__",
+        "municipality_type=C",
+        "municipality_type=IS",
+        "municipality_type=__OTHER__",
+        "circulation_area=R",
+        "circulation_area=__OTHER__"
+      ]
+    }
+  ],
+  "checks": {
+    "benchmark": {
+      "calibration": {
+        "passed": true
+      },
+      "target": {
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      "model": {
+        "passed": true
+      },
+      "observed_claims": {
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      "predicted_claims": {
+        "passed": true,
+        "max_absolute_difference": 7.275957614183426e-12
+      },
+      "claim_error_pct": {
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      "claim_poisson_deviance": {
+        "passed": true,
+        "max_absolute_difference": 1.1102230246251565e-16
+      },
+      "claims_in_process_95_interval": {
+        "passed": true
+      },
+      "observed_incurred": {
+        "passed": true,
+        "max_absolute_difference": 3.725290298461914e-09
+      },
+      "predicted_incurred": {
+        "passed": true,
+        "max_absolute_difference": 3.725290298461914e-09
+      },
+      "incurred_error_pct": {
+        "passed": true,
+        "max_absolute_difference": 1.7763568394002505e-15
+      },
+      "incurred_poisson_deviance": {
+        "passed": true,
+        "max_absolute_difference": 2.2737367544323206e-13
+      },
+      "incurred_in_process_95_interval": {
+        "passed": true
+      },
+      "claim_q025": {
+        "passed": true,
+        "max_absolute_difference": 7.275957614183426e-12
+      },
+      "claim_q975": {
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      "incurred_q025": {
+        "passed": true,
+        "max_absolute_difference": 7.450580596923828e-09
+      },
+      "incurred_q975": {
+        "passed": true,
+        "max_absolute_difference": 0.0
+      }
+    },
+    "deciles": {
+      "target": {
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      "decile": {
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      "rows": {
+        "passed": true,
+        "max_absolute_difference": 0.0
+      },
+      "observed": {
+        "passed": true,
+        "max_absolute_difference": 2.3283064365386963e-10
+      },
+      "predicted": {
+        "passed": true,
+        "max_absolute_difference": 1.862645149230957e-09
+      },
+      "observed_to_predicted": {
+        "passed": true,
+        "max_absolute_difference": 2.220446049250313e-16
+      },
+      "metric": {
+        "passed": true
+      }
+    }
+  }
+}
