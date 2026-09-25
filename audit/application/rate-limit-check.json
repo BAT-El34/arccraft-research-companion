@@ -1,0 +1,26 @@
+[
+  {
+    "request": 1,
+    "status": 503,
+    "server": "Vercel",
+    "retry_after": null
+  },
+  {
+    "request": 2,
+    "status": 503,
+    "server": "Vercel",
+    "retry_after": null
+  },
+  {
+    "request": 3,
+    "status": 503,
+    "server": "Vercel",
+    "retry_after": null
+  },
+  {
+    "request": 4,
+    "status": 429,
+    "server": "Vercel",
+    "retry_after": null
+  }
+]

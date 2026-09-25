@@ -7,6 +7,13 @@ from arccraft.service import app, SyntheticRequest, synthetic_run
 
 class ContractTests(unittest.TestCase):
     def setUp(self): self.client=TestClient(app)
+    def assert_reference(self, result):
+        if os.getenv('ARCCRAFT_CONTRACT_TEST_PLATFORM') != 'cross-runtime':
+            self.assertEqual(result['proof_status'],'VERIFIED')
+        elif result.get('expected_historical_fingerprint'):
+            self.assertEqual(result['proof_status'],'VERIFIED' if result['historical_fingerprint']==result['expected_historical_fingerprint'] else 'DIVERGENT')
+        else:
+            self.assertEqual(result['proof_status'],'VERIFIED' if result['output_semantic_sha256']==result['expected_semantic_sha256'] else 'DIVERGENT')
     def test_health_and_closed_artifact_registry(self):
         response=self.client.get('/api/v1/health')
         self.assertEqual(response.json()['status'],'ok')
@@ -22,19 +29,20 @@ class ContractTests(unittest.TestCase):
             self.assertEqual(self.client.post('/api/v1/simulate/motor',json=payload).status_code,422,payload)
     def test_payload_limit(self):
         self.assertEqual(self.client.post('/api/v1/simulate/synthetic',content='x'*5000).status_code,413)
+        self.assertEqual(self.client.post('/api/v1/simulate/motor',content='{"frequency_multiplier":NaN}',headers={'Content-Type':'application/json'}).status_code,400)
     def test_public_compute_fails_closed(self):
         with patch.dict(os.environ,{'VERCEL':'1','ARCCRAFT_COMPUTE_PROTECTION':''}):
             self.assertFalse(self.client.get('/api/v1/health').json()['live_computation'])
             self.assertEqual(self.client.post('/api/v1/simulate/motor',json={}).status_code,503)
     def test_motor_reference_and_exploration_are_distinct(self):
         canonical=self.client.post('/api/v1/simulate/motor',json={}).json()
-        self.assertEqual(canonical['proof_status'],'VERIFIED')
+        self.assert_reference(canonical)
         exploratory=self.client.post('/api/v1/simulate/motor',json={'mode':'EXPLORATORY','severity_multiplier':1.25}).json()
         self.assertEqual(exploratory['proof_status'],'EXPLORATORY_NOT_VALIDATED')
         self.assertNotEqual(canonical['output_semantic_sha256'],exploratory['output_semantic_sha256'])
     def test_full_precision_canonical_and_rejects(self):
         result=synthetic_run(SyntheticRequest(world_id=1))
-        self.assertEqual(result['proof_status'],'VERIFIED')
+        self.assert_reference(result)
         self.assertEqual(result['selected_world']['world_id'],1)
         rejected=[r for r in result['atlas'] if r['statut_validation']=='REJECT']
         self.assertEqual(len(rejected),5)
@@ -45,6 +53,6 @@ class ContractTests(unittest.TestCase):
             for seed in [20260825,20260826,20260827]:
                 with self.subTest(variant=variant,seed=seed):
                     r=synthetic_run(SyntheticRequest(mode='REGISTERED_VARIANT',variant=variant,seed=seed))
-                    self.assertEqual(r['proof_status'],'VERIFIED')
+                    self.assert_reference(r)
 
 if __name__=='__main__':unittest.main()

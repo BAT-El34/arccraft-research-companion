@@ -1,0 +1,156 @@
+{
+  "policy": "Exact reference unchanged; no tolerance introduced. DIVERGENT remains DIVERGENT.",
+  "reference_environment": "Windows AMD64 / Python 3.12.14 / NumPy 2.3.5",
+  "synthetic": {
+    "runtime": {
+      "python": "3.12.14",
+      "numpy": "2.3.5"
+    },
+    "proof_status": "DIVERGENT",
+    "output_semantic_sha256": "d45a5e3a1e4d89e7c87671e4957adda9a4df37e14d50c0553aa8a9b696201803",
+    "expected_semantic_sha256": "eaaee90c1b0c7e8a5ee5dccc95013dda8a7db08f0ee0e63085df7dd444b9650d",
+    "historical_fingerprint": "61616d6739a13b3fb5f53b9d6df04790db4cc744dbd0ba4bca49be86ecf23cf6",
+    "historical_fingerprint_matches": true,
+    "numerical_fields_different": 15,
+    "max_absolute_difference": 2.220446049250313e-16,
+    "non_numerical_differences": [],
+    "examples": [
+      {
+        "path": "/967/combined_ratio",
+        "reference": 0.3948575980704578,
+        "actual": 0.3948575980704577,
+        "absolute_difference": 5.551115123125783e-17
+      },
+      {
+        "path": "/1082/combined_ratio",
+        "reference": 0.4054346226676678,
+        "actual": 0.40543462266766783,
+        "absolute_difference": 5.551115123125783e-17
+      },
+      {
+        "path": "/1851/combined_ratio",
+        "reference": 0.3958358972851551,
+        "actual": 0.39583589728515517,
+        "absolute_difference": 5.551115123125783e-17
+      },
+      {
+        "path": "/1916/combined_ratio",
+        "reference": 0.42352468161363943,
+        "actual": 0.4235246816136394,
+        "absolute_difference": 5.551115123125783e-17
+      },
+      {
+        "path": "/3519/combined_ratio",
+        "reference": 0.41235992244159014,
+        "actual": 0.4123599224415902,
+        "absolute_difference": 5.551115123125783e-17
+      },
+      {
+        "path": "/4448/combined_ratio",
+        "reference": 0.5447126764727847,
+        "actual": 0.5447126764727848,
+        "absolute_difference": 1.1102230246251565e-16
+      },
+      {
+        "path": "/4952/combined_ratio",
+        "reference": 0.6032505027502926,
+        "actual": 0.6032505027502928,
+        "absolute_difference": 2.220446049250313e-16
+      },
+      {
+        "path": "/5436/combined_ratio",
+        "reference": 0.4068677496321895,
+        "actual": 0.4068677496321896,
+        "absolute_difference": 5.551115123125783e-17
+      },
+      {
+        "path": "/5886/combined_ratio",
+        "reference": 0.4566166540194478,
+        "actual": 0.4566166540194479,
+        "absolute_difference": 1.1102230246251565e-16
+      },
+      {
+        "path": "/6533/combined_ratio",
+        "reference": 0.4355055416883276,
+        "actual": 0.43550554168832767,
+        "absolute_difference": 5.551115123125783e-17
+      },
+      {
+        "path": "/6713/combined_ratio",
+        "reference": 0.4519631271309235,
+        "actual": 0.45196312713092357,
+        "absolute_difference": 5.551115123125783e-17
+      },
+      {
+        "path": "/7000/combined_ratio",
+        "reference": 0.4505397933686074,
+        "actual": 0.4505397933686075,
+        "absolute_difference": 1.1102230246251565e-16
+      }
+    ],
+    "max_difference_examples": [
+      {
+        "path": "/4952/combined_ratio",
+        "reference": 0.6032505027502926,
+        "actual": 0.6032505027502928,
+        "absolute_difference": 2.220446049250313e-16
+      },
+      {
+        "path": "/4448/combined_ratio",
+        "reference": 0.5447126764727847,
+        "actual": 0.5447126764727848,
+        "absolute_difference": 1.1102230246251565e-16
+      },
+      {
+        "path": "/5886/combined_ratio",
+        "reference": 0.4566166540194478,
+        "actual": 0.4566166540194479,
+        "absolute_difference": 1.1102230246251565e-16
+      },
+      {
+        "path": "/7000/combined_ratio",
+        "reference": 0.4505397933686074,
+        "actual": 0.4505397933686075,
+        "absolute_difference": 1.1102230246251565e-16
+      },
+      {
+        "path": "/8865/combined_ratio",
+        "reference": 0.4623448319570852,
+        "actual": 0.4623448319570851,
+        "absolute_difference": 1.1102230246251565e-16
+      },
+      {
+        "path": "/967/combined_ratio",
+        "reference": 0.3948575980704578,
+        "actual": 0.3948575980704577,
+        "absolute_difference": 5.551115123125783e-17
+      },
+      {
+        "path": "/1082/combined_ratio",
+        "reference": 0.4054346226676678,
+        "actual": 0.40543462266766783,
+        "absolute_difference": 5.551115123125783e-17
+      },
+      {
+        "path": "/1851/combined_ratio",
+        "reference": 0.3958358972851551,
+        "actual": 0.39583589728515517,
+        "absolute_difference": 5.551115123125783e-17
+      }
+    ]
+  },
+  "motor": {
+    "runtime": {
+      "python": "3.12.14",
+      "numpy": "2.3.5"
+    },
+    "proof_status": "VERIFIED",
+    "output_semantic_sha256": "d1b2396807117a3f92b6c66f674723679cb7f0b0237f600212719fe00645bfe7",
+    "expected_semantic_sha256": "d1b2396807117a3f92b6c66f674723679cb7f0b0237f600212719fe00645bfe7",
+    "numerical_fields_different": 0,
+    "max_absolute_difference": 0,
+    "non_numerical_differences": [],
+    "examples": [],
+    "max_difference_examples": []
+  }
+}

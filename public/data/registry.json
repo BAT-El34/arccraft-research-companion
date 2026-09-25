@@ -401,6 +401,30 @@
       "release_status": "CANDIDATE"
     },
     {
+      "id": "requirements-runtime.lock",
+      "path": "requirements-runtime.lock",
+      "url": "/downloads/requirements-runtime.lock",
+      "sha256": "fdb1830cff1047343adfaaf6ec4cdc550a1fd49d310a189cc9d2b49ad810df74",
+      "bytes": 313,
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "version": "phase0-candidate-1",
+      "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "license": "AUTHOR_DECISION_PENDING",
+      "release_status": "CANDIDATE"
+    },
+    {
+      "id": "audit__application__vercel-cross-runtime.json",
+      "path": "audit/application/vercel-cross-runtime.json",
+      "url": "/downloads/audit/application/vercel-cross-runtime.json",
+      "sha256": "251bf1dd499e25a1c81af1ee2ef728edbe70c18d427fcb49b5d08d0dc93351da",
+      "bytes": 5267,
+      "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+      "version": "phase0-candidate-1",
+      "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "license": "AUTHOR_DECISION_PENDING",
+      "release_status": "CANDIDATE"
+    },
+    {
       "id": "publication__figure_package__figures__Figure1.png",
       "path": "publication/figure_package/figures/Figure1.png",
       "url": "/downloads/publication/figure_package/figures/Figure1.png",

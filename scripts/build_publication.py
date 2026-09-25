@@ -89,6 +89,8 @@ def build_registry():
         entries.append(item);return item
     sources=list((ROOT/'evidence/research').glob('*.csv'))+list((ROOT/'artifacts/candidate').glob('*'))
     sources += [ROOT/'artifacts/manifest.json',ROOT/'audit/claim-register.json',ROOT/'audit/scientific-checks.json',ROOT/'audit/notebook-output-comparison.json',ROOT/'requirements-replay.lock',ROOT/'publication/manuscript.md',ROOT/'publication/latex/references.bib']
+    for extra in ['requirements-runtime.lock','audit/application/vercel-cross-runtime.json']:
+        if (ROOT/extra).exists():sources.append(ROOT/extra)
     for p in sources: add(p, 'LOCAL_REPRODUCTION_VERIFIED' if 'candidate' in p.parts else 'ORIGINAL_RESEARCH_SNAPSHOT')
     titles=['Architecture and evidence boundaries','Portfolio and temporal shift','Matched temporal forecasts','Calibration and interval coverage','Frequency–severity stress surface','Scenario classes and failure gates','Ablations and stream isolation']
     titles_fr=['Architecture et frontières de preuve','Portefeuille et dérive temporelle','Prévisions temporelles comparées','Calibration et couverture des intervalles','Surface de stress fréquence–sévérité','Classes de scénarios et seuils d’échec','Ablations et isolation des flux']
@@ -121,7 +123,8 @@ def build_registry():
     write('artifacts/web-registry.json',registry);write('public/data/registry.json',registry)
     manuscript=(ROOT/'publication/manuscript.md').read_text(encoding='utf-8')
     abstract=manuscript.split('## Abstract')[1].split('**Keywords:**')[0].strip()
-    write('web/content.json',{'manifest':{k:v for k,v in manifest.items() if k!='artifacts'},'claims':claims,'figures':figures,'registry':registry,'abstract':abstract,'title':manuscript.splitlines()[0].removeprefix('# '),'motor':read('artifacts/candidate/motor-forecast.json'),'data':{k:v for k,v in data.items() if k not in ['schema','dictionary']}})
+    cross_runtime=read('audit/application/vercel-cross-runtime.json') if (ROOT/'audit/application/vercel-cross-runtime.json').exists() else None
+    write('web/content.json',{'crossRuntime':cross_runtime,'manifest':{k:v for k,v in manifest.items() if k!='artifacts'},'claims':claims,'figures':figures,'registry':registry,'abstract':abstract,'title':manuscript.splitlines()[0].removeprefix('# '),'motor':read('artifacts/candidate/motor-forecast.json'),'data':{k:v for k,v in data.items() if k not in ['schema','dictionary']}})
     title=manuscript.splitlines()[0].removeprefix('# ')
     (ROOT/'CITATION.cff').write_text(f'cff-version: 1.2.0\nmessage: "Please cite the scientific candidate; archive DOI pending."\ntype: software\ntitle: "{title}"\nversion: 0.1.0\nauthors:\n  - family-names: Batako\n    given-names: Elia\n  - family-names: Ntumba\n    given-names: Manuel\nrepository-code: "https://github.com/BAT-El34/arccraft-research-companion"\n',encoding='utf-8')
     citation_dir=ROOT/'public/citations';citation_dir.mkdir(parents=True,exist_ok=True)

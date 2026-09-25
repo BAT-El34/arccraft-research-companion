@@ -47,6 +47,11 @@ async def request_bounds(request: Request, call_next):
         body = await request.body()
         if len(body) > 4096:
             return JSONResponse({'detail': 'Payload too large.'}, status_code=413)
+        try:
+            def reject_nonfinite(token): raise ValueError('Non-finite JSON value')
+            json.loads(body, parse_constant=reject_nonfinite)
+        except (ValueError, UnicodeDecodeError):
+            return JSONResponse({'detail': 'A valid finite JSON body is required.'}, status_code=400)
         if not live_available():
             return JSONResponse({'detail': 'Public computation awaits qualification of shared rate limiting. Canonical artifacts and local replay remain available.'}, status_code=503)
     response = await call_next(request)
@@ -97,7 +102,7 @@ def identity():
             'calibration_version': MANIFEST['calibration_version'], 'engine_sha256': MANIFEST['engine_sha256'],
             'product_version': 'sha256:' + digest(e.product), 'release_tag': None,
             'schema_version': 'arccraft-web-run-1.0', 'release_status': 'CANDIDATE', 'archive_doi': None,
-            'runtime': {'python': platform.python_version(), 'numpy': np.__version__}}
+            'runtime': {'python': platform.python_version(), 'numpy': np.__version__, 'system': platform.system(), 'machine': platform.machine(), 'python_compiler': platform.python_compiler()}}
 
 @app.get('/api/v1/health')
 def health():
