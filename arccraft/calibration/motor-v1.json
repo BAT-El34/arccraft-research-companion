@@ -1,0 +1,110 @@
+{
+  "2022-2022": {
+    "period": {
+      "start_year": 2022,
+      "end_year": 2022
+    },
+    "policy_rows": 67172,
+    "exposure": 41912.49589041096,
+    "premium": 18697928.342009425,
+    "claims": 12665.0,
+    "incurred": 12270105.055,
+    "claim_frequency": 0.30217718441572433,
+    "average_severity": 968.8199806553494,
+    "loss_ratio": 0.6562280500044615,
+    "severity_proxy": {
+      "distribution": "lognormal",
+      "mu_log": 6.2823690139148605,
+      "mu_log_raw": 6.362714033234587,
+      "sigma_log": 1.0896878472658993,
+      "method": "sigma from claim-weighted log policy-year average severity; mu re-centred so lognormal mean equals observed aggregate average severity"
+    },
+    "status": "PUBLIC_EXTERNAL / EXPERIMENTAL_CALIBRATION",
+    "limitations": [
+      "The dataset is an external public motor portfolio and is not automatically transferable to Togo, Mixx by Yas or the CIMA market.",
+      "Severity is observed as incurred amount aggregated by policy-year, not individual claim transactions.",
+      "Expense and commission ratios are not calibrated from this dataset and must not be inferred from premium/claim fields."
+    ]
+  },
+  "2022-2023": {
+    "period": {
+      "start_year": 2022,
+      "end_year": 2023
+    },
+    "policy_rows": 186007,
+    "exposure": 124311.53424657533,
+    "premium": 54042236.42652575,
+    "claims": 37823.0,
+    "incurred": 35758459.409,
+    "claim_frequency": 0.3042597795066791,
+    "average_severity": 945.4157366946039,
+    "loss_ratio": 0.6616761587506869,
+    "severity_proxy": {
+      "distribution": "lognormal",
+      "mu_log": 6.236753746297977,
+      "mu_log_raw": 6.364312101636903,
+      "sigma_log": 1.1089373449061706,
+      "method": "sigma from claim-weighted log policy-year average severity; mu re-centred so lognormal mean equals observed aggregate average severity"
+    },
+    "status": "PUBLIC_EXTERNAL / EXPERIMENTAL_CALIBRATION",
+    "limitations": [
+      "The dataset is an external public motor portfolio and is not automatically transferable to Togo, Mixx by Yas or the CIMA market.",
+      "Severity is observed as incurred amount aggregated by policy-year, not individual claim transactions.",
+      "Expense and commission ratios are not calibrated from this dataset and must not be inferred from premium/claim fields."
+    ]
+  },
+  "2023-2023": {
+    "period": {
+      "start_year": 2023,
+      "end_year": 2023
+    },
+    "policy_rows": 118835,
+    "exposure": 82399.03835616438,
+    "premium": 35344308.084516324,
+    "claims": 25158.0,
+    "incurred": 23488354.354,
+    "claim_frequency": 0.30531909718722944,
+    "average_severity": 933.6336097464027,
+    "loss_ratio": 0.6645583299532691,
+    "severity_proxy": {
+      "distribution": "lognormal",
+      "mu_log": 6.213695764847863,
+      "mu_log_raw": 6.365106426544017,
+      "sigma_log": 1.1183812548798455,
+      "method": "sigma from claim-weighted log policy-year average severity; mu re-centred so lognormal mean equals observed aggregate average severity"
+    },
+    "status": "PUBLIC_EXTERNAL / EXPERIMENTAL_CALIBRATION",
+    "limitations": [
+      "The dataset is an external public motor portfolio and is not automatically transferable to Togo, Mixx by Yas or the CIMA market.",
+      "Severity is observed as incurred amount aggregated by policy-year, not individual claim transactions.",
+      "Expense and commission ratios are not calibrated from this dataset and must not be inferred from premium/claim fields."
+    ]
+  },
+  "2024-2024": {
+    "period": {
+      "start_year": 2024,
+      "end_year": 2024
+    },
+    "policy_rows": 168133,
+    "exposure": 126014.36438356164,
+    "premium": 51037433.00066149,
+    "claims": 39276.0,
+    "incurred": 38106351.28,
+    "claim_frequency": 0.31167875338760576,
+    "average_severity": 970.2197596496588,
+    "loss_ratio": 0.7466353427200405,
+    "severity_proxy": {
+      "distribution": "lognormal",
+      "mu_log": 6.2912164675312905,
+      "mu_log_raw": 6.397525452265884,
+      "sigma_log": 1.0828722312867571,
+      "method": "sigma from claim-weighted log policy-year average severity; mu re-centred so lognormal mean equals observed aggregate average severity"
+    },
+    "status": "PUBLIC_EXTERNAL / EXPERIMENTAL_CALIBRATION",
+    "limitations": [
+      "The dataset is an external public motor portfolio and is not automatically transferable to Togo, Mixx by Yas or the CIMA market.",
+      "Severity is observed as incurred amount aggregated by policy-year, not individual claim transactions.",
+      "Expense and commission ratios are not calibrated from this dataset and must not be inferred from premium/claim fields."
+    ]
+  }
+}
