@@ -1,0 +1,336 @@
+{
+  "checked_at": "2026-09-26T08:47:56.571118+00:00",
+  "url": "https://arccraft-research-companion.vercel.app",
+  "deployment_id": "dpl_5oBn43BZT45xH5JmaYC89vaMDQQE",
+  "vercel_environment": "production",
+  "scientific_release_status": "CANDIDATE",
+  "health": {
+    "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+    "build_commit": "cffc542a298189d2906e8939f47c2652c27527a7",
+    "engine_version": "0.1.0",
+    "grammar_version": "world_grammar-0.1.0",
+    "calibration_version": "motor-mendeley-v1-reconciled-20260925",
+    "engine_sha256": "1b951fafe742546f394f7312f6e40fea45622047716879d29f0ba32366421ffb",
+    "product_version": "sha256:0003f33c0d18cad6576bf0142f0c046bc39fddf40cbb5cc243ef0a120ecacc59",
+    "release_tag": null,
+    "schema_version": "arccraft-web-run-1.0",
+    "release_status": "CANDIDATE",
+    "archive_doi": null,
+    "runtime": {
+      "python": "3.12.14",
+      "numpy": "2.3.5",
+      "system": "Linux",
+      "machine": "x86_64",
+      "python_compiler": "GCC 11.5.0 20240719 (Red Hat 11.5.0-5)"
+    },
+    "status": "ok",
+    "live_computation": true,
+    "manifest_sha256": "78e59dec5381bfbf8b142c5174026d54d2d27069b819731696066987f2f75b30",
+    "public_rate_limit": "platform-rule"
+  },
+  "download_checks": [
+    {
+      "url": "/downloads/evidence/research/02_LITERATURE_EXTRACTION.csv",
+      "sha256": "d47e9b66e35ab80739b414b221546c69b47511de0b7973a750db599020c186cb",
+      "bytes": 24639,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/evidence/research/07_CLAIM_REGISTER.csv",
+      "sha256": "ba97d6ed3aa086bb1c8ac0261179e91d9b67371c7543656ecf7f8f92c8843fff",
+      "bytes": 10848,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/evidence/research/09_ROLLING_ORIGIN_RESULTS.csv",
+      "sha256": "00205cfda2dbeb60e05a46d806e76c21e03fb5b3f1a3a22023d48d122d8a9ddb",
+      "bytes": 404,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/evidence/research/10_BENCHMARK_RESULTS_2024.csv",
+      "sha256": "549e778f220049fdd1e63fbf6a657679f413ab61129ab98960cb0262d0896a8b",
+      "bytes": 537,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/evidence/research/11_STRESS_SURFACE_RESULTS.csv",
+      "sha256": "30954304e6396381eb32fc03fa34eabe2e39be1a7b70816116f63b232cd2c6c4",
+      "bytes": 1852,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/evidence/research/12_SYNTHETIC_AUDIT_RESULTS.csv",
+      "sha256": "7a8257eac777b0a4bffc4996a2a733f9ec8092b4e990fbe7992f4f9c42ff12bc",
+      "bytes": 472,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/evidence/research/13_SCENARIO_CLASS_RESULTS.csv",
+      "sha256": "7611438f70361ef235cec676d34b8e398618d7501631dd085f2aee8d06518c42",
+      "bytes": 448,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/evidence/research/14_FAILURE_ATLAS_COUNTS.csv",
+      "sha256": "d5f487e296aa7b4da1dd9cffab91bd08dd98713eeaeeb5747234d16972ef1bd1",
+      "bytes": 104,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/evidence/research/18_DATA_QUALITY_FINDINGS.csv",
+      "sha256": "a2a40cea0369ae6c4483905ca3a34b253c959763f62288f6f6c19abe5a25332c",
+      "bytes": 1234,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/evidence/research/19_POLICY_BENCHMARK_RESULTS.csv",
+      "sha256": "92bd7a187da51050c087f4fbafd7add7b18ba74bcd2e179ed17d7ab67c2dbc1e",
+      "bytes": 1873,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/evidence/research/20_POLICY_DECILE_CALIBRATION.csv",
+      "sha256": "7fb06c5f83fbe5a2e720f26a9a024162e04ca5725effdba81919ee52b8adb260",
+      "bytes": 2935,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/evidence/research/21_POLICY_MODEL_DIAGNOSTICS.csv",
+      "sha256": "5cadcfafa2d7560af9813d7e18928ffb10b0c63eb8043516c811dccd0bffda8b",
+      "bytes": 536,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/evidence/research/22_NUMERIC_PROFILE.csv",
+      "sha256": "225f9126e207c1c5cc4e34559ef3a9751382f1c7793618478c42f722d7df910c",
+      "bytes": 708,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/evidence/research/23_CATEGORY_PROFILE.csv",
+      "sha256": "5e01bb6b821fb1629562475fc3cd8016dd9a240322f6985f8318873f23b96e4d",
+      "bytes": 457,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/evidence/research/24_TEMPORAL_CATEGORY_SHIFT.csv",
+      "sha256": "6b8d0aaaa4a980b16670b22fea921944469bce86909d919ced15b8ad0abf7d66",
+      "bytes": 374,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/evidence/research/25_ARCCRAFT_ABLATION_RESULTS.csv",
+      "sha256": "7fbeb3c3b352743b41a9f086f40ebe7772dd70680bea00912716b805dd1ef82e",
+      "bytes": 5099,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/evidence/research/26_ARCCRAFT_ABLATION_SUMMARY.csv",
+      "sha256": "06cf36680758fbccb17651a2c3b5e1e1bc6820382e7290ed6b51bbdbb6d460a4",
+      "bytes": 3625,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/evidence/research/27_STREAM_ISOLATION_TEST.csv",
+      "sha256": "94f4fb9e37d2d259fa90a5adb5cc8abb4479310cd19ce8cb149566695a838ab6",
+      "bytes": 485,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/evidence/research/32_CLAIM_METRIC_AUDIT.csv",
+      "sha256": "ef5675aad6369f4372b305af7fb7fa8fa4f21daf411d8026626a38a689846eae",
+      "bytes": 1679,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/artifacts/candidate/canonical-worlds.json",
+      "sha256": "1663e204e1a812fbf057443bf2d84f02a86148576aecbf5e2322247211cd1f89",
+      "bytes": 2523718,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/artifacts/candidate/failure-atlas-counts-10000.csv",
+      "sha256": "0be922e5c37c89851b74a0896f3e1a0c252eb04bd80d978dc454bc011c33da71",
+      "bytes": 104,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/artifacts/candidate/failure-atlas.json",
+      "sha256": "5d05ff8f21680505428651a07e9ed7dddbef421ef5307a783e052533b4530da9",
+      "bytes": 2285518,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/artifacts/candidate/motor-forecast.json",
+      "sha256": "3c37c4cd31ee30cbcba50c41fa4836ce1ae9f3eda11a582893536e6d966dc107",
+      "bytes": 3978,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/artifacts/candidate/reverse-stress.json",
+      "sha256": "4d479de17d85208a315f767aba34e5c2a63e44ad8f27e7d7ef5452566c856fdf",
+      "bytes": 204,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/artifacts/candidate/scenario-classes-10000.csv",
+      "sha256": "92e96721c7ac0994d7a7f9161451d8f70ee46456ece19712152c9715399aaeb1",
+      "bytes": 458,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/artifacts/candidate/stress-surface.csv",
+      "sha256": "632aab5ce42fd867c35100f3e4bcdb5ca39163159c527282c4e347cc0c53e8a4",
+      "bytes": 1734,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/artifacts/manifest.json",
+      "sha256": "78e59dec5381bfbf8b142c5174026d54d2d27069b819731696066987f2f75b30",
+      "bytes": 32048,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/audit/claim-register.json",
+      "sha256": "0e4dc3ce62e107a6172ecb2853f06113e9783e121f52ba2dfbcf8d0f11a5f3e4",
+      "bytes": 8257,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/audit/scientific-checks.json",
+      "sha256": "4d282ee8b3d279b5dd4b7be3d38dba5b8e8d8eafe3754029c4de92253cb09534",
+      "bytes": 3059,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/audit/notebook-output-comparison.json",
+      "sha256": "fd43df94189815da4177aece36d54c6da310edfa711af9828dabfa63ffa94809",
+      "bytes": 5076,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/requirements-replay.lock",
+      "sha256": "734b77ef8848d7d6d847c24fb28c539a88d8c1c46b5255e8eef5cb7548daff7c",
+      "bytes": 1493,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/publication/manuscript.md",
+      "sha256": "23bd45175b2a528e8a5b2a1abfbc2c97cd81e612c9bf0a990d1d47de98328bd1",
+      "bytes": 60484,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/publication/latex/references.bib",
+      "sha256": "6c1f114cd34a17105322a61ec77766cc558f33811b9823b298fc2c8c60055615",
+      "bytes": 13952,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/requirements-runtime.lock",
+      "sha256": "fdb1830cff1047343adfaaf6ec4cdc550a1fd49d310a189cc9d2b49ad810df74",
+      "bytes": 313,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/audit/application/vercel-cross-runtime.json",
+      "sha256": "251bf1dd499e25a1c81af1ee2ef728edbe70c18d427fcb49b5d08d0dc93351da",
+      "bytes": 5267,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/publication/figure_package/figures/Figure1.png",
+      "sha256": "b9d142e1ed19df95134896ca0774fbabed3df31c0ef9cf6b86e34908e85e79b6",
+      "bytes": 212365,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/publication/figure_package/code/Figure1_tikz.tex",
+      "sha256": "71520c6db53f9106be08d17d44580fdb64b9c24077c7bad65e3d9ffb2b113aef",
+      "bytes": 4140,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/publication/figure_package/figures/Figure2.png",
+      "sha256": "e3c38106782d98d58facd99ad179b0c91ec178dc3e6245d582d2a9d5365c3d2d",
+      "bytes": 287942,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/publication/figure_package/code/Figure2.py",
+      "sha256": "d2e3452f854f336b8461541f6d392d986899d75df15df5d8bf0245164485e632",
+      "bytes": 5129,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/publication/figure_package/figures/Figure3.png",
+      "sha256": "a65fb5ac361a419c8470f091d874c3d6f6382a3a4ea76918d50139841093989c",
+      "bytes": 400432,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/publication/figure_package/code/Figure3.py",
+      "sha256": "0af7a7f5143396cbe83ac60fff75b7fa138a4d0e74147a9905a374cb85354133",
+      "bytes": 5298,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/publication/figure_package/figures/Figure4.png",
+      "sha256": "83112db940b1ce21909c6517fc2231fea2612f96a539ae8225e0a7ad57f31ba7",
+      "bytes": 564637,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/publication/figure_package/code/Figure4.py",
+      "sha256": "3977a742d382ebbc926aaa78b3a61c0fadc48c48dff65fdc9b324d585a77fc53",
+      "bytes": 7264,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/publication/figure_package/figures/Figure5.png",
+      "sha256": "0279785e73cf6d0e76a3c14167c276e79ac72d68e316467358cc291bd61195e3",
+      "bytes": 358669,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/publication/figure_package/code/Figure5.py",
+      "sha256": "03c6eb02cccabedfe59891c2b01e8bd6f2823578c0b324a799fbf723c8406ebd",
+      "bytes": 5812,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/publication/figure_package/figures/Figure6.png",
+      "sha256": "f0c8407f73c002dcc0ed5064a201da5c5c2903afc7c52373af3e6ad444db678f",
+      "bytes": 261249,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/publication/figure_package/code/Figure6.py",
+      "sha256": "251afee99ef06121bfd9dd2638db24ead8916aa761f2fcaed6b7a6ad444aa99e",
+      "bytes": 4687,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/publication/figure_package/figures/Figure7.png",
+      "sha256": "0cd937686b892a1933014de0412da3b38d1a81b256526935a622ace8e447f93b",
+      "bytes": 345938,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/publication/figure_package/code/Figure7.py",
+      "sha256": "ff83af9c95c1488486d092213c08cca3bd15ada6dc581e9062ad229e71b584d4",
+      "bytes": 6076,
+      "status": "PASS"
+    },
+    {
+      "url": "/downloads/publication/latex/main.pdf",
+      "sha256": "7a9dd81621fc67b6320e720ece0bbd06f73384fe7bd49827f222d414d7cbe842",
+      "bytes": 2307283,
+      "status": "PASS"
+    }
+  ],
+  "runtime_error_log_scan": "No error-level logs returned for this deployment in the preceding hour; this is not continuous monitoring.",
+  "continuous_monitoring": "Not configured",
+  "signed_build_attestation": false
+}

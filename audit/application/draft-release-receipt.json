@@ -1,0 +1,87 @@
+{
+  "id": 397159083,
+  "html_url": "https://github.com/BAT-El34/arccraft-research-companion/releases/tag/untagged-aa1176ca036181b541b5",
+  "tag_name": "v1.0.0-paper",
+  "target_commitish": "cffc542a298189d2906e8939f47c2652c27527a7",
+  "draft": true,
+  "immutable": false,
+  "checked_at": "2026-09-26T08:47:56.571118+00:00",
+  "assets": [
+    {
+      "name": "arccraft-application-source.zip",
+      "size": 17390413,
+      "digest": "sha256:eb1082ecde3c194dbdcee6993e39eaf376d73eea2bd4030a9877546cc212cae8"
+    },
+    {
+      "name": "arccraft-publication-sources.zip",
+      "size": 4406789,
+      "digest": "sha256:807d9236639bb954302dba3036c21180960028e2d707cfa2887adbefc0010c0d"
+    },
+    {
+      "name": "arccraft-reference-artifacts.zip",
+      "size": 363706,
+      "digest": "sha256:324c7cb75e3de98a938221853429cdf1282904e15ca9bc8a5d5668a360801fb1"
+    },
+    {
+      "name": "arccraft-scientific-source.zip",
+      "size": 42511,
+      "digest": "sha256:e8346eed9bbd4bc37a4b0434f611e2c5b8ae55700bd4b69dea29cd928a481535"
+    },
+    {
+      "name": "ARCCRAFT_Reviewed_Candidate.pdf",
+      "size": 2307283,
+      "digest": "sha256:7a9dd81621fc67b6320e720ece0bbd06f73384fe7bd49827f222d414d7cbe842"
+    },
+    {
+      "name": "build-receipt.json",
+      "size": 829,
+      "digest": "sha256:bb3a844c63a9bd826c3b294bb3768ca2527e59da394aa21352837f88a831bf16"
+    },
+    {
+      "name": "ci-application.json",
+      "size": 267,
+      "digest": "sha256:c034eeaa97f8c07336ffec24efc7162fbd383dcc45cfbcefc3095d8378abea34"
+    },
+    {
+      "name": "claim-register.json",
+      "size": 8257,
+      "digest": "sha256:0e4dc3ce62e107a6172ecb2853f06113e9783e121f52ba2dfbcf8d0f11a5f3e4"
+    },
+    {
+      "name": "cross-runtime-comparison.json",
+      "size": 5511,
+      "digest": "sha256:9eda3f1a414dc775db426c011cb1dd920abd128920b8ae9fec8479982d5bdfe4"
+    },
+    {
+      "name": "RELEASE_NOTES.md",
+      "size": 2203,
+      "digest": "sha256:9b1af711607710b4058a613b277787ee4b5c6a486994e74f0ab8cb0ffc490332"
+    },
+    {
+      "name": "requirements-runtime.lock",
+      "size": 313,
+      "digest": "sha256:fdb1830cff1047343adfaaf6ec4cdc550a1fd49d310a189cc9d2b49ad810df74"
+    },
+    {
+      "name": "sbom-web.cdx.json",
+      "size": 29152,
+      "digest": "sha256:507b08a510256284b85a544d6cf4f3a0aaa073210175f76de257a9c223f61512"
+    },
+    {
+      "name": "scientific-manifest.json",
+      "size": 32048,
+      "digest": "sha256:78e59dec5381bfbf8b142c5174026d54d2d27069b819731696066987f2f75b30"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "size": 1292,
+      "digest": "sha256:84f6f07a0490eec25c253d7e28091c4029c43293444cdf2875768290fbdd7c23"
+    },
+    {
+      "name": "web-registry.json",
+      "size": 29553,
+      "digest": "sha256:b490a8eefa0025c420912856ff776ff074d7de0e7140cb1e3e78626a6313e357"
+    }
+  ],
+  "all_remote_asset_digests_match_local": true
+}

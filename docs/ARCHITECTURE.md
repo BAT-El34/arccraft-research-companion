@@ -1,6 +1,6 @@
 # Architecture retenue — ARCCRAFT Research Companion
 
-Décision technique de phase 0, à implémenter après réconciliation éditoriale du gel. Cette page décrit le produit cible ; elle n’affirme pas que l’interface ou les services sont déjà développés.
+Décision technique de phase 0 conservée comme architecture cible. L’interface, l’API et le déploiement candidat sont maintenant réalisés ; le [rapport de livraison](DELIVERY_REPORT.md) précise les vérifications et les écarts restants, notamment le replay Linux et l’archivage DOI.
 
 ## Frontières
 

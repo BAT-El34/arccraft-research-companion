@@ -1,5 +1,7 @@
 # Plan d’implémentation et portes de sortie
 
+Ce plan de phase 0 est conservé pour la traçabilité. L’approbation utilisateur des corrections et du candidat scientifique a été suivie du développement et des contrôles décrits dans le [rapport de livraison](DELIVERY_REPORT.md). Les cases de publication scientifique encore ouvertes figurent dans [RELEASE_CHECKLIST.md](RELEASE_CHECKLIST.md).
+
 ## Phase 0 — clôture scientifique
 
 Travail accompli : lecture du cahier, inventaire des 270 fichiers, moteur extrait, données réconciliées, suite historique, replays synthétiques et empiriques, golden master, registre C1–C8, proposition de commit.

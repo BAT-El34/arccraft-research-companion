@@ -16,6 +16,8 @@ The application may be inspected as a candidate. `PUBLISHED` is reserved for a c
 - [ ] Select code, paper and figure reuse licences.
 - [ ] Reserve and verify a version-specific archive DOI.
 - [ ] Populate final citations and immutable release assets; confirm all artefact checksums.
-- [ ] Enable GitHub release immutability and publish only after archival metadata is complete.
+- [x] Enable GitHub release immutability and prepare a draft with candidate assets.
+- [ ] Publish the immutable release only after archival metadata is complete.
+- [ ] Resolve the final public replay environment: Linux remains DIVERGENT against the exact Windows reference.
 
 An external validation claim would additionally require independent portfolios or an untouched forecast period, claim-level losses and operational ground truth. It is not a software release gate that can be satisfied by additional interface tests.

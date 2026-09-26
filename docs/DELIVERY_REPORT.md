@@ -10,6 +10,9 @@ Le projet indépendant est développé dans `arccraft-research-companion`. Il co
 - Projet Vercel : `prj_DHuvL7QH4Kxsa8ELexvuAapkrkZM`, équipe `elia-btks-projects`.
 - Commit scientifique : `b642f8238d86b5ec3a4115d9d06d582682d69f1e`.
 - Le commit du build déployé se lit dans `/api/v1/health` ; il est distinct du commit scientifique.
+- Build applicatif candidat corrigé : `cffc542a298189d2906e8939f47c2652c27527a7`. Le correctif limite les exclusions Vercel à la racine afin de conserver les copies publiques du PDF, des figures et des sources.
+- Brouillon `v1.0.0-paper` préparé dans GitHub, sans publication ni DOI. L’immutabilité des futures releases est activée.
+- `main` impose une pull request et les deux contrôles CI, y compris aux administrateurs ; push forcé et suppression interdits. Cette protection technique ne constitue pas une revue scientifique humaine.
 
 ## Produit livré
 
@@ -26,10 +29,14 @@ Le PDF corrigé, compilé en 24 pages, les figures, les sources et les citations
 | Sources originales | 270 fichiers inchangés | `audit/application/source-integrity-final.json` |
 | Artefacts historiques | 69 empreintes conformes | `scripts/verify_checksums.py` |
 | Téléchargements | 50 fichiers avec checksums et provenance | `artifacts/web-registry.json` |
+| Téléchargements publics | 50 empreintes distantes conformes après correction des exclusions Vercel | `audit/application/deployment-receipt.json` |
+| Figures déployées | Sept images décodées avec texte alternatif, aucune erreur de page | `audit/application/production-figures-check.json` |
+| Assets du brouillon | 15 fichiers dont les empreintes GitHub correspondent aux fichiers locaux | `audit/application/draft-release-receipt.json` |
 | Runtime vierge Windows | Canonique exact, neuf tests API, quinze paires enregistrées | `audit/application/api-tests-fresh.txt` |
 | Interface | 32 tests passants : Chromium, Edge, Firefox, WebKit | `audit/application/browser-matrix.json` |
 | Accessibilité automatisée | Axe sur parcours clés, deux thèmes, reflow 320 px | Même rapport, captures jointes |
 | Interactions complémentaires | Atlas exploratoire distinct, clavier, zoom 200 %, annulation | Suite `tests/browser/companion.spec.ts` |
+| Domaine public | 20 routes EN/FR, langue, thème, Atlas, clavier, zoom et annulation | `audit/application/production-browser-checks.json` |
 | Dépendances web de production | Aucun avis signalé lors du scan | `audit/application/npm-audit-runtime.json` |
 | Débit Vercel | Trois POST par minute et IP ; quatrième requête HTTP 429 | `audit/application/rate-limit-check.json` |
 | PDF candidat | Texte corrigé, commit et nouveau compagnon, mots-clés sur couverture | `audit/application/pdf-candidate-checks.json` |
@@ -51,5 +58,16 @@ Le premier benchmark Vercel observé est d’environ 3,37 s côté serveur pour 
 3. DOI de version et archive scientifique immuable avant publication finale.
 4. Autoriser l’application officielle Vercel sur le nouveau dépôt GitHub pour les déploiements automatiques. L’API Vercel a confirmé l’absence d’installation de cette intégration ; les déploiements CLI fonctionnent.
 5. Revue humaine du candidat et tests sur appareils Safari/iOS et lecteur d’écran avant déclaration de conformité complète.
+6. Environnement du replay public final : Windows reproduit la référence exacte, tandis que le runtime Linux Vercel doit rester signalé comme divergent. Une nouvelle référence Linux ou une tolérance constituerait une décision scientifique distincte, non appliquée ici.
 
 Ces éléments restent explicites dans l’application. Aucun DOI, droit de réutilisation, acceptation en revue, validation externe complète ou approbation scientifique supplémentaire n’est inventé.
+
+## Paquet de livraison et exploitation
+
+Le brouillon contient le code applicatif et scientifique, les résultats canoniques, le PDF, les figures et scripts, les manifestes, le registre de claims, la comparaison interplateforme, les checksums, le lock Python, un SBOM des dépendances web de production et un reçu de build. Ce reçu n’est pas une attestation cryptographiquement signée. Le brouillon reste modifiable ; les assets ne seront immuables qu’après publication.
+
+Le domaine est hébergé dans l’environnement Vercel nommé `production`, mais son statut scientifique demeure `CANDIDATE`, sans tag de release active ni DOI. Ce déploiement de consultation ne satisfait pas les critères de publication scientifique finale des sections 18 et 22 du cahier des charges.
+
+Le contrôle après déploiement compare les 50 téléchargements aux empreintes du registre. Il est réexécutable avec `python scripts/verify_web_artifacts.py --base-url https://arccraft-research-companion.vercel.app`. Il complète les tests locaux, qui ne détectent pas une omission lors de l’envoi Vercel.
+
+Aucune erreur de runtime n’a été retournée par la consultation ponctuelle des journaux du candidat après les tests. Aucun monitoring continu ni drain externe n’est configuré. Les reçus dans `audit/application/` indiquent les identités et résultats précis ; les notes de release sont dans `docs/RELEASE_NOTES_CANDIDATE.md`.

@@ -1,0 +1,49 @@
+{
+  "checked_at": "2026-09-26T08:47:00.003Z",
+  "build_commit": "cffc542a298189d2906e8939f47c2652c27527a7",
+  "figures": [
+    {
+      "src": "https://arccraft-research-companion.vercel.app/downloads/publication/figure_package/figures/Figure1.png",
+      "alt": "ARCCRAFT procedural architecture and evidence boundaries. The specification layer registers the experiment, generates procedural worlds, separates stochastic streams, and validates states before simulation. The simulation layer links transitions and noncompensatory gates to replayable Failure Atlas records and reverse stress search, while the evaluation layer keeps computational replay distinct from empirical validation and classifies the resulting evidence as supported, mixed, or unsupported.",
+      "width": 2816,
+      "height": 1130
+    },
+    {
+      "src": "https://arccraft-research-companion.vercel.app/downloads/publication/figure_package/figures/Figure2.png",
+      "alt": "Motor portfolio scale, outcome dynamics, and composition shift, 2022 to 2024. Panel A reports the growth from 67,172 to 168,133 policy year records. Panel B shows annual claim frequency and loss ratio, while Panel C shows the decline in the new business share from 97.91% to 57.34%, a 40.57 percentage point change that supports temporal rather than random evaluation. Source: public Spanish motor insurance portfolio, 2022 to 2024.",
+      "width": 4733,
+      "height": 1558
+    },
+    {
+      "src": "https://arccraft-research-companion.vercel.app/downloads/publication/figure_package/figures/Figure3.png",
+      "alt": "Temporal forecast performance across matched actuarial comparators. Panels A and B report aggregate errors relative to observed claim counts and incurred losses, where zero denotes perfect aggregate prediction. Panels C and D report policy level Poisson deviance, where smaller values indicate better predictive discrimination; policy level frequency improves deviance in both years, but the policy level cost model produces a pronounced 2023 aggregate error and never dominates the pooled cost comparator. Source: retrospective ARCCRAFT benchmark using the public Spanish motor insurance portfolio.",
+      "width": 4121,
+      "height": 2661
+    },
+    {
+      "src": "https://arccraft-research-companion.vercel.app/downloads/publication/figure_package/figures/Figure4.png",
+      "alt": "Risk decile calibration and process interval coverage. Panels A and B plot observed to predicted ratios by predicted risk decile, with 1.00 denoting perfect calibration; the lowest predicted risk groups are materially underpredicted, particularly for 2024 incurred loss. Panels C and D normalize predictions and their 95% process only intervals to the observed aggregate, showing count coverage in 2023, count misses in 2024, and incurred loss misses for every comparator and year. Source: retrospective ARCCRAFT benchmark using the public Spanish motor insurance portfolio.",
+      "width": 4571,
+      "height": 2961
+    },
+    {
+      "src": "https://arccraft-research-companion.vercel.app/downloads/publication/figure_package/figures/Figure5.png",
+      "alt": "Frequency and severity stress surface for the motor portfolio. Panel A reports the mean simulated loss ratio for the 25 combinations of frequency and severity multipliers, with the outlined cell identifying the joint 25% stress. Panel B follows the equal multiplier path and shows the 95% process interval; the joint 1.25 multiplier produces a mean loss ratio of 1.11, above the technical threshold of 1.00. Source: registered ARCCRAFT stress simulations using the retrospective motor calibration.",
+      "width": 4006,
+      "height": 1739
+    },
+    {
+      "src": "https://arccraft-research-companion.vercel.app/downloads/publication/figure_package/figures/Figure6.png",
+      "alt": "Scenario class failure rates and Failure Atlas composition. Panel A reports failures among accepted worlds for each registered scenario class in the canonical 10,000 world run, from 0.00% under Baseline to 49.88% under Severe plausible conditions; Exploratory worlds remain analytically separate. Panel B reports atlas events on a logarithmic axis and shows that 3,588 traceability failures dominate one combined ratio failure and five structural rejections, so the experiment primarily tests the operational gate rather than actuarial insolvency detection. Source: canonical ARCCRAFT run, registered seed 20260825.",
+      "width": 4138,
+      "height": 1548
+    },
+    {
+      "src": "https://arccraft-research-companion.vercel.app/downloads/publication/figure_package/figures/Figure7.png",
+      "alt": "Procedural ablations, computational cost, and stream isolation. Panel A compares failures among accepted worlds with the broader failure or rejection measure across three registered runs per configuration; strict rejection creates the largest divergence because repaired worlds become structural rejections. Panel B reports mean runtime with one standard deviation, while Panel C shows exact replay in all 15 runs and confirms that named streams preserve claims and behavioural outputs after 100 irrelevant world draws, whereas a shared stream does not. Source: ARCCRAFT ablation and stream isolation experiments at registered seeds 20260825, 20260826, and 20260827.",
+      "width": 5365,
+      "height": 1572
+    }
+  ],
+  "page_errors": []
+}
