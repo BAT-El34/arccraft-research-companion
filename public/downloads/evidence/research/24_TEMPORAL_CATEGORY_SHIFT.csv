@@ -1,0 +1,10 @@
+column,largest_level,max_share_range_pp
+business_type,NB,40.56862597812342
+policy_status,A,6.3115023320367225
+payment_frequency,A,5.931597052153082
+policy_type,COMP_E,3.4602813508858272
+bonus_score,G,2.030724949092544
+municipality_type,I,1.723695142722903
+fuel_type,G,0.8501965856954063
+vehicle_brand,BMW,0.45831017970258614
+circulation_area,R,0.18554909388649454

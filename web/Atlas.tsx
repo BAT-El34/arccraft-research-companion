@@ -1,0 +1,407 @@
+"use client";
+import { useEffect, useMemo, useState } from "react";
+import { Locale, tr } from "./i18n";
+import { download } from "./Lab";
+type Row = {
+  world_id: number;
+  regime: string;
+  classe: string;
+  statut_validation: string;
+  porte_ratee: string;
+  combined_ratio: number | null;
+  tracabilite_score: number | null;
+  seed_master: number;
+  run_id: string;
+};
+type Data = { provenance: Record<string, unknown>; rows: Row[] };
+export default function Atlas({ locale }: { locale: Locale }) {
+  const [data, setData] = useState<Data | null>(null);
+  const [live, setLive] = useState(false);
+  const [error, setError] = useState("");
+  const [filters, setFilters] = useState<Record<string, string>>({});
+  const [page, setPage] = useState(0);
+  const [replay, setReplay] = useState<Record<string, unknown> | null>(null);
+  const [busy, setBusy] = useState(false);
+  useEffect(() => {
+    if (new URLSearchParams(window.location.search).get("source") === "live") {
+      try {
+        const saved = sessionStorage.getItem("arccraft-live-atlas-v1");
+        if (saved) {
+          setData(JSON.parse(saved));
+          setLive(true);
+          return;
+        }
+      } catch {}
+      setError(
+        tr(
+          locale,
+          "No live run is stored in this tab.",
+          "Aucun run live conservé dans cet onglet.",
+        ),
+      );
+    }
+    const c = new AbortController();
+    fetch("/data/atlas.json", { signal: c.signal })
+      .then((r) => {
+        if (!r.ok) throw Error("Atlas unavailable");
+        return r.json();
+      })
+      .then(setData)
+      .catch((e) => {
+        if (!c.signal.aborted) setError(String(e));
+      });
+    return () => c.abort();
+  }, []);
+  const rows = useMemo(
+    () =>
+      data?.rows.filter((r) =>
+        Object.entries(filters).every(
+          ([key, value]) => !value || String(r[key as keyof Row]) === value,
+        ),
+      ) ?? [],
+    [data, filters],
+  );
+  function update(key: string, value: string) {
+    setFilters({ ...filters, [key]: value });
+    setPage(0);
+    setReplay(null);
+    setError("");
+  }
+  async function replayWorld(id: number) {
+    setReplay(null);
+    setError("");
+    setBusy(true);
+    try {
+      const response = await fetch("/api/v1/simulate/synthetic", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          ...((data?.provenance.parameters as Record<string, unknown>) ?? {
+            mode: "CANONICAL_REPLAY",
+          }),
+          world_id: id,
+        }),
+        signal: AbortSignal.timeout(55000),
+      });
+      const result = await response.json();
+      if (!response.ok) throw Error(result.detail);
+      setReplay(result);
+    } catch (e) {
+      setError(String(e));
+    } finally {
+      setBusy(false);
+    }
+  }
+  function exportCSV() {
+    const keys = [
+      "world_id",
+      "regime",
+      "classe",
+      "statut_validation",
+      "porte_ratee",
+      "combined_ratio",
+      "tracabilite_score",
+      "seed_master",
+      "run_id",
+    ] as (keyof Row)[];
+    const csv = [
+      keys.join(","),
+      ...rows.map((r) => keys.map((k) => JSON.stringify(r[k] ?? "")).join(",")),
+    ].join("\n");
+    download(csv, "arccraft-atlas-filtered.csv", "text/csv");
+    download(
+      { provenance: data?.provenance, filters, exported_rows: rows.length },
+      "arccraft-atlas-filtered.manifest.json",
+    );
+  }
+  return (
+    <>
+      <p className="eyebrow">
+        {live
+          ? `LIVE / ${String(data?.provenance.mode)}`
+          : tr(
+              locale,
+              "PRECOMPUTED REFERENCE / CANDIDATE",
+              "RÉFÉRENCE PRÉ-CALCULÉE / CANDIDATE",
+            )}
+      </p>
+      <div className="actions">
+        <a href="?source=reference">
+          {tr(locale, "Reference atlas", "Atlas de référence")}
+        </a>
+        <a href="?source=live">
+          {tr(
+            locale,
+            "Last live run in this tab",
+            "Dernier run live de cet onglet",
+          )}
+        </a>
+      </div>
+      <p className="lead">
+        {tr(
+          locale,
+          "Inspect coded failures, including structural rejections.",
+          "Examiner les échecs codés, y compris les rejets structurels.",
+        )}
+      </p>
+      <p>
+        {tr(
+          locale,
+          "Gate labels describe the simulation, not real-world causes. Undefined rejection metrics remain null.",
+          "Les seuils décrivent la simulation, pas des causes réelles. Les métriques indéfinies des rejets restent nulles.",
+        )}
+      </p>
+      {error && (
+        <p className="error" role="alert">
+          {error}
+        </p>
+      )}
+      {!data ? (
+        <p role="status">
+          {tr(
+            locale,
+            "Loading reference atlas…",
+            "Chargement de l’Atlas de référence…",
+          )}
+        </p>
+      ) : (
+        <>
+          <section className="panel">
+            <div className="form-grid">
+              <label>
+                World ID
+                <input
+                  type="number"
+                  min={0}
+                  max={9999}
+                  value={filters.world_id ?? ""}
+                  onChange={(e) => update("world_id", e.target.value)}
+                />
+              </label>
+              {[
+                ["regime", tr(locale, "Regime", "Régime")],
+                ["classe", tr(locale, "Scenario class", "Classe de scénario")],
+                [
+                  "statut_validation",
+                  tr(locale, "Validation status", "Statut de validation"),
+                ],
+                ["porte_ratee", tr(locale, "Failure gate", "Seuil d’échec")],
+                ["seed_master", "Seed"],
+                ["run_id", "Run"],
+              ].map(([key, label]) => (
+                <label key={key}>
+                  {label}
+                  <select
+                    value={filters[key] ?? ""}
+                    onChange={(e) => update(key, e.target.value)}
+                  >
+                    <option value="">{tr(locale, "All", "Tous")}</option>
+                    {[
+                      ...new Set(
+                        data.rows.map((r) => String(r[key as keyof Row])),
+                      ),
+                    ]
+                      .sort()
+                      .map((v) => (
+                        <option key={v}>{v}</option>
+                      ))}
+                  </select>
+                </label>
+              ))}
+            </div>
+            <div className="actions">
+              <button
+                className="button"
+                onClick={() => {
+                  setFilters({});
+                  setPage(0);
+                  setReplay(null);
+                }}
+              >
+                {tr(locale, "Reset filters", "Réinitialiser les filtres")}
+              </button>
+              <button
+                className="button"
+                onClick={() =>
+                  download(
+                    { provenance: data.provenance, filters, rows },
+                    "arccraft-atlas-filtered.json",
+                  )
+                }
+              >
+                JSON ↓
+              </button>
+              <button className="button" onClick={exportCSV}>
+                CSV + {tr(locale, "manifest", "manifeste")} ↓
+              </button>
+            </div>
+          </section>
+          <details>
+            <summary>
+              {tr(
+                locale,
+                "Summary by gate and class",
+                "Résumé par seuil et classe",
+              )}
+            </summary>
+            {["porte_ratee", "classe"].map((key) => (
+              <dl key={key}>
+                {Object.entries(
+                  data.rows.reduce<Record<string, number>>((acc, r) => {
+                    const v = String(r[key as keyof Row]);
+                    acc[v] = (acc[v] ?? 0) + 1;
+                    return acc;
+                  }, {}),
+                ).map(([name, count]) => (
+                  <div key={name}>
+                    <dt>{name}</dt>
+                    <dd>{count}</dd>
+                  </div>
+                ))}
+              </dl>
+            ))}
+          </details>
+          <p role="status">
+            {rows.length.toLocaleString(locale)} /{" "}
+            {data.rows.length.toLocaleString(locale)}{" "}
+            {tr(
+              locale,
+              "events · reference metric: canonical_failure_events",
+              "événements · métrique de référence : canonical_failure_events",
+            )}
+          </p>
+          <div className="table-scroll">
+            <table>
+              <caption>
+                {tr(
+                  locale,
+                  "Canonical failure events; dimensionless ratios and scores.",
+                  "Échecs canoniques ; ratios et scores sans dimension.",
+                )}
+              </caption>
+              <thead>
+                <tr>
+                  {[
+                    "World",
+                    "Regime",
+                    "Class",
+                    "Validator",
+                    "Gate",
+                    "Combined ratio",
+                    "Traceability",
+                    "Replay",
+                  ].map((k) => (
+                    <th key={k}>{k}</th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody>
+                {rows.slice(page * 25, (page + 1) * 25).map((r) => (
+                  <tr key={r.world_id}>
+                    <td>{r.world_id}</td>
+                    <td>{r.regime}</td>
+                    <td>{r.classe}</td>
+                    <td>
+                      <span className="badge">{r.statut_validation}</span>
+                    </td>
+                    <td>{r.porte_ratee}</td>
+                    <td>
+                      {r.combined_ratio === null
+                        ? "null"
+                        : r.combined_ratio.toFixed(6)}
+                    </td>
+                    <td>
+                      {r.tracabilite_score === null
+                        ? "null"
+                        : r.tracabilite_score.toFixed(6)}
+                    </td>
+                    <td>
+                      <button
+                        disabled={busy}
+                        aria-label={`${tr(locale, "Replay world", "Rejouer le monde")} ${r.world_id}`}
+                        onClick={() => replayWorld(r.world_id)}
+                      >
+                        ↻
+                      </button>
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          {rows.length === 0 && (
+            <p>
+              {tr(
+                locale,
+                "No event matches these filters.",
+                "Aucun événement ne correspond à ces filtres.",
+              )}
+            </p>
+          )}
+          <div className="actions">
+            <button
+              className="button"
+              disabled={page === 0}
+              onClick={() => setPage((p) => p - 1)}
+            >
+              {tr(locale, "Previous", "Précédent")}
+            </button>
+            <span>
+              {page + 1} / {Math.max(1, Math.ceil(rows.length / 25))}
+            </span>
+            <button
+              className="button"
+              disabled={(page + 1) * 25 >= rows.length}
+              onClick={() => setPage((p) => p + 1)}
+            >
+              {tr(locale, "Next", "Suivant")}
+            </button>
+          </div>
+          <p className="muted">
+            {tr(
+              locale,
+              "World replay executes the complete registered run before selecting the requested world.",
+              "Le replay d’un monde exécute le run enregistré complet avant de sélectionner le monde demandé.",
+            )}
+          </p>
+          <div aria-live="polite">
+            {busy && (
+              <p>
+                {tr(
+                  locale,
+                  "Replaying complete run…",
+                  "Replay du run complet…",
+                )}
+              </p>
+            )}
+            {replay && (
+              <section className="run-result">
+                <h2>{String(replay.proof_status)}</h2>
+                <pre>{JSON.stringify(replay.selected_world, null, 2)}</pre>
+                <p>
+                  <code>{String(replay.output_semantic_sha256)}</code>
+                </p>
+                <button
+                  className="button"
+                  onClick={() => download(replay, "arccraft-world-replay.json")}
+                >
+                  {tr(locale, "Run + manifest", "Run et manifeste")} ↓
+                </button>
+              </section>
+            )}
+          </div>
+          <details className="provenance">
+            <summary>
+              {tr(
+                locale,
+                "Atlas source, version and evidence status",
+                "Source, version et statut de preuve de l’Atlas",
+              )}
+            </summary>
+            <pre>{JSON.stringify(data.provenance, null, 2)}</pre>
+          </details>
+        </>
+      )}
+    </>
+  );
+}

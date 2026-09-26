@@ -1,0 +1,16 @@
+D:\Projet\SOUTENANCE\POC_ARCCRAFT\arccraft-research-companion\.venv\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+test_all_registered_adapter_fingerprints (test_api.ContractTests.test_all_registered_adapter_fingerprints) ... ok
+test_canonical_parameters_cannot_be_changed (test_api.ContractTests.test_canonical_parameters_cannot_be_changed) ... ok
+test_full_precision_canonical_and_rejects (test_api.ContractTests.test_full_precision_canonical_and_rejects) ... ok
+test_health_and_closed_artifact_registry (test_api.ContractTests.test_health_and_closed_artifact_registry) ... ok
+test_motor_no_leakage_and_assumption_pair (test_api.ContractTests.test_motor_no_leakage_and_assumption_pair) ... ok
+test_motor_reference_and_exploration_are_distinct (test_api.ContractTests.test_motor_reference_and_exploration_are_distinct) ... ok
+test_payload_limit (test_api.ContractTests.test_payload_limit) ... ok
+test_public_compute_fails_closed (test_api.ContractTests.test_public_compute_fails_closed) ... ok
+test_registered_selection_is_closed (test_api.ContractTests.test_registered_selection_is_closed) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 135.394s
+
+OK

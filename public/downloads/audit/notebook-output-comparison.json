@@ -1,0 +1,193 @@
+{
+  "rtol": 1e-12,
+  "atol": 1e-12,
+  "checks": [
+    {
+      "file": "09_ROLLING_ORIGIN_RESULTS.csv",
+      "passed": true,
+      "field_checks": {
+        "calibration": true,
+        "target": true,
+        "observed_claims": true,
+        "predicted_claims": true,
+        "claim_error_pct": true,
+        "claims_in_95_interval": true,
+        "observed_incurred": true,
+        "predicted_incurred": true,
+        "incurred_error_pct": true,
+        "incurred_in_95_interval": true
+      },
+      "byte_identical": true
+    },
+    {
+      "file": "10_BENCHMARK_RESULTS_2024.csv",
+      "passed": true,
+      "field_checks": {
+        "model": true,
+        "predicted_claims": true,
+        "claim_error_pct": true,
+        "predicted_incurred": true,
+        "incurred_error_pct": true,
+        "stochastic_interval": true
+      },
+      "byte_identical": true
+    },
+    {
+      "file": "11_STRESS_SURFACE_RESULTS.csv",
+      "passed": true,
+      "field_checks": {
+        "frequency_multiplier": true,
+        "severity_multiplier": true,
+        "mean_loss_ratio": true,
+        "q025": true,
+        "q975": true,
+        "p_loss_ratio_gt_1": true
+      },
+      "byte_identical": true
+    },
+    {
+      "file": "12_SYNTHETIC_AUDIT_RESULTS.csv",
+      "passed": true,
+      "field_checks": {
+        "configuration": true,
+        "PASS": true,
+        "REPAIR": true,
+        "REJECT": true,
+        "accepted": true,
+        "failure_rate_accepted": true,
+        "mean_combined_ratio": true,
+        "mean_traceability": true,
+        "atlas_rows": true,
+        "input_state_immutable": true
+      },
+      "byte_identical": true
+    },
+    {
+      "file": "13_SCENARIO_CLASS_RESULTS.csv",
+      "passed": true,
+      "field_checks": {
+        "scenario_class": true,
+        "mondes_acceptes": true,
+        "taux_echec_synthetique": true,
+        "ratio_combine_moyen": true,
+        "statut_usage": true
+      },
+      "byte_identical": true
+    },
+    {
+      "file": "14_FAILURE_ATLAS_COUNTS.csv",
+      "passed": true,
+      "field_checks": {
+        "failure_gate": true,
+        "count": true
+      },
+      "byte_identical": true
+    },
+    {
+      "file": "18_DATA_QUALITY_FINDINGS.csv",
+      "passed": true,
+      "field_checks": {
+        "finding": true,
+        "evidence": true,
+        "severity": true,
+        "confidence": true,
+        "model_action": true
+      },
+      "byte_identical": true
+    },
+    {
+      "file": "19_POLICY_BENCHMARK_RESULTS.csv",
+      "passed": true,
+      "field_checks": {
+        "calibration": true,
+        "target": true,
+        "model": true,
+        "observed_claims": true,
+        "predicted_claims": true,
+        "claim_error_pct": true,
+        "claim_poisson_deviance": true,
+        "claims_in_process_95_interval": true,
+        "observed_incurred": true,
+        "predicted_incurred": true,
+        "incurred_error_pct": true,
+        "incurred_poisson_deviance": true,
+        "incurred_in_process_95_interval": true,
+        "claim_q025": true,
+        "claim_q975": true,
+        "incurred_q025": true,
+        "incurred_q975": true
+      },
+      "byte_identical": true
+    },
+    {
+      "file": "20_POLICY_DECILE_CALIBRATION.csv",
+      "passed": true,
+      "field_checks": {
+        "target": true,
+        "decile": true,
+        "rows": true,
+        "observed": true,
+        "predicted": true,
+        "observed_to_predicted": true,
+        "metric": true
+      },
+      "byte_identical": true
+    },
+    {
+      "file": "21_POLICY_MODEL_DIAGNOSTICS.csv",
+      "passed": true,
+      "field_checks": {
+        "target": true,
+        "n_features": true,
+        "frequency_converged": true,
+        "frequency_iterations": true,
+        "frequency_training_total_ratio": true,
+        "severity_converged": true,
+        "severity_iterations": true,
+        "severity_training_total_ratio": true,
+        "frequency_message": true,
+        "severity_message": true
+      },
+      "byte_identical": true
+    },
+    {
+      "file": "22_NUMERIC_PROFILE.csv",
+      "passed": true,
+      "field_checks": {
+        "column": true,
+        "min": true,
+        "q005": true,
+        "q01": true,
+        "median": true,
+        "q99": true,
+        "q995": true,
+        "max": true
+      },
+      "byte_identical": true
+    },
+    {
+      "file": "23_CATEGORY_PROFILE.csv",
+      "passed": true,
+      "field_checks": {
+        "column": true,
+        "levels": true,
+        "top_level": true,
+        "top_share": true,
+        "blank_count": true,
+        "na_sentinel_count": true
+      },
+      "byte_identical": true
+    },
+    {
+      "file": "24_TEMPORAL_CATEGORY_SHIFT.csv",
+      "passed": true,
+      "field_checks": {
+        "column": true,
+        "largest_level": true,
+        "max_share_range_pp": true
+      },
+      "byte_identical": true
+    }
+  ],
+  "all_passed": true
+}

@@ -1,0 +1,17 @@
+/.cache/
+/.audit-private/
+/.git/
+/node_modules/
+/.next/
+/audit/
+/evidence/
+/proposals/
+/test-results/
+/playwright-report/
+/.venv/
+/.env*
+/tests/
+/publication/
+/scripts/
+/docs/
+/requirements-replay.lock

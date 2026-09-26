@@ -1,0 +1,9 @@
+claim_id,claim,metric,observed_result,source_files,evidential_scope
+C1,Policy-level frequency improves discrimination,Relative reduction in held-out count deviance versus B0,"7.19% in 2023; 8.99% in 2024","19_POLICY_BENCHMARK_RESULTS.csv",Discrimination only
+C2,Predictive intervals are inadequately calibrated,Observed outcomes inside 95% process intervals,"3/12 overall; 3/6 claim counts; 0/6 incurred totals","19_POLICY_BENCHMARK_RESULTS.csv",Two temporal origins
+C3,Registered runs replay exactly,Identical output fingerprints,15/15 configuration-seed pairs,"25_ARCCRAFT_ABLATION_RESULTS.csv",Local computational verification
+C4,Named streams isolate irrelevant world draws,Fingerprint response to 100 unused world-stream draws,"Named streams unchanged; shared stream changed","27_STREAM_ISOLATION_TEST.csv",One registered intervention
+C5,Validator policy changes the selected population,Strict rejection versus full configuration,"19.87% fewer accepted worlds; +13.43 percentage points failure-or-rejection","26_ARCCRAFT_ABLATION_SUMMARY.csv",Selection and reporting effect
+C6,State transitions have a small observed effect,No-transition versus full accepted-world failure rate,"-0.247 percentage points; -0.69% relative","26_ARCCRAFT_ABLATION_SUMMARY.csv",Three-seed descriptive result
+C7,Failure Atlas is dominated by the traceability gate,Share of canonical simulated failures attributed to traceability,3588/3589 or 99.97%,"25_ARCCRAFT_ABLATION_RESULTS.csv",No diagnostic accuracy claim
+C8,Runtime comparison is noisy,Full-pipeline runtime mean SD and coefficient of variation,"3.59 s; 1.05 s; 29.09%","26_ARCCRAFT_ABLATION_SUMMARY.csv",Host-specific descriptive timing

@@ -1,0 +1,2005 @@
+{
+  "crossRuntime": {
+    "policy": "Exact reference unchanged; no tolerance introduced. DIVERGENT remains DIVERGENT.",
+    "reference_environment": "Windows AMD64 / Python 3.12.14 / NumPy 2.3.5",
+    "synthetic": {
+      "runtime": {
+        "python": "3.12.14",
+        "numpy": "2.3.5"
+      },
+      "proof_status": "DIVERGENT",
+      "output_semantic_sha256": "d45a5e3a1e4d89e7c87671e4957adda9a4df37e14d50c0553aa8a9b696201803",
+      "expected_semantic_sha256": "eaaee90c1b0c7e8a5ee5dccc95013dda8a7db08f0ee0e63085df7dd444b9650d",
+      "historical_fingerprint": "61616d6739a13b3fb5f53b9d6df04790db4cc744dbd0ba4bca49be86ecf23cf6",
+      "historical_fingerprint_matches": true,
+      "numerical_fields_different": 15,
+      "max_absolute_difference": 2.220446049250313e-16,
+      "non_numerical_differences": [],
+      "examples": [
+        {
+          "path": "/967/combined_ratio",
+          "reference": 0.3948575980704578,
+          "actual": 0.3948575980704577,
+          "absolute_difference": 5.551115123125783e-17
+        },
+        {
+          "path": "/1082/combined_ratio",
+          "reference": 0.4054346226676678,
+          "actual": 0.40543462266766783,
+          "absolute_difference": 5.551115123125783e-17
+        },
+        {
+          "path": "/1851/combined_ratio",
+          "reference": 0.3958358972851551,
+          "actual": 0.39583589728515517,
+          "absolute_difference": 5.551115123125783e-17
+        },
+        {
+          "path": "/1916/combined_ratio",
+          "reference": 0.42352468161363943,
+          "actual": 0.4235246816136394,
+          "absolute_difference": 5.551115123125783e-17
+        },
+        {
+          "path": "/3519/combined_ratio",
+          "reference": 0.41235992244159014,
+          "actual": 0.4123599224415902,
+          "absolute_difference": 5.551115123125783e-17
+        },
+        {
+          "path": "/4448/combined_ratio",
+          "reference": 0.5447126764727847,
+          "actual": 0.5447126764727848,
+          "absolute_difference": 1.1102230246251565e-16
+        },
+        {
+          "path": "/4952/combined_ratio",
+          "reference": 0.6032505027502926,
+          "actual": 0.6032505027502928,
+          "absolute_difference": 2.220446049250313e-16
+        },
+        {
+          "path": "/5436/combined_ratio",
+          "reference": 0.4068677496321895,
+          "actual": 0.4068677496321896,
+          "absolute_difference": 5.551115123125783e-17
+        },
+        {
+          "path": "/5886/combined_ratio",
+          "reference": 0.4566166540194478,
+          "actual": 0.4566166540194479,
+          "absolute_difference": 1.1102230246251565e-16
+        },
+        {
+          "path": "/6533/combined_ratio",
+          "reference": 0.4355055416883276,
+          "actual": 0.43550554168832767,
+          "absolute_difference": 5.551115123125783e-17
+        },
+        {
+          "path": "/6713/combined_ratio",
+          "reference": 0.4519631271309235,
+          "actual": 0.45196312713092357,
+          "absolute_difference": 5.551115123125783e-17
+        },
+        {
+          "path": "/7000/combined_ratio",
+          "reference": 0.4505397933686074,
+          "actual": 0.4505397933686075,
+          "absolute_difference": 1.1102230246251565e-16
+        }
+      ],
+      "max_difference_examples": [
+        {
+          "path": "/4952/combined_ratio",
+          "reference": 0.6032505027502926,
+          "actual": 0.6032505027502928,
+          "absolute_difference": 2.220446049250313e-16
+        },
+        {
+          "path": "/4448/combined_ratio",
+          "reference": 0.5447126764727847,
+          "actual": 0.5447126764727848,
+          "absolute_difference": 1.1102230246251565e-16
+        },
+        {
+          "path": "/5886/combined_ratio",
+          "reference": 0.4566166540194478,
+          "actual": 0.4566166540194479,
+          "absolute_difference": 1.1102230246251565e-16
+        },
+        {
+          "path": "/7000/combined_ratio",
+          "reference": 0.4505397933686074,
+          "actual": 0.4505397933686075,
+          "absolute_difference": 1.1102230246251565e-16
+        },
+        {
+          "path": "/8865/combined_ratio",
+          "reference": 0.4623448319570852,
+          "actual": 0.4623448319570851,
+          "absolute_difference": 1.1102230246251565e-16
+        },
+        {
+          "path": "/967/combined_ratio",
+          "reference": 0.3948575980704578,
+          "actual": 0.3948575980704577,
+          "absolute_difference": 5.551115123125783e-17
+        },
+        {
+          "path": "/1082/combined_ratio",
+          "reference": 0.4054346226676678,
+          "actual": 0.40543462266766783,
+          "absolute_difference": 5.551115123125783e-17
+        },
+        {
+          "path": "/1851/combined_ratio",
+          "reference": 0.3958358972851551,
+          "actual": 0.39583589728515517,
+          "absolute_difference": 5.551115123125783e-17
+        }
+      ]
+    },
+    "motor": {
+      "runtime": {
+        "python": "3.12.14",
+        "numpy": "2.3.5"
+      },
+      "proof_status": "VERIFIED",
+      "output_semantic_sha256": "d1b2396807117a3f92b6c66f674723679cb7f0b0237f600212719fe00645bfe7",
+      "expected_semantic_sha256": "d1b2396807117a3f92b6c66f674723679cb7f0b0237f600212719fe00645bfe7",
+      "numerical_fields_different": 0,
+      "max_absolute_difference": 0,
+      "non_numerical_differences": [],
+      "examples": [],
+      "max_difference_examples": []
+    }
+  },
+  "manifest": {
+    "schema_version": "arccraft-artifact-manifest-0.1",
+    "status": "CANDIDATE_NOT_RELEASED",
+    "source_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+    "engine_declared_version": "0.1.0",
+    "engine_sha256": "1b951fafe742546f394f7312f6e40fea45622047716879d29f0ba32366421ffb",
+    "world_grammar_version": "world_grammar-0.1.0",
+    "package_version": "0.1.0.dev1",
+    "calibration_version": "motor-mendeley-v1-reconciled-20260925",
+    "product_version": "synthetic-product-content-sha256",
+    "historical_fingerprint_contract": "SHA-256 of compact JSON row arrays with metric rounding at 12 decimals",
+    "canonical_historical_fingerprint": "61616d6739a13b3fb5f53b9d6df04790db4cc744dbd0ba4bca49be86ecf23cf6",
+    "canonical_full_precision_semantic_sha256": "eaaee90c1b0c7e8a5ee5dccc95013dda8a7db08f0ee0e63085df7dd444b9650d",
+    "archive_doi": null,
+    "release_tag": null
+  },
+  "claims": [
+    {
+      "claim_id": "C1",
+      "claim": "Policy-level frequency improves discrimination",
+      "metric": "Relative reduction in held-out count deviance versus B0",
+      "observed_result": "7.19% in 2023; 8.99% in 2024",
+      "source_files": "19_POLICY_BENCHMARK_RESULTS.csv",
+      "evidential_scope": "Discrimination only",
+      "recomputed": {
+        "2023": 7.185260720427056,
+        "2024": 8.989060036282726
+      },
+      "source_sha256": "92bd7a187da51050c087f4fbafd7add7b18ba74bcd2e179ed17d7ab67c2dbc1e",
+      "source_path": "evidence/research/19_POLICY_BENCHMARK_RESULTS.csv",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "historical_producer_state": "base b3df670 plus recorded uncommitted research changes",
+      "version": "phase0-candidate-1",
+      "proof_status": "LOCAL_REPRODUCTION_VERIFIED",
+      "release_status": "NOT_PUBLISHED",
+      "metric_type": "derived_research_result",
+      "claim_fr": "La fréquence par police améliore la discrimination",
+      "metric_fr": "Baisse relative de déviance hors échantillon face à B0",
+      "scope_fr": "Discrimination uniquement",
+      "formula": "100 × (deviance B0 − deviance B1) / deviance B0",
+      "unit": "%",
+      "source_url": "/downloads/evidence/research/19_POLICY_BENCHMARK_RESULTS.csv",
+      "population": "Motor portfolio; forecast origins 2023, 2024",
+      "paper_reference": "Results / empirical benchmark",
+      "observed_result_fr": "7,19 % en 2023 ; 8,99 % en 2024"
+    },
+    {
+      "claim_id": "C2",
+      "claim": "Predictive intervals are inadequately calibrated",
+      "metric": "Observed outcomes inside 95% process intervals",
+      "observed_result": "3/12 overall; 3/6 claim counts; 0/6 incurred totals",
+      "source_files": "19_POLICY_BENCHMARK_RESULTS.csv",
+      "evidential_scope": "Two temporal origins",
+      "recomputed": {
+        "count_covered": 3,
+        "incurred_covered": 0,
+        "total": 12
+      },
+      "source_sha256": "92bd7a187da51050c087f4fbafd7add7b18ba74bcd2e179ed17d7ab67c2dbc1e",
+      "source_path": "evidence/research/19_POLICY_BENCHMARK_RESULTS.csv",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "historical_producer_state": "base b3df670 plus recorded uncommitted research changes",
+      "version": "phase0-candidate-1",
+      "proof_status": "LOCAL_REPRODUCTION_VERIFIED",
+      "release_status": "NOT_PUBLISHED",
+      "metric_type": "derived_research_result",
+      "claim_fr": "Les intervalles sont insuffisamment calibrés",
+      "metric_fr": "Réalisations couvertes par les intervalles de processus à 95 %",
+      "scope_fr": "Deux origines temporelles",
+      "formula": "Σ 1[q025 ≤ observed ≤ q975] / outcomes",
+      "unit": "outcomes",
+      "source_url": "/downloads/evidence/research/19_POLICY_BENCHMARK_RESULTS.csv",
+      "population": "Motor portfolio; forecast origins 2023, 2024",
+      "paper_reference": "Results / empirical benchmark",
+      "observed_result_fr": "3/12 au total ; 3/6 nombres de sinistres ; 0/6 coûts totaux"
+    },
+    {
+      "claim_id": "C3",
+      "claim": "Registered runs replay exactly",
+      "metric": "Identical output fingerprints",
+      "observed_result": "15/15 configuration-seed pairs",
+      "source_files": "25_ARCCRAFT_ABLATION_RESULTS.csv",
+      "evidential_scope": "Local computational verification",
+      "recomputed": {
+        "registered_pairs": 15,
+        "matching_paper_fingerprints": 15,
+        "rounding_digits": 12
+      },
+      "source_sha256": "7fbeb3c3b352743b41a9f086f40ebe7772dd70680bea00912716b805dd1ef82e",
+      "source_path": "evidence/research/25_ARCCRAFT_ABLATION_RESULTS.csv",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "historical_producer_state": "base b3df670 plus recorded uncommitted research changes",
+      "version": "phase0-candidate-1",
+      "proof_status": "LOCAL_REPRODUCTION_VERIFIED",
+      "release_status": "NOT_PUBLISHED",
+      "metric_type": "derived_research_result",
+      "claim_fr": "Les runs enregistrés se rejouent exactement",
+      "metric_fr": "Empreintes de sortie identiques",
+      "scope_fr": "Vérification informatique locale",
+      "formula": "Σ 1[fingerprint replay = fingerprint registered] / runs",
+      "unit": "runs",
+      "source_url": "/downloads/evidence/research/25_ARCCRAFT_ABLATION_RESULTS.csv",
+      "population": "Synthetic registered worlds; seeds 20260825–20260827",
+      "paper_reference": "Results / procedural ablations",
+      "observed_result_fr": "15/15 paires configuration–seed"
+    },
+    {
+      "claim_id": "C4",
+      "claim": "Named streams isolate irrelevant world draws",
+      "metric": "Fingerprint response to 100 unused world-stream draws",
+      "observed_result": "Named streams unchanged; shared stream changed",
+      "source_files": "27_STREAM_ISOLATION_TEST.csv",
+      "evidential_scope": "One registered intervention",
+      "recomputed": {
+        "unused_world_draws": 100,
+        "named_invariant": true,
+        "shared_invariant": false
+      },
+      "source_sha256": "94f4fb9e37d2d259fa90a5adb5cc8abb4479310cd19ce8cb149566695a838ab6",
+      "source_path": "evidence/research/27_STREAM_ISOLATION_TEST.csv",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "historical_producer_state": "base b3df670 plus recorded uncommitted research changes",
+      "version": "phase0-candidate-1",
+      "proof_status": "LOCAL_REPRODUCTION_VERIFIED",
+      "release_status": "NOT_PUBLISHED",
+      "metric_type": "derived_research_result",
+      "claim_fr": "Les flux nommés isolent les tirages inutilisés",
+      "metric_fr": "Réponse de l’empreinte à des tirages supplémentaires",
+      "scope_fr": "Une intervention enregistrée",
+      "formula": "fingerprint(before) = fingerprint(after unused draws)",
+      "unit": "boolean",
+      "source_url": "/downloads/evidence/research/27_STREAM_ISOLATION_TEST.csv",
+      "population": "Synthetic registered worlds; seeds 20260825–20260827",
+      "paper_reference": "Results / procedural ablations",
+      "observed_result_fr": "Flux nommés inchangés ; flux partagé modifié"
+    },
+    {
+      "claim_id": "C5",
+      "claim": "Validator policy changes the selected population",
+      "metric": "Strict rejection versus full configuration",
+      "observed_result": "19.87% fewer accepted worlds; +13.43 percentage points failure-or-rejection",
+      "source_files": "26_ARCCRAFT_ABLATION_SUMMARY.csv",
+      "evidential_scope": "Selection and reporting effect",
+      "recomputed": {
+        "accepted_worlds_reduction_percent": 19.872607216701134,
+        "failure_or_rejection_difference_pp": 13.429999999999998
+      },
+      "source_sha256": "06cf36680758fbccb17651a2c3b5e1e1bc6820382e7290ed6b51bbdbb6d460a4",
+      "source_path": "evidence/research/26_ARCCRAFT_ABLATION_SUMMARY.csv",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "historical_producer_state": "base b3df670 plus recorded uncommitted research changes",
+      "version": "phase0-candidate-1",
+      "proof_status": "LOCAL_REPRODUCTION_VERIFIED",
+      "release_status": "NOT_PUBLISHED",
+      "metric_type": "derived_research_result",
+      "claim_fr": "Le validateur modifie la population retenue",
+      "metric_fr": "Rejet strict comparé à la configuration complète",
+      "scope_fr": "Effet de sélection et de mesure",
+      "formula": "100 × (accepted full − accepted strict) / accepted full; 100 × (rate strict − rate full)",
+      "unit": "%; percentage points",
+      "source_url": "/downloads/evidence/research/26_ARCCRAFT_ABLATION_SUMMARY.csv",
+      "population": "Synthetic registered worlds; seeds 20260825–20260827",
+      "paper_reference": "Results / procedural ablations",
+      "observed_result_fr": "19,87 % de mondes acceptés en moins ; +13,43 points de pourcentage d’échec ou rejet"
+    },
+    {
+      "claim_id": "C6",
+      "claim": "State transitions have a small observed effect",
+      "metric": "No-transition versus full accepted-world failure rate",
+      "observed_result": "-0.247 percentage points; -0.69% relative",
+      "source_files": "26_ARCCRAFT_ABLATION_SUMMARY.csv",
+      "evidential_scope": "Three-seed descriptive result",
+      "recomputed": {
+        "failure_difference_pp": -0.24678238812617104,
+        "relative_difference_percent": -0.6864581109986112
+      },
+      "source_sha256": "06cf36680758fbccb17651a2c3b5e1e1bc6820382e7290ed6b51bbdbb6d460a4",
+      "source_path": "evidence/research/26_ARCCRAFT_ABLATION_SUMMARY.csv",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "historical_producer_state": "base b3df670 plus recorded uncommitted research changes",
+      "version": "phase0-candidate-1",
+      "proof_status": "LOCAL_REPRODUCTION_VERIFIED",
+      "release_status": "NOT_PUBLISHED",
+      "metric_type": "derived_research_result",
+      "claim_fr": "Les transitions ont un faible effet observé",
+      "metric_fr": "Taux d’échec parmi les mondes acceptés sans transitions",
+      "scope_fr": "Résultat descriptif sur trois seeds",
+      "formula": "100 × (failure rate no transitions − failure rate full)",
+      "unit": "percentage points; %",
+      "source_url": "/downloads/evidence/research/26_ARCCRAFT_ABLATION_SUMMARY.csv",
+      "population": "Synthetic registered worlds; seeds 20260825–20260827",
+      "paper_reference": "Results / procedural ablations",
+      "observed_result_fr": "−0,247 point de pourcentage ; −0,69 % en relatif"
+    },
+    {
+      "claim_id": "C7",
+      "claim": "Failure Atlas is dominated by the traceability gate",
+      "metric": "Share of canonical simulated failures attributed to traceability",
+      "observed_result": "3588/3589 or 99.97%",
+      "source_files": "25_ARCCRAFT_ABLATION_RESULTS.csv",
+      "evidential_scope": "No diagnostic accuracy claim",
+      "recomputed": {
+        "traceability_failures": 3588,
+        "simulated_failures": 3589,
+        "share_percent": 99.97213708553915,
+        "structural_rejections_excluded_from_denominator": 5
+      },
+      "source_sha256": "7fbeb3c3b352743b41a9f086f40ebe7772dd70680bea00912716b805dd1ef82e",
+      "source_path": "evidence/research/25_ARCCRAFT_ABLATION_RESULTS.csv",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "historical_producer_state": "base b3df670 plus recorded uncommitted research changes",
+      "version": "phase0-candidate-1",
+      "proof_status": "LOCAL_REPRODUCTION_VERIFIED",
+      "release_status": "NOT_PUBLISHED",
+      "metric_type": "derived_research_result",
+      "claim_fr": "Le seuil de traçabilité domine l’Atlas",
+      "metric_fr": "Part des échecs simulés associés à la traçabilité",
+      "scope_fr": "Aucune preuve d’attribution causale",
+      "formula": "100 × traceability failures / simulated failures (rejects excluded)",
+      "unit": "%",
+      "source_url": "/downloads/evidence/research/25_ARCCRAFT_ABLATION_RESULTS.csv",
+      "population": "Synthetic registered worlds; seeds 20260825–20260827",
+      "paper_reference": "Results / procedural ablations",
+      "observed_result_fr": "3588/3589, soit 99,97 %"
+    },
+    {
+      "claim_id": "C8",
+      "claim": "Runtime comparison is noisy",
+      "metric": "Full-pipeline runtime mean SD and coefficient of variation",
+      "observed_result": "3.59 s; 1.05 s; 29.09%",
+      "source_files": "26_ARCCRAFT_ABLATION_SUMMARY.csv",
+      "evidential_scope": "Host-specific descriptive timing",
+      "recomputed": {
+        "historical_mean_seconds": 3.5929419999980987,
+        "historical_sd_seconds": 1.045027883662787,
+        "historical_cv_percent": 29.08557621201066
+      },
+      "source_sha256": "06cf36680758fbccb17651a2c3b5e1e1bc6820382e7290ed6b51bbdbb6d460a4",
+      "source_path": "evidence/research/26_ARCCRAFT_ABLATION_SUMMARY.csv",
+      "verification_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+      "historical_producer_commit": null,
+      "historical_producer_state": "base b3df670 plus recorded uncommitted research changes",
+      "version": "phase0-candidate-1",
+      "proof_status": "HISTORICAL_TIMING_RECONCILED",
+      "release_status": "NOT_PUBLISHED",
+      "metric_type": "historical_host_timing",
+      "claim_fr": "La comparaison des durées est bruitée",
+      "metric_fr": "Moyenne, écart-type et coefficient de variation",
+      "scope_fr": "Durée historique propre à un hôte",
+      "formula": "mean(t); sample SD(t); 100 × SD(t) / mean(t)",
+      "unit": "seconds; %",
+      "source_url": "/downloads/evidence/research/26_ARCCRAFT_ABLATION_SUMMARY.csv",
+      "population": "Synthetic registered worlds; seeds 20260825–20260827",
+      "paper_reference": "Results / procedural ablations",
+      "observed_result_fr": "3,59 s ; 1,05 s ; 29,09 %"
+    }
+  ],
+  "figures": [
+    {
+      "number": 1,
+      "title": "Architecture and evidence boundaries",
+      "title_fr": "Architecture et frontières de preuve",
+      "caption": "ARCCRAFT procedural architecture and evidence boundaries. The specification layer registers the experiment, generates procedural worlds, separates stochastic streams, and validates states before simulation. The simulation layer links transitions and noncompensatory gates to replayable Failure Atlas records and reverse stress search, while the evaluation layer keeps computational replay distinct from empirical validation and classifies the resulting evidence as supported, mixed, or unsupported.",
+      "image": {
+        "id": "publication__figure_package__figures__Figure1.png",
+        "path": "publication/figure_package/figures/Figure1.png",
+        "url": "/downloads/publication/figure_package/figures/Figure1.png",
+        "sha256": "b9d142e1ed19df95134896ca0774fbabed3df31c0ef9cf6b86e34908e85e79b6",
+        "bytes": 212365,
+        "proof_status": "REVIEWED_EDITORIAL_COPY",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      "script": {
+        "id": "publication__figure_package__code__Figure1_tikz.tex",
+        "path": "publication/figure_package/code/Figure1_tikz.tex",
+        "url": "/downloads/publication/figure_package/code/Figure1_tikz.tex",
+        "sha256": "71520c6db53f9106be08d17d44580fdb64b9c24077c7bad65e3d9ffb2b113aef",
+        "bytes": 4140,
+        "proof_status": "REVIEWED_EDITORIAL_COPY",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      "sources": [
+        {
+          "id": "publication__manuscript.md",
+          "path": "publication/manuscript.md",
+          "url": "/downloads/publication/manuscript.md",
+          "sha256": "23bd45175b2a528e8a5b2a1abfbc2c97cd81e612c9bf0a990d1d47de98328bd1",
+          "bytes": 60484,
+          "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+          "version": "phase0-candidate-1",
+          "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+          "license": "AUTHOR_DECISION_PENDING",
+          "release_status": "CANDIDATE"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "Portfolio and temporal shift",
+      "title_fr": "Portefeuille et dérive temporelle",
+      "caption": "Motor portfolio scale, outcome dynamics, and composition shift, 2022 to 2024. Panel A reports the growth from 67,172 to 168,133 policy year records. Panel B shows annual claim frequency and loss ratio, while Panel C shows the decline in the new business share from 97.91% to 57.34%, a 40.57 percentage point change that supports temporal rather than random evaluation. Source: public Spanish motor insurance portfolio, 2022 to 2024.",
+      "image": {
+        "id": "publication__figure_package__figures__Figure2.png",
+        "path": "publication/figure_package/figures/Figure2.png",
+        "url": "/downloads/publication/figure_package/figures/Figure2.png",
+        "sha256": "e3c38106782d98d58facd99ad179b0c91ec178dc3e6245d582d2a9d5365c3d2d",
+        "bytes": 287942,
+        "proof_status": "REVIEWED_EDITORIAL_COPY",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      "script": {
+        "id": "publication__figure_package__code__Figure2.py",
+        "path": "publication/figure_package/code/Figure2.py",
+        "url": "/downloads/publication/figure_package/code/Figure2.py",
+        "sha256": "d2e3452f854f336b8461541f6d392d986899d75df15df5d8bf0245164485e632",
+        "bytes": 5129,
+        "proof_status": "REVIEWED_EDITORIAL_COPY",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      "sources": [
+        {
+          "id": "evidence__research__18_DATA_QUALITY_FINDINGS.csv",
+          "path": "evidence/research/18_DATA_QUALITY_FINDINGS.csv",
+          "url": "/downloads/evidence/research/18_DATA_QUALITY_FINDINGS.csv",
+          "sha256": "a2a40cea0369ae6c4483905ca3a34b253c959763f62288f6f6c19abe5a25332c",
+          "bytes": 1234,
+          "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+          "version": "phase0-candidate-1",
+          "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+          "license": "AUTHOR_DECISION_PENDING",
+          "release_status": "CANDIDATE"
+        },
+        {
+          "id": "evidence__research__24_TEMPORAL_CATEGORY_SHIFT.csv",
+          "path": "evidence/research/24_TEMPORAL_CATEGORY_SHIFT.csv",
+          "url": "/downloads/evidence/research/24_TEMPORAL_CATEGORY_SHIFT.csv",
+          "sha256": "6b8d0aaaa4a980b16670b22fea921944469bce86909d919ced15b8ad0abf7d66",
+          "bytes": 374,
+          "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+          "version": "phase0-candidate-1",
+          "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+          "license": "AUTHOR_DECISION_PENDING",
+          "release_status": "CANDIDATE"
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "Matched temporal forecasts",
+      "title_fr": "Prévisions temporelles comparées",
+      "caption": "Temporal forecast performance across matched actuarial comparators. Panels A and B report aggregate errors relative to observed claim counts and incurred losses, where zero denotes perfect aggregate prediction. Panels C and D report policy level Poisson deviance, where smaller values indicate better predictive discrimination; policy level frequency improves deviance in both years, but the policy level cost model produces a pronounced 2023 aggregate error and never dominates the pooled cost comparator. Source: retrospective ARCCRAFT benchmark using the public Spanish motor insurance portfolio.",
+      "image": {
+        "id": "publication__figure_package__figures__Figure3.png",
+        "path": "publication/figure_package/figures/Figure3.png",
+        "url": "/downloads/publication/figure_package/figures/Figure3.png",
+        "sha256": "a65fb5ac361a419c8470f091d874c3d6f6382a3a4ea76918d50139841093989c",
+        "bytes": 400432,
+        "proof_status": "REVIEWED_EDITORIAL_COPY",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      "script": {
+        "id": "publication__figure_package__code__Figure3.py",
+        "path": "publication/figure_package/code/Figure3.py",
+        "url": "/downloads/publication/figure_package/code/Figure3.py",
+        "sha256": "0af7a7f5143396cbe83ac60fff75b7fa138a4d0e74147a9905a374cb85354133",
+        "bytes": 5298,
+        "proof_status": "REVIEWED_EDITORIAL_COPY",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      "sources": [
+        {
+          "id": "evidence__research__19_POLICY_BENCHMARK_RESULTS.csv",
+          "path": "evidence/research/19_POLICY_BENCHMARK_RESULTS.csv",
+          "url": "/downloads/evidence/research/19_POLICY_BENCHMARK_RESULTS.csv",
+          "sha256": "92bd7a187da51050c087f4fbafd7add7b18ba74bcd2e179ed17d7ab67c2dbc1e",
+          "bytes": 1873,
+          "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+          "version": "phase0-candidate-1",
+          "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+          "license": "AUTHOR_DECISION_PENDING",
+          "release_status": "CANDIDATE"
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "Calibration and interval coverage",
+      "title_fr": "Calibration et couverture des intervalles",
+      "caption": "Risk decile calibration and process interval coverage. Panels A and B plot observed to predicted ratios by predicted risk decile, with 1.00 denoting perfect calibration; the lowest predicted risk groups are materially underpredicted, particularly for 2024 incurred loss. Panels C and D normalize predictions and their 95% process only intervals to the observed aggregate, showing count coverage in 2023, count misses in 2024, and incurred loss misses for every comparator and year. Source: retrospective ARCCRAFT benchmark using the public Spanish motor insurance portfolio.",
+      "image": {
+        "id": "publication__figure_package__figures__Figure4.png",
+        "path": "publication/figure_package/figures/Figure4.png",
+        "url": "/downloads/publication/figure_package/figures/Figure4.png",
+        "sha256": "83112db940b1ce21909c6517fc2231fea2612f96a539ae8225e0a7ad57f31ba7",
+        "bytes": 564637,
+        "proof_status": "REVIEWED_EDITORIAL_COPY",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      "script": {
+        "id": "publication__figure_package__code__Figure4.py",
+        "path": "publication/figure_package/code/Figure4.py",
+        "url": "/downloads/publication/figure_package/code/Figure4.py",
+        "sha256": "3977a742d382ebbc926aaa78b3a61c0fadc48c48dff65fdc9b324d585a77fc53",
+        "bytes": 7264,
+        "proof_status": "REVIEWED_EDITORIAL_COPY",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      "sources": [
+        {
+          "id": "evidence__research__20_POLICY_DECILE_CALIBRATION.csv",
+          "path": "evidence/research/20_POLICY_DECILE_CALIBRATION.csv",
+          "url": "/downloads/evidence/research/20_POLICY_DECILE_CALIBRATION.csv",
+          "sha256": "7fb06c5f83fbe5a2e720f26a9a024162e04ca5725effdba81919ee52b8adb260",
+          "bytes": 2935,
+          "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+          "version": "phase0-candidate-1",
+          "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+          "license": "AUTHOR_DECISION_PENDING",
+          "release_status": "CANDIDATE"
+        },
+        {
+          "id": "evidence__research__19_POLICY_BENCHMARK_RESULTS.csv",
+          "path": "evidence/research/19_POLICY_BENCHMARK_RESULTS.csv",
+          "url": "/downloads/evidence/research/19_POLICY_BENCHMARK_RESULTS.csv",
+          "sha256": "92bd7a187da51050c087f4fbafd7add7b18ba74bcd2e179ed17d7ab67c2dbc1e",
+          "bytes": 1873,
+          "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+          "version": "phase0-candidate-1",
+          "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+          "license": "AUTHOR_DECISION_PENDING",
+          "release_status": "CANDIDATE"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "Frequency–severity stress surface",
+      "title_fr": "Surface de stress fréquence–sévérité",
+      "caption": "Frequency and severity stress surface for the motor portfolio. Panel A reports the mean simulated loss ratio for the 25 combinations of frequency and severity multipliers, with the outlined cell identifying the joint 25% stress. Panel B follows the equal multiplier path and shows the 95% process interval; the joint 1.25 multiplier produces a mean loss ratio of 1.11, above the technical threshold of 1.00. Source: registered ARCCRAFT stress simulations using the retrospective motor calibration.",
+      "image": {
+        "id": "publication__figure_package__figures__Figure5.png",
+        "path": "publication/figure_package/figures/Figure5.png",
+        "url": "/downloads/publication/figure_package/figures/Figure5.png",
+        "sha256": "0279785e73cf6d0e76a3c14167c276e79ac72d68e316467358cc291bd61195e3",
+        "bytes": 358669,
+        "proof_status": "REVIEWED_EDITORIAL_COPY",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      "script": {
+        "id": "publication__figure_package__code__Figure5.py",
+        "path": "publication/figure_package/code/Figure5.py",
+        "url": "/downloads/publication/figure_package/code/Figure5.py",
+        "sha256": "03c6eb02cccabedfe59891c2b01e8bd6f2823578c0b324a799fbf723c8406ebd",
+        "bytes": 5812,
+        "proof_status": "REVIEWED_EDITORIAL_COPY",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      "sources": [
+        {
+          "id": "evidence__research__11_STRESS_SURFACE_RESULTS.csv",
+          "path": "evidence/research/11_STRESS_SURFACE_RESULTS.csv",
+          "url": "/downloads/evidence/research/11_STRESS_SURFACE_RESULTS.csv",
+          "sha256": "30954304e6396381eb32fc03fa34eabe2e39be1a7b70816116f63b232cd2c6c4",
+          "bytes": 1852,
+          "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+          "version": "phase0-candidate-1",
+          "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+          "license": "AUTHOR_DECISION_PENDING",
+          "release_status": "CANDIDATE"
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "title": "Scenario classes and failure gates",
+      "title_fr": "Classes de scénarios et seuils d’échec",
+      "caption": "Scenario class failure rates and Failure Atlas composition. Panel A reports failures among accepted worlds for each registered scenario class in the canonical 10,000 world run, from 0.00% under Baseline to 49.88% under Severe plausible conditions; Exploratory worlds remain analytically separate. Panel B reports atlas events on a logarithmic axis and shows that 3,588 traceability failures dominate one combined ratio failure and five structural rejections, so the experiment primarily tests the operational gate rather than actuarial insolvency detection. Source: canonical ARCCRAFT run, registered seed 20260825.",
+      "image": {
+        "id": "publication__figure_package__figures__Figure6.png",
+        "path": "publication/figure_package/figures/Figure6.png",
+        "url": "/downloads/publication/figure_package/figures/Figure6.png",
+        "sha256": "f0c8407f73c002dcc0ed5064a201da5c5c2903afc7c52373af3e6ad444db678f",
+        "bytes": 261249,
+        "proof_status": "REVIEWED_EDITORIAL_COPY",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      "script": {
+        "id": "publication__figure_package__code__Figure6.py",
+        "path": "publication/figure_package/code/Figure6.py",
+        "url": "/downloads/publication/figure_package/code/Figure6.py",
+        "sha256": "251afee99ef06121bfd9dd2638db24ead8916aa761f2fcaed6b7a6ad444aa99e",
+        "bytes": 4687,
+        "proof_status": "REVIEWED_EDITORIAL_COPY",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      "sources": [
+        {
+          "id": "evidence__research__25_ARCCRAFT_ABLATION_RESULTS.csv",
+          "path": "evidence/research/25_ARCCRAFT_ABLATION_RESULTS.csv",
+          "url": "/downloads/evidence/research/25_ARCCRAFT_ABLATION_RESULTS.csv",
+          "sha256": "7fbeb3c3b352743b41a9f086f40ebe7772dd70680bea00912716b805dd1ef82e",
+          "bytes": 5099,
+          "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+          "version": "phase0-candidate-1",
+          "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+          "license": "AUTHOR_DECISION_PENDING",
+          "release_status": "CANDIDATE"
+        },
+        {
+          "id": "artifacts__candidate__scenario-classes-10000.csv",
+          "path": "artifacts/candidate/scenario-classes-10000.csv",
+          "url": "/downloads/artifacts/candidate/scenario-classes-10000.csv",
+          "sha256": "92e96721c7ac0994d7a7f9161451d8f70ee46456ece19712152c9715399aaeb1",
+          "bytes": 458,
+          "proof_status": "LOCAL_REPRODUCTION_VERIFIED",
+          "version": "phase0-candidate-1",
+          "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+          "license": "AUTHOR_DECISION_PENDING",
+          "release_status": "CANDIDATE"
+        },
+        {
+          "id": "artifacts__candidate__failure-atlas-counts-10000.csv",
+          "path": "artifacts/candidate/failure-atlas-counts-10000.csv",
+          "url": "/downloads/artifacts/candidate/failure-atlas-counts-10000.csv",
+          "sha256": "0be922e5c37c89851b74a0896f3e1a0c252eb04bd80d978dc454bc011c33da71",
+          "bytes": 104,
+          "proof_status": "LOCAL_REPRODUCTION_VERIFIED",
+          "version": "phase0-candidate-1",
+          "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+          "license": "AUTHOR_DECISION_PENDING",
+          "release_status": "CANDIDATE"
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "title": "Ablations and stream isolation",
+      "title_fr": "Ablations et isolation des flux",
+      "caption": "Procedural ablations, computational cost, and stream isolation. Panel A compares failures among accepted worlds with the broader failure or rejection measure across three registered runs per configuration; strict rejection creates the largest divergence because repaired worlds become structural rejections. Panel B reports mean runtime with one standard deviation, while Panel C shows exact replay in all 15 runs and confirms that named streams preserve claims and behavioural outputs after 100 irrelevant world draws, whereas a shared stream does not. Source: ARCCRAFT ablation and stream isolation experiments at registered seeds 20260825, 20260826, and 20260827.",
+      "image": {
+        "id": "publication__figure_package__figures__Figure7.png",
+        "path": "publication/figure_package/figures/Figure7.png",
+        "url": "/downloads/publication/figure_package/figures/Figure7.png",
+        "sha256": "0cd937686b892a1933014de0412da3b38d1a81b256526935a622ace8e447f93b",
+        "bytes": 345938,
+        "proof_status": "REVIEWED_EDITORIAL_COPY",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      "script": {
+        "id": "publication__figure_package__code__Figure7.py",
+        "path": "publication/figure_package/code/Figure7.py",
+        "url": "/downloads/publication/figure_package/code/Figure7.py",
+        "sha256": "ff83af9c95c1488486d092213c08cca3bd15ada6dc581e9062ad229e71b584d4",
+        "bytes": 6076,
+        "proof_status": "REVIEWED_EDITORIAL_COPY",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      "sources": [
+        {
+          "id": "evidence__research__26_ARCCRAFT_ABLATION_SUMMARY.csv",
+          "path": "evidence/research/26_ARCCRAFT_ABLATION_SUMMARY.csv",
+          "url": "/downloads/evidence/research/26_ARCCRAFT_ABLATION_SUMMARY.csv",
+          "sha256": "06cf36680758fbccb17651a2c3b5e1e1bc6820382e7290ed6b51bbdbb6d460a4",
+          "bytes": 3625,
+          "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+          "version": "phase0-candidate-1",
+          "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+          "license": "AUTHOR_DECISION_PENDING",
+          "release_status": "CANDIDATE"
+        },
+        {
+          "id": "evidence__research__27_STREAM_ISOLATION_TEST.csv",
+          "path": "evidence/research/27_STREAM_ISOLATION_TEST.csv",
+          "url": "/downloads/evidence/research/27_STREAM_ISOLATION_TEST.csv",
+          "sha256": "94f4fb9e37d2d259fa90a5adb5cc8abb4479310cd19ce8cb149566695a838ab6",
+          "bytes": 485,
+          "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+          "version": "phase0-candidate-1",
+          "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+          "license": "AUTHOR_DECISION_PENDING",
+          "release_status": "CANDIDATE"
+        }
+      ]
+    }
+  ],
+  "registry": {
+    "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+    "version": "companion-candidate-1",
+    "release_status": "CANDIDATE",
+    "archive_doi": null,
+    "artifacts": [
+      {
+        "id": "evidence__research__02_LITERATURE_EXTRACTION.csv",
+        "path": "evidence/research/02_LITERATURE_EXTRACTION.csv",
+        "url": "/downloads/evidence/research/02_LITERATURE_EXTRACTION.csv",
+        "sha256": "d47e9b66e35ab80739b414b221546c69b47511de0b7973a750db599020c186cb",
+        "bytes": 24639,
+        "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "evidence__research__07_CLAIM_REGISTER.csv",
+        "path": "evidence/research/07_CLAIM_REGISTER.csv",
+        "url": "/downloads/evidence/research/07_CLAIM_REGISTER.csv",
+        "sha256": "ba97d6ed3aa086bb1c8ac0261179e91d9b67371c7543656ecf7f8f92c8843fff",
+        "bytes": 10848,
+        "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "evidence__research__09_ROLLING_ORIGIN_RESULTS.csv",
+        "path": "evidence/research/09_ROLLING_ORIGIN_RESULTS.csv",
+        "url": "/downloads/evidence/research/09_ROLLING_ORIGIN_RESULTS.csv",
+        "sha256": "00205cfda2dbeb60e05a46d806e76c21e03fb5b3f1a3a22023d48d122d8a9ddb",
+        "bytes": 404,
+        "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "evidence__research__10_BENCHMARK_RESULTS_2024.csv",
+        "path": "evidence/research/10_BENCHMARK_RESULTS_2024.csv",
+        "url": "/downloads/evidence/research/10_BENCHMARK_RESULTS_2024.csv",
+        "sha256": "549e778f220049fdd1e63fbf6a657679f413ab61129ab98960cb0262d0896a8b",
+        "bytes": 537,
+        "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "evidence__research__11_STRESS_SURFACE_RESULTS.csv",
+        "path": "evidence/research/11_STRESS_SURFACE_RESULTS.csv",
+        "url": "/downloads/evidence/research/11_STRESS_SURFACE_RESULTS.csv",
+        "sha256": "30954304e6396381eb32fc03fa34eabe2e39be1a7b70816116f63b232cd2c6c4",
+        "bytes": 1852,
+        "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "evidence__research__12_SYNTHETIC_AUDIT_RESULTS.csv",
+        "path": "evidence/research/12_SYNTHETIC_AUDIT_RESULTS.csv",
+        "url": "/downloads/evidence/research/12_SYNTHETIC_AUDIT_RESULTS.csv",
+        "sha256": "7a8257eac777b0a4bffc4996a2a733f9ec8092b4e990fbe7992f4f9c42ff12bc",
+        "bytes": 472,
+        "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "evidence__research__13_SCENARIO_CLASS_RESULTS.csv",
+        "path": "evidence/research/13_SCENARIO_CLASS_RESULTS.csv",
+        "url": "/downloads/evidence/research/13_SCENARIO_CLASS_RESULTS.csv",
+        "sha256": "7611438f70361ef235cec676d34b8e398618d7501631dd085f2aee8d06518c42",
+        "bytes": 448,
+        "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "evidence__research__14_FAILURE_ATLAS_COUNTS.csv",
+        "path": "evidence/research/14_FAILURE_ATLAS_COUNTS.csv",
+        "url": "/downloads/evidence/research/14_FAILURE_ATLAS_COUNTS.csv",
+        "sha256": "d5f487e296aa7b4da1dd9cffab91bd08dd98713eeaeeb5747234d16972ef1bd1",
+        "bytes": 104,
+        "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "evidence__research__18_DATA_QUALITY_FINDINGS.csv",
+        "path": "evidence/research/18_DATA_QUALITY_FINDINGS.csv",
+        "url": "/downloads/evidence/research/18_DATA_QUALITY_FINDINGS.csv",
+        "sha256": "a2a40cea0369ae6c4483905ca3a34b253c959763f62288f6f6c19abe5a25332c",
+        "bytes": 1234,
+        "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "evidence__research__19_POLICY_BENCHMARK_RESULTS.csv",
+        "path": "evidence/research/19_POLICY_BENCHMARK_RESULTS.csv",
+        "url": "/downloads/evidence/research/19_POLICY_BENCHMARK_RESULTS.csv",
+        "sha256": "92bd7a187da51050c087f4fbafd7add7b18ba74bcd2e179ed17d7ab67c2dbc1e",
+        "bytes": 1873,
+        "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "evidence__research__20_POLICY_DECILE_CALIBRATION.csv",
+        "path": "evidence/research/20_POLICY_DECILE_CALIBRATION.csv",
+        "url": "/downloads/evidence/research/20_POLICY_DECILE_CALIBRATION.csv",
+        "sha256": "7fb06c5f83fbe5a2e720f26a9a024162e04ca5725effdba81919ee52b8adb260",
+        "bytes": 2935,
+        "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "evidence__research__21_POLICY_MODEL_DIAGNOSTICS.csv",
+        "path": "evidence/research/21_POLICY_MODEL_DIAGNOSTICS.csv",
+        "url": "/downloads/evidence/research/21_POLICY_MODEL_DIAGNOSTICS.csv",
+        "sha256": "5cadcfafa2d7560af9813d7e18928ffb10b0c63eb8043516c811dccd0bffda8b",
+        "bytes": 536,
+        "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "evidence__research__22_NUMERIC_PROFILE.csv",
+        "path": "evidence/research/22_NUMERIC_PROFILE.csv",
+        "url": "/downloads/evidence/research/22_NUMERIC_PROFILE.csv",
+        "sha256": "225f9126e207c1c5cc4e34559ef3a9751382f1c7793618478c42f722d7df910c",
+        "bytes": 708,
+        "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "evidence__research__23_CATEGORY_PROFILE.csv",
+        "path": "evidence/research/23_CATEGORY_PROFILE.csv",
+        "url": "/downloads/evidence/research/23_CATEGORY_PROFILE.csv",
+        "sha256": "5e01bb6b821fb1629562475fc3cd8016dd9a240322f6985f8318873f23b96e4d",
+        "bytes": 457,
+        "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "evidence__research__24_TEMPORAL_CATEGORY_SHIFT.csv",
+        "path": "evidence/research/24_TEMPORAL_CATEGORY_SHIFT.csv",
+        "url": "/downloads/evidence/research/24_TEMPORAL_CATEGORY_SHIFT.csv",
+        "sha256": "6b8d0aaaa4a980b16670b22fea921944469bce86909d919ced15b8ad0abf7d66",
+        "bytes": 374,
+        "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "evidence__research__25_ARCCRAFT_ABLATION_RESULTS.csv",
+        "path": "evidence/research/25_ARCCRAFT_ABLATION_RESULTS.csv",
+        "url": "/downloads/evidence/research/25_ARCCRAFT_ABLATION_RESULTS.csv",
+        "sha256": "7fbeb3c3b352743b41a9f086f40ebe7772dd70680bea00912716b805dd1ef82e",
+        "bytes": 5099,
+        "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "evidence__research__26_ARCCRAFT_ABLATION_SUMMARY.csv",
+        "path": "evidence/research/26_ARCCRAFT_ABLATION_SUMMARY.csv",
+        "url": "/downloads/evidence/research/26_ARCCRAFT_ABLATION_SUMMARY.csv",
+        "sha256": "06cf36680758fbccb17651a2c3b5e1e1bc6820382e7290ed6b51bbdbb6d460a4",
+        "bytes": 3625,
+        "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "evidence__research__27_STREAM_ISOLATION_TEST.csv",
+        "path": "evidence/research/27_STREAM_ISOLATION_TEST.csv",
+        "url": "/downloads/evidence/research/27_STREAM_ISOLATION_TEST.csv",
+        "sha256": "94f4fb9e37d2d259fa90a5adb5cc8abb4479310cd19ce8cb149566695a838ab6",
+        "bytes": 485,
+        "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "evidence__research__32_CLAIM_METRIC_AUDIT.csv",
+        "path": "evidence/research/32_CLAIM_METRIC_AUDIT.csv",
+        "url": "/downloads/evidence/research/32_CLAIM_METRIC_AUDIT.csv",
+        "sha256": "ef5675aad6369f4372b305af7fb7fa8fa4f21daf411d8026626a38a689846eae",
+        "bytes": 1679,
+        "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "artifacts__candidate__canonical-worlds.json",
+        "path": "artifacts/candidate/canonical-worlds.json",
+        "url": "/downloads/artifacts/candidate/canonical-worlds.json",
+        "sha256": "1663e204e1a812fbf057443bf2d84f02a86148576aecbf5e2322247211cd1f89",
+        "bytes": 2523718,
+        "proof_status": "LOCAL_REPRODUCTION_VERIFIED",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "artifacts__candidate__failure-atlas-counts-10000.csv",
+        "path": "artifacts/candidate/failure-atlas-counts-10000.csv",
+        "url": "/downloads/artifacts/candidate/failure-atlas-counts-10000.csv",
+        "sha256": "0be922e5c37c89851b74a0896f3e1a0c252eb04bd80d978dc454bc011c33da71",
+        "bytes": 104,
+        "proof_status": "LOCAL_REPRODUCTION_VERIFIED",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "artifacts__candidate__failure-atlas.json",
+        "path": "artifacts/candidate/failure-atlas.json",
+        "url": "/downloads/artifacts/candidate/failure-atlas.json",
+        "sha256": "5d05ff8f21680505428651a07e9ed7dddbef421ef5307a783e052533b4530da9",
+        "bytes": 2285518,
+        "proof_status": "LOCAL_REPRODUCTION_VERIFIED",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "artifacts__candidate__motor-forecast.json",
+        "path": "artifacts/candidate/motor-forecast.json",
+        "url": "/downloads/artifacts/candidate/motor-forecast.json",
+        "sha256": "3c37c4cd31ee30cbcba50c41fa4836ce1ae9f3eda11a582893536e6d966dc107",
+        "bytes": 3978,
+        "proof_status": "LOCAL_REPRODUCTION_VERIFIED",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "artifacts__candidate__reverse-stress.json",
+        "path": "artifacts/candidate/reverse-stress.json",
+        "url": "/downloads/artifacts/candidate/reverse-stress.json",
+        "sha256": "4d479de17d85208a315f767aba34e5c2a63e44ad8f27e7d7ef5452566c856fdf",
+        "bytes": 204,
+        "proof_status": "LOCAL_REPRODUCTION_VERIFIED",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "artifacts__candidate__scenario-classes-10000.csv",
+        "path": "artifacts/candidate/scenario-classes-10000.csv",
+        "url": "/downloads/artifacts/candidate/scenario-classes-10000.csv",
+        "sha256": "92e96721c7ac0994d7a7f9161451d8f70ee46456ece19712152c9715399aaeb1",
+        "bytes": 458,
+        "proof_status": "LOCAL_REPRODUCTION_VERIFIED",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "artifacts__candidate__stress-surface.csv",
+        "path": "artifacts/candidate/stress-surface.csv",
+        "url": "/downloads/artifacts/candidate/stress-surface.csv",
+        "sha256": "632aab5ce42fd867c35100f3e4bcdb5ca39163159c527282c4e347cc0c53e8a4",
+        "bytes": 1734,
+        "proof_status": "LOCAL_REPRODUCTION_VERIFIED",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "artifacts__manifest.json",
+        "path": "artifacts/manifest.json",
+        "url": "/downloads/artifacts/manifest.json",
+        "sha256": "78e59dec5381bfbf8b142c5174026d54d2d27069b819731696066987f2f75b30",
+        "bytes": 32048,
+        "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "audit__claim-register.json",
+        "path": "audit/claim-register.json",
+        "url": "/downloads/audit/claim-register.json",
+        "sha256": "0e4dc3ce62e107a6172ecb2853f06113e9783e121f52ba2dfbcf8d0f11a5f3e4",
+        "bytes": 8257,
+        "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "audit__scientific-checks.json",
+        "path": "audit/scientific-checks.json",
+        "url": "/downloads/audit/scientific-checks.json",
+        "sha256": "4d282ee8b3d279b5dd4b7be3d38dba5b8e8d8eafe3754029c4de92253cb09534",
+        "bytes": 3059,
+        "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "audit__notebook-output-comparison.json",
+        "path": "audit/notebook-output-comparison.json",
+        "url": "/downloads/audit/notebook-output-comparison.json",
+        "sha256": "fd43df94189815da4177aece36d54c6da310edfa711af9828dabfa63ffa94809",
+        "bytes": 5076,
+        "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "requirements-replay.lock",
+        "path": "requirements-replay.lock",
+        "url": "/downloads/requirements-replay.lock",
+        "sha256": "734b77ef8848d7d6d847c24fb28c539a88d8c1c46b5255e8eef5cb7548daff7c",
+        "bytes": 1493,
+        "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "publication__manuscript.md",
+        "path": "publication/manuscript.md",
+        "url": "/downloads/publication/manuscript.md",
+        "sha256": "23bd45175b2a528e8a5b2a1abfbc2c97cd81e612c9bf0a990d1d47de98328bd1",
+        "bytes": 60484,
+        "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "publication__latex__references.bib",
+        "path": "publication/latex/references.bib",
+        "url": "/downloads/publication/latex/references.bib",
+        "sha256": "6c1f114cd34a17105322a61ec77766cc558f33811b9823b298fc2c8c60055615",
+        "bytes": 13952,
+        "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "requirements-runtime.lock",
+        "path": "requirements-runtime.lock",
+        "url": "/downloads/requirements-runtime.lock",
+        "sha256": "fdb1830cff1047343adfaaf6ec4cdc550a1fd49d310a189cc9d2b49ad810df74",
+        "bytes": 313,
+        "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "audit__application__vercel-cross-runtime.json",
+        "path": "audit/application/vercel-cross-runtime.json",
+        "url": "/downloads/audit/application/vercel-cross-runtime.json",
+        "sha256": "251bf1dd499e25a1c81af1ee2ef728edbe70c18d427fcb49b5d08d0dc93351da",
+        "bytes": 5267,
+        "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "publication__figure_package__figures__Figure1.png",
+        "path": "publication/figure_package/figures/Figure1.png",
+        "url": "/downloads/publication/figure_package/figures/Figure1.png",
+        "sha256": "b9d142e1ed19df95134896ca0774fbabed3df31c0ef9cf6b86e34908e85e79b6",
+        "bytes": 212365,
+        "proof_status": "REVIEWED_EDITORIAL_COPY",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "publication__figure_package__code__Figure1_tikz.tex",
+        "path": "publication/figure_package/code/Figure1_tikz.tex",
+        "url": "/downloads/publication/figure_package/code/Figure1_tikz.tex",
+        "sha256": "71520c6db53f9106be08d17d44580fdb64b9c24077c7bad65e3d9ffb2b113aef",
+        "bytes": 4140,
+        "proof_status": "REVIEWED_EDITORIAL_COPY",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "publication__figure_package__figures__Figure2.png",
+        "path": "publication/figure_package/figures/Figure2.png",
+        "url": "/downloads/publication/figure_package/figures/Figure2.png",
+        "sha256": "e3c38106782d98d58facd99ad179b0c91ec178dc3e6245d582d2a9d5365c3d2d",
+        "bytes": 287942,
+        "proof_status": "REVIEWED_EDITORIAL_COPY",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "publication__figure_package__code__Figure2.py",
+        "path": "publication/figure_package/code/Figure2.py",
+        "url": "/downloads/publication/figure_package/code/Figure2.py",
+        "sha256": "d2e3452f854f336b8461541f6d392d986899d75df15df5d8bf0245164485e632",
+        "bytes": 5129,
+        "proof_status": "REVIEWED_EDITORIAL_COPY",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "publication__figure_package__figures__Figure3.png",
+        "path": "publication/figure_package/figures/Figure3.png",
+        "url": "/downloads/publication/figure_package/figures/Figure3.png",
+        "sha256": "a65fb5ac361a419c8470f091d874c3d6f6382a3a4ea76918d50139841093989c",
+        "bytes": 400432,
+        "proof_status": "REVIEWED_EDITORIAL_COPY",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "publication__figure_package__code__Figure3.py",
+        "path": "publication/figure_package/code/Figure3.py",
+        "url": "/downloads/publication/figure_package/code/Figure3.py",
+        "sha256": "0af7a7f5143396cbe83ac60fff75b7fa138a4d0e74147a9905a374cb85354133",
+        "bytes": 5298,
+        "proof_status": "REVIEWED_EDITORIAL_COPY",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "publication__figure_package__figures__Figure4.png",
+        "path": "publication/figure_package/figures/Figure4.png",
+        "url": "/downloads/publication/figure_package/figures/Figure4.png",
+        "sha256": "83112db940b1ce21909c6517fc2231fea2612f96a539ae8225e0a7ad57f31ba7",
+        "bytes": 564637,
+        "proof_status": "REVIEWED_EDITORIAL_COPY",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "publication__figure_package__code__Figure4.py",
+        "path": "publication/figure_package/code/Figure4.py",
+        "url": "/downloads/publication/figure_package/code/Figure4.py",
+        "sha256": "3977a742d382ebbc926aaa78b3a61c0fadc48c48dff65fdc9b324d585a77fc53",
+        "bytes": 7264,
+        "proof_status": "REVIEWED_EDITORIAL_COPY",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "publication__figure_package__figures__Figure5.png",
+        "path": "publication/figure_package/figures/Figure5.png",
+        "url": "/downloads/publication/figure_package/figures/Figure5.png",
+        "sha256": "0279785e73cf6d0e76a3c14167c276e79ac72d68e316467358cc291bd61195e3",
+        "bytes": 358669,
+        "proof_status": "REVIEWED_EDITORIAL_COPY",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "publication__figure_package__code__Figure5.py",
+        "path": "publication/figure_package/code/Figure5.py",
+        "url": "/downloads/publication/figure_package/code/Figure5.py",
+        "sha256": "03c6eb02cccabedfe59891c2b01e8bd6f2823578c0b324a799fbf723c8406ebd",
+        "bytes": 5812,
+        "proof_status": "REVIEWED_EDITORIAL_COPY",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "publication__figure_package__figures__Figure6.png",
+        "path": "publication/figure_package/figures/Figure6.png",
+        "url": "/downloads/publication/figure_package/figures/Figure6.png",
+        "sha256": "f0c8407f73c002dcc0ed5064a201da5c5c2903afc7c52373af3e6ad444db678f",
+        "bytes": 261249,
+        "proof_status": "REVIEWED_EDITORIAL_COPY",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "publication__figure_package__code__Figure6.py",
+        "path": "publication/figure_package/code/Figure6.py",
+        "url": "/downloads/publication/figure_package/code/Figure6.py",
+        "sha256": "251afee99ef06121bfd9dd2638db24ead8916aa761f2fcaed6b7a6ad444aa99e",
+        "bytes": 4687,
+        "proof_status": "REVIEWED_EDITORIAL_COPY",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "publication__figure_package__figures__Figure7.png",
+        "path": "publication/figure_package/figures/Figure7.png",
+        "url": "/downloads/publication/figure_package/figures/Figure7.png",
+        "sha256": "0cd937686b892a1933014de0412da3b38d1a81b256526935a622ace8e447f93b",
+        "bytes": 345938,
+        "proof_status": "REVIEWED_EDITORIAL_COPY",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "publication__figure_package__code__Figure7.py",
+        "path": "publication/figure_package/code/Figure7.py",
+        "url": "/downloads/publication/figure_package/code/Figure7.py",
+        "sha256": "ff83af9c95c1488486d092213c08cca3bd15ada6dc581e9062ad229e71b584d4",
+        "bytes": 6076,
+        "proof_status": "REVIEWED_EDITORIAL_COPY",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      },
+      {
+        "id": "publication__latex__main.pdf",
+        "path": "publication/latex/main.pdf",
+        "url": "/downloads/publication/latex/main.pdf",
+        "sha256": "7a9dd81621fc67b6320e720ece0bbd06f73384fe7bd49827f222d414d7cbe842",
+        "bytes": 2307283,
+        "proof_status": "REVIEWED_EDITORIAL_COPY",
+        "version": "phase0-candidate-1",
+        "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+        "license": "AUTHOR_DECISION_PENDING",
+        "release_status": "CANDIDATE"
+      }
+    ],
+    "registered_fingerprints": {
+      "full:20260825": "61616d6739a13b3fb5f53b9d6df04790db4cc744dbd0ba4bca49be86ecf23cf6",
+      "no_validator:20260825": "678ec36170658cd0ebdada607df05f0a2864fc396f747b4abd3798c082863005",
+      "strict_reject:20260825": "41dcb34bfab51ccd24153f65679cb633a17a5e9d5956581a7f3f9a4672ac8bad",
+      "no_transitions:20260825": "29d3d7e6a908d4e3226e0b7deb87a80f177e761bb0687ef4b1c93fd7068ef618",
+      "shared_stream:20260825": "89a494bf2d894c73ea9d739407c648b81039fd22cb004b02d01f3c3eec464922",
+      "full:20260826": "fdcc82e89edfb3465b795dbd2aa778e7b03a790e71913822531e0a1260f26638",
+      "no_validator:20260826": "1eac581a83bfea6da4cbbb84be33e492894aead7911a14403f4f94ddf3825467",
+      "strict_reject:20260826": "784704e1596075a657aca47f8ced7c21170fa77adf4c21f9296c3e08adaa1b1d",
+      "no_transitions:20260826": "b1a68e44c933e7da79d1b9d2e0f9ee418becdb367934fc2a0ac553fa66a38b54",
+      "shared_stream:20260826": "b8d9e4bdff35c407edc29f76ad6230dac4a77d3bd627c954f977b91b7eb2693f",
+      "full:20260827": "4b98c7a4a0953afa2e3a6a1489333925dbafebce6bcf6174e1cc1ca24c8b9205",
+      "no_validator:20260827": "4ea1a43c0600cc36b879e845adb0ed6b217ffb83985d82a98b81cc4fcbcd1bf8",
+      "strict_reject:20260827": "97f475025b879cd6bb8766f39e13fdacc228ecd2342a5f376e051c6a9787fc93",
+      "no_transitions:20260827": "342b0a6c798f8b522cbdc925f299fe7a4adbf838cb4aa09bd9e027ccb1626364",
+      "shared_stream:20260827": "b76622658e3743f339852ee4e26086afb54e41142bb37a17d0c9e3bf5d20e8e8"
+    }
+  },
+  "abstract": "Insurance stress tests commonly apply predefined shocks or simulate losses from static frequency–severity models. These approaches estimate adverse outcomes but do not necessarily integrate scenario sequencing, structural consistency, deterministic replay, and failure attribution. This paper proposes ARCCRAFT (Actuarial Risk & Contingency Computational, Reproducible Architecture for Failure Testing), a versioned procedural architecture in which synthetic insurance worlds evolve over multiple periods under explicit states, transitions, bounds, stochastic streams, and failure predicates. The evaluation separates computational verification from empirical prediction. First, a retrospective motor-insurance study uses 354,140 policy-year observations from 2022–2024 and two temporal forecast origins. Policy-level Poisson pseudo-maximum-likelihood frequency modelling reduces held-out count deviance from 0.8481 to 0.7871 in 2023 and from 0.9153 to 0.8330 in 2024, but does not improve every aggregate error. A policy-level cost model is unstable across years: its incurred-loss error is +9.58% in 2023 and −4.44% in 2024. No model covers observed incurred loss with its process-only interval, and no model covers the 2024 claim count. Second, a synthetic ablation study using three seeds and 10,000 worlds per configuration establishes exact local replay and shows that named PCG64 substreams isolate claim and behavioural results from irrelevant world-stream consumption. Validator and transition ablations alter the selected population and coded failure rates, but the full model’s failures are almost entirely generated by its operational traceability gate. The results support ARCCRAFT as a reproducible audit and diagnostic architecture in the inspected environment; they do not establish calibrated scenario plausibility, general predictive superiority, causal failure attribution, or external validity. Independent portfolios, claim-level losses, operational labels, and prospectively untouched forecast periods are required for confirmatory validation.",
+  "title": "Procedural Stress Testing of Actuarial Models: Design and Preliminary Evaluation of the ARCCRAFT Framework",
+  "motor": {
+    "schema_version": "arccraft-motor-external-1.0",
+    "mode": "PUBLIC_EXTERNAL / EXPERIMENTAL_CALIBRATION",
+    "seed": 42,
+    "simulations": 50000,
+    "calibration_period": [
+      2022,
+      2023
+    ],
+    "projection_year": 2024,
+    "assumptions": {
+      "frequency_multiplier": 1.0,
+      "severity_multiplier": 1.0,
+      "expense_ratio": null,
+      "commission_ratio": null
+    },
+    "calibration": {
+      "period": {
+        "start_year": 2022,
+        "end_year": 2023
+      },
+      "policy_rows": 186007,
+      "exposure": 124311.53424657533,
+      "premium": 54042236.42652575,
+      "claims": 37823.0,
+      "incurred": 35758459.409,
+      "claim_frequency": 0.3042597795066791,
+      "average_severity": 945.4157366946039,
+      "loss_ratio": 0.6616761587506869,
+      "severity_proxy": {
+        "distribution": "lognormal",
+        "mu_log": 6.236753746297977,
+        "mu_log_raw": 6.364312101636903,
+        "sigma_log": 1.1089373449061706,
+        "method": "sigma from claim-weighted log policy-year average severity; mu re-centred so lognormal mean equals observed aggregate average severity"
+      },
+      "status": "PUBLIC_EXTERNAL / EXPERIMENTAL_CALIBRATION",
+      "limitations": [
+        "The dataset is an external public motor portfolio and is not automatically transferable to Togo, Mixx by Yas or the CIMA market.",
+        "Severity is observed as incurred amount aggregated by policy-year, not individual claim transactions.",
+        "Expense and commission ratios are not calibrated from this dataset and must not be inferred from premium/claim fields."
+      ]
+    },
+    "observed_projection_year": {
+      "period": {
+        "start_year": 2024,
+        "end_year": 2024
+      },
+      "policy_rows": 168133,
+      "exposure": 126014.36438356164,
+      "premium": 51037433.00066149,
+      "claims": 39276.0,
+      "incurred": 38106351.28,
+      "claim_frequency": 0.31167875338760576,
+      "average_severity": 970.2197596496588,
+      "loss_ratio": 0.7466353427200405,
+      "severity_proxy": {
+        "distribution": "lognormal",
+        "mu_log": 6.2912164675312905,
+        "mu_log_raw": 6.397525452265884,
+        "sigma_log": 1.0828722312867571,
+        "method": "sigma from claim-weighted log policy-year average severity; mu re-centred so lognormal mean equals observed aggregate average severity"
+      },
+      "status": "PUBLIC_EXTERNAL / EXPERIMENTAL_CALIBRATION",
+      "limitations": [
+        "The dataset is an external public motor portfolio and is not automatically transferable to Togo, Mixx by Yas or the CIMA market.",
+        "Severity is observed as incurred amount aggregated by policy-year, not individual claim transactions.",
+        "Expense and commission ratios are not calibrated from this dataset and must not be inferred from premium/claim fields."
+      ]
+    },
+    "predicted_claim_count": {
+      "mean": 38341.0563,
+      "q025": 37959.0,
+      "q50": 38341.0,
+      "q975": 38724.0
+    },
+    "predicted_incurred": {
+      "mean": 36248443.38593461,
+      "q025": 35574691.08295452,
+      "q50": 36248415.90797611,
+      "q975": 36919640.897579476
+    },
+    "predicted_loss_ratio": {
+      "mean": 0.7102324951465486,
+      "q025": 0.6970313550545035,
+      "q50": 0.7102319567582152,
+      "q975": 0.7233835780318528
+    },
+    "combined_ratio": null,
+    "validation": {
+      "observed_claims": 39276.0,
+      "observed_incurred": 38106351.28,
+      "observed_loss_ratio": 0.7466353427200405,
+      "claim_count_error_pct": -2.3804453101130547,
+      "incurred_error_pct": -4.875585910636647,
+      "observed_claims_in_95_interval": false,
+      "observed_incurred_in_95_interval": false
+    },
+    "limitations": [
+      "External public motor portfolio; not automatically transferable to Togo, Mixx by Yas or the CIMA market.",
+      "Policy-year incurred amount is not individual-claim severity; the lognormal calibration is an experimental proxy.",
+      "Expense and commission ratios are returned as NOT_AVAILABLE unless explicitly supplied as scenario assumptions."
+    ]
+  },
+  "data": {
+    "sha256": "6a47d19d5278a049ea0aeaf39c955cc26068639bdc58cb4523b201e740f0faf4",
+    "dictionary_sha256": "cde44e797a7fd34de29199c78c9301d6f00ed94fd725b4fe8e67e6c2c4cc2e41",
+    "license": {
+      "spdx": "CC-BY-4.0",
+      "url": "https://data.mendeley.com/datasets/sw4jmdb2sm/1",
+      "version": 1,
+      "doi": "10.17632/sw4jmdb2sm.1",
+      "verified_on": "2026-09-25",
+      "contributors": [
+        "Priscila Espinosa",
+        "Josep Lledó",
+        "David Atance"
+      ],
+      "note": "License verified on publisher dataset page; local bytes match research ingestion manifest. No fresh publisher file download performed."
+    },
+    "checks": {
+      "csv_sha256_matches_recorded": true,
+      "dictionary_sha256_matches_recorded": true,
+      "schema_matches": true,
+      "all_normalized_cells_equal": true
+    },
+    "zip_members": [
+      {
+        "name": "A detailed dataset of motor insurance policies wit/Descriptive of variables.xlsx",
+        "bytes": 15413,
+        "sha256": "cde44e797a7fd34de29199c78c9301d6f00ed94fd725b4fe8e67e6c2c4cc2e41"
+      },
+      {
+        "name": "A detailed dataset of motor insurance policies wit/Dataset of motor insurance portfolio.csv",
+        "bytes": 94710312,
+        "sha256": "6a47d19d5278a049ea0aeaf39c955cc26068639bdc58cb4523b201e740f0faf4"
+      }
+    ],
+    "sqlite_integrity": "ok",
+    "rows": 354140,
+    "columns": 47,
+    "compared_cells": 16644580,
+    "mismatched_rows": 0,
+    "mismatched_cells": 0,
+    "cast_failures": {
+      "vehicle_value": 513,
+      "vehicle_age": 2,
+      "age_driving_licence": 2
+    },
+    "null_counts": {
+      "insured_id": 0,
+      "year": 0,
+      "policy_type": 0,
+      "policy_status": 0,
+      "business_type": 0,
+      "payment_frequency": 0,
+      "bonus_score": 0,
+      "driver_age": 0,
+      "vehicle_age": 2,
+      "age_driving_licence": 2,
+      "fuel_type": 0,
+      "vehicle_value": 513,
+      "seats": 0,
+      "power_to_weight_ratio": 0,
+      "vehicle_brand": 0,
+      "municipality_type": 0,
+      "circulation_area": 0,
+      "total_premium": 0,
+      "liability_premium": 0,
+      "property_damage_premium": 0,
+      "theft_premium": 0,
+      "fire_premium": 0,
+      "glass_premium": 0,
+      "legal_protection_premium": 0,
+      "occupants_premium": 0,
+      "total_claims": 0,
+      "liability_claims": 0,
+      "liability_property_claims": 0,
+      "liability_injury_claims": 0,
+      "property_claims": 0,
+      "theft_claims": 0,
+      "fire_claims": 0,
+      "glass_claims": 0,
+      "legal_protection_claims": 0,
+      "occupants_claims": 0,
+      "total_incurred": 0,
+      "liability_incurred": 0,
+      "liability_property_incurred": 0,
+      "liability_injury_incurred": 0,
+      "property_incurred": 0,
+      "theft_incurred": 0,
+      "fire_incurred": 0,
+      "glass_incurred": 0,
+      "legal_protection_incurred": 0,
+      "occupants_incurred": 0,
+      "total_exposure": 0,
+      "liability_exposure": 0
+    },
+    "unique_insureds": 185678,
+    "duplicate_keys": 0,
+    "annual": [
+      {
+        "year": 2022,
+        "policy_rows": 67172,
+        "insured_count": 67172,
+        "exposure": 41912.49589041096,
+        "premium": 18697928.342009425,
+        "claims": 12665,
+        "incurred": 12270105.055,
+        "claim_frequency": 0.30217718441572433,
+        "avg_severity": 968.8199806553494,
+        "loss_ratio": 0.6562280500044615
+      },
+      {
+        "year": 2023,
+        "policy_rows": 118835,
+        "insured_count": 118835,
+        "exposure": 82399.03835616438,
+        "premium": 35344308.084516324,
+        "claims": 25158,
+        "incurred": 23488354.354,
+        "claim_frequency": 0.30531909718722944,
+        "avg_severity": 933.6336097464027,
+        "loss_ratio": 0.6645583299532691
+      },
+      {
+        "year": 2024,
+        "policy_rows": 168133,
+        "insured_count": 168133,
+        "exposure": 126014.36438356164,
+        "premium": 51037433.00066149,
+        "claims": 39276,
+        "incurred": 38106351.28,
+        "claim_frequency": 0.31167875338760576,
+        "avg_severity": 970.2197596496588,
+        "loss_ratio": 0.7466353427200405
+      }
+    ],
+    "dictionary_rows": [
+      {
+        "variable": "insured_id",
+        "description": "Unique identifier assigned to each policy number.",
+        "variable_group": "Policy and insured characteristics"
+      },
+      {
+        "variable": "insured_id",
+        "description": "It assigns a sequential ID based on the first appearance of each policy number; repeated policy numbers receive the same ID.",
+        "variable_group": ""
+      },
+      {
+        "variable": "year",
+        "description": "Calendar year",
+        "variable_group": "Policy and insured characteristics"
+      },
+      {
+        "variable": "policy_type",
+        "description": "Categorical variable describing the main coverage structure of the motor insurance policy. The original detailed combinations have been grouped into broader, actuarially meaningful categories.",
+        "variable_group": "Policy and insured characteristics"
+      },
+      {
+        "variable": "policy_type",
+        "description": "- TP: Basic third-party liability coverage only.",
+        "variable_group": ""
+      },
+      {
+        "variable": "policy_type",
+        "description": "- TPG: Third-party liability with glass coverage.",
+        "variable_group": ""
+      },
+      {
+        "variable": "policy_type",
+        "description": "- CC: Third-party liability combined with two or more additional coverages, such as theft, fire, total loss or glass.",
+        "variable_group": ""
+      },
+      {
+        "variable": "policy_type",
+        "description": "- COMP_E: comprehensive with excess.",
+        "variable_group": ""
+      },
+      {
+        "variable": "policy_type",
+        "description": "- COMP_N: comprehensive without excess",
+        "variable_group": ""
+      },
+      {
+        "variable": "policy_status",
+        "description": "Indicates whether the policy was active (A) or cancelled (C) at the time of analysis.",
+        "variable_group": "Policy and insured characteristics"
+      },
+      {
+        "variable": "business_type",
+        "description": "Classification of the policy according to its business origin. ",
+        "variable_group": "Policy and insured characteristics"
+      },
+      {
+        "variable": "business_type",
+        "description": "- NB: new_business",
+        "variable_group": ""
+      },
+      {
+        "variable": "business_type",
+        "description": "- P: portfolio",
+        "variable_group": ""
+      },
+      {
+        "variable": "payment_frequency",
+        "description": "Indicates the policy’s billing frequency:",
+        "variable_group": "Policy and insured characteristics"
+      },
+      {
+        "variable": "payment_frequency",
+        "description": "- A: annual",
+        "variable_group": ""
+      },
+      {
+        "variable": "payment_frequency",
+        "description": "- S: semiannual",
+        "variable_group": ""
+      },
+      {
+        "variable": "payment_frequency",
+        "description": "- Q: quarterly",
+        "variable_group": ""
+      },
+      {
+        "variable": "bonus_score",
+        "description": "Indicator of the policyholder’s past claims experience:",
+        "variable_group": "Policy and insured characteristics"
+      },
+      {
+        "variable": "bonus_score",
+        "description": "- G: Positive reflects a favourable claims history",
+        "variable_group": ""
+      },
+      {
+        "variable": "bonus_score",
+        "description": "- N: indicates a neutral profile",
+        "variable_group": ""
+      },
+      {
+        "variable": "bonus_score",
+        "description": "- B: had a negative denotes a poor claims history.",
+        "variable_group": ""
+      },
+      {
+        "variable": "driver_age",
+        "description": "Age of the main driver associated with the policy, measured in years.",
+        "variable_group": "Driver and vehicle characteristics"
+      },
+      {
+        "variable": "vehicle_age",
+        "description": "Age of the insured vehicle, also measured in years.",
+        "variable_group": "Driver and vehicle characteristics"
+      },
+      {
+        "variable": "age_driving_licence",
+        "description": "Year in which the insured obtained the driving licence.",
+        "variable_group": "Driver and vehicle characteristics"
+      },
+      {
+        "variable": "age_driving_licence",
+        "description": "Note: this variable records the calendar year of licence issuance and does not measure the length of time the licence has been held.",
+        "variable_group": ""
+      },
+      {
+        "variable": "fuel_type",
+        "description": "Indicates the vehicle’s fuel type. In this dataset, only two categories are kept:",
+        "variable_group": "Driver and vehicle characteristics"
+      },
+      {
+        "variable": "fuel_type",
+        "description": "- D: diesel",
+        "variable_group": ""
+      },
+      {
+        "variable": "fuel_type",
+        "description": "- G: gasoline",
+        "variable_group": ""
+      },
+      {
+        "variable": "vehicle_value",
+        "description": "Declared insured value of the vehicle. Some entries are missing",
+        "variable_group": "Driver and vehicle characteristics"
+      },
+      {
+        "variable": "seats",
+        "description": "Number of seats available in the insured vehicle.",
+        "variable_group": "Driver and vehicle characteristics"
+      },
+      {
+        "variable": "power_to_weight_ratio",
+        "description": "Approximate weight-to-power ratio of the vehicle (kg per horsepower), used as a proxy for performance characteristics.",
+        "variable_group": "Driver and vehicle characteristics"
+      },
+      {
+        "variable": "vehicle_brand",
+        "description": "Brand of the insured vehicle as reported in the policy data.",
+        "variable_group": "Driver and vehicle characteristics"
+      },
+      {
+        "variable": "municipality_type",
+        "description": "Geographic classification of the policyholder’s municipality:",
+        "variable_group": "Driver and vehicle characteristics"
+      },
+      {
+        "variable": "municipality_type",
+        "description": "- I: inland",
+        "variable_group": ""
+      },
+      {
+        "variable": "municipality_type",
+        "description": "- C: coastal",
+        "variable_group": ""
+      },
+      {
+        "variable": "municipality_type",
+        "description": "- IS: islands",
+        "variable_group": ""
+      },
+      {
+        "variable": "circulation_area",
+        "description": "Indicates the predominant circulation environment of the vehicle:",
+        "variable_group": "Driver and vehicle characteristics"
+      },
+      {
+        "variable": "circulation_area",
+        "description": "- U: urban",
+        "variable_group": ""
+      },
+      {
+        "variable": "circulation_area",
+        "description": "- R: rural ",
+        "variable_group": ""
+      },
+      {
+        "variable": "total_premium",
+        "description": "Total premium of the policy, calculated as the sum of all individual coverage premiums.",
+        "variable_group": "Premiums"
+      },
+      {
+        "variable": "liability_premium",
+        "description": "Premium charged for third-party liability coverage.",
+        "variable_group": "Premiums"
+      },
+      {
+        "variable": "property_damage_premium",
+        "description": "Premium corresponding to property damage coverage.",
+        "variable_group": "Premiums"
+      },
+      {
+        "variable": "theft_premium",
+        "description": "Premium associated with theft coverage.",
+        "variable_group": "Premiums"
+      },
+      {
+        "variable": "fire_premium",
+        "description": "Premium for fire coverage.",
+        "variable_group": "Premiums"
+      },
+      {
+        "variable": "glass_premium",
+        "description": "Premium for glass coverage.",
+        "variable_group": "Premiums"
+      },
+      {
+        "variable": "legal_protection_premium",
+        "description": "Premium for legal protection coverage.",
+        "variable_group": "Premiums"
+      },
+      {
+        "variable": "occupants_premium",
+        "description": "Premium for personal-injury coverage of vehicle occupants.",
+        "variable_group": "Premiums"
+      },
+      {
+        "variable": "total_claims",
+        "description": "Indicates the total number of claims reported for the policy during the exposure period. Typical values range from 0 (no claims) to several claims per contract.",
+        "variable_group": "Exposure, claims and incurred"
+      },
+      {
+        "variable": "liability_claims",
+        "description": "Total number of liability claims reported under the policy.",
+        "variable_group": "Exposure, claims and incurred"
+      },
+      {
+        "variable": "liability_property_claims",
+        "description": "Number of liability claims related to material or property damage.",
+        "variable_group": "Exposure, claims and incurred"
+      },
+      {
+        "variable": "liability_injury_claims",
+        "description": "Number of liability claims involving bodily injury.",
+        "variable_group": "Exposure, claims and incurred"
+      },
+      {
+        "variable": "property_claims",
+        "description": "Count of property damage claims.",
+        "variable_group": "Exposure, claims and incurred"
+      },
+      {
+        "variable": "theft_claims",
+        "description": "Number of theft-related claims.",
+        "variable_group": "Exposure, claims and incurred"
+      },
+      {
+        "variable": "fire_claims",
+        "description": "Count of fire-related claims.",
+        "variable_group": "Exposure, claims and incurred"
+      },
+      {
+        "variable": "glass_claims",
+        "description": "Number of glass-related claims.",
+        "variable_group": "Exposure, claims and incurred"
+      },
+      {
+        "variable": "legal_protection_claims",
+        "description": "Number of legal protection claims.",
+        "variable_group": "Exposure, claims and incurred"
+      },
+      {
+        "variable": "occupants_claims",
+        "description": "Number of claims under this coverage.",
+        "variable_group": "Exposure, claims and incurred"
+      },
+      {
+        "variable": "total_incurred",
+        "description": "Represents the total incurred cost of claims for the policy, including paid amounts and outstanding reserves. Values are typically zero for policies without losses and positive when claims exist.",
+        "variable_group": "Exposure, claims and incurred"
+      },
+      {
+        "variable": "liability_incurred",
+        "description": "Total incurred cost (paid + reserved) for all liability claims.",
+        "variable_group": "Exposure, claims and incurred"
+      },
+      {
+        "variable": "liability_property_incurred",
+        "description": "Total incurred cost for liability claims involving material or property damage.",
+        "variable_group": "Exposure, claims and incurred"
+      },
+      {
+        "variable": "liability_injury_incurred",
+        "description": "Total incurred cost for liability claims involving bodily injury.",
+        "variable_group": "Exposure, claims and incurred"
+      },
+      {
+        "variable": "property_incurred",
+        "description": "Total incurred cost for property damage claims.",
+        "variable_group": "Exposure, claims and incurred"
+      },
+      {
+        "variable": "theft_incurred",
+        "description": "Total incurred cost for theft claims.",
+        "variable_group": "Exposure, claims and incurred"
+      },
+      {
+        "variable": "fire_incurred",
+        "description": "Total incurred cost for fire claims.",
+        "variable_group": "Exposure, claims and incurred"
+      },
+      {
+        "variable": "glass_incurred",
+        "description": "Total incurred cost for glass claims.",
+        "variable_group": "Exposure, claims and incurred"
+      },
+      {
+        "variable": "legal_protection_incurred",
+        "description": "Total incurred cost for legal protection claims.",
+        "variable_group": "Exposure, claims and incurred"
+      },
+      {
+        "variable": "occupants_incurred",
+        "description": "Total incurred cost under this coverage.",
+        "variable_group": "Exposure, claims and incurred"
+      },
+      {
+        "variable": "total_exposure",
+        "description": "Represents the effective time-on-risk for each policy, expressed in policy years. Values range from 0 to 1 for partial-year exposure, and may exceed 1 if the contract covers more than one year.",
+        "variable_group": "Exposure, claims and incurred"
+      },
+      {
+        "variable": "liability_exposure",
+        "description": "Amount of exposure associated with liability coverage.",
+        "variable_group": "Exposure, claims and incurred"
+      }
+    ]
+  }
+}

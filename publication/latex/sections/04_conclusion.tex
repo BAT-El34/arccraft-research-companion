@@ -1,0 +1,38 @@
+\FloatBarrier
+\section{Discussion}\label{sec:discussion}
+
+The study supports a narrower contribution than the phrase “validated framework” would imply. ARCCRAFT provides a locally reproducible computational architecture that makes seeds, validation decisions, scenario classes, and failure gates explicit. All 15 registered configuration-seed pairs replayed with identical fingerprints, and the 100-draw intervention left the named-stream fingerprint unchanged while changing the shared-stream fingerprint. These metrics establish local replay and component isolation. They do not measure operational usefulness through a user study or deployment evaluation.
+
+The empirical benchmark gives mixed evidence. Policy-level frequency reduces held-out count deviance by 7.19\% in 2023 and 8.99\% in 2024 relative to the aggregate comparator, but it does not uniformly improve aggregate errors or calibration. Only 3 of 12 reported target-model outcomes fall inside their 95\% process intervals, including none of the six incurred totals. The policy-level cost model fails the intended superiority test because its 2023 incurred error increases from +2.70\% to +9.58\%, and the first and second incurred-risk deciles in 2023 have observed-to-predicted ratios of 1.51 and 1.68, respectively. The result illustrates why aggregate error, individual deviance, group calibration, and interval coverage must remain separate.
+
+The procedural ablations also delimit the architectural claims. Strict rejection reduces the accepted population by 19.87\% relative to the full configuration and increases the failure-or-rejection rate by 13.43 percentage points, while the accepted-world failure rate rises by only 0.88 percentage points. The validator is therefore part of the data-generating process, not a neutral cleaning step. Yet the experiment provides no statistical or economic plausibility criterion for choosing repair over rejection. Disabling transitions lowers the accepted-world failure rate by 0.247 percentage points, or 0.69\% relative to the full configuration. This is a small descriptive effect under the present parameterization and three-seed design, not evidence of general transition importance.
+
+The canonical Failure Atlas records 3,594 events that reconcile to 3,588 traceability failures, one combined-ratio failure, and five structural rejections. Traceability represents 99.97\% of simulated failures, showing that the current experiment primarily audits one operational gate. This supports event recording and replay, but not diagnostic accuracy. The records do not contain an empirically observed failure label, implanted causal mechanism, or full first-failure time. Controlled fault-injection experiments should therefore be added before reporting precision, recall, detection delay, attribution rank, or causal identification.
+
+For management and model-risk governance, the measured contribution is procedural: registered runs replayed exactly, stream isolation passed the specified intervention, and validator policy changed the selected population by a measured amount. Whether these properties improve model challenge in practice remains untested. Operational value requires user studies, deployment evidence, or governance-case evaluation that is not available here.
+
+\subsection{Limitations}\label{sec:limitations}
+
+The motor data cover only three annual periods, the final year was already inspected, and the recovered original motor CSV and dictionary now match the recorded SHA-256 fingerprints, and all 16,644,580 normalized cells reconcile with the research database. Policy-year incurred totals do not identify individual claim severity. Process intervals omit parameter and model uncertainty. The full synthetic grammar is not calibrated to the motor portfolio, and scenario class probabilities, transitions, dependencies, and thresholds are assumptions. Only three ablation seeds were timed on one host. Combined-ratio failures are too rare for useful comparison. No external operational labels or independent portfolio are available. These constraints prevent claims of general predictive validation, stable tail coverage, causal attribution, or external validity.
+
+\section{Conclusion and recommendations}\label{sec:conclusion-and-recommendations}
+
+ARCCRAFT is best characterized by the present evidence as a proposed reproducible audit architecture for procedural actuarial stress testing. In the inspected local environment, 15 of 15 registered runs replay exactly, the named-stream fingerprint is invariant to 100 irrelevant world draws, strict rejection reduces accepted worlds by 19.87\%, and disabling transitions changes the accepted-world failure rate by 0.247 percentage points. These findings support local computational verification and quantifiable architectural effects.
+
+The evidence does not support overall predictive superiority. Policy-level frequency modelling improves held-out count deviance but remains temporally miscalibrated, while policy-level severity is unstable. The 2024 outcome falls outside all reported process-only intervals, and the synthetic experiment is dominated by its traceability threshold. The paper therefore rejects complete validation and treats the empirical results as retrospective preliminary evidence.
+
+Four next steps are required. First, evaluate a prospectively untouched year or independent portfolio. Second, obtain claim-level payments, expenses, commissions, and operational traceability outcomes so that loss tails and failure gates can be validated empirically. Third, calibrate scenario dynamics and plausibility criteria rather than relying on labels. Fourth, conduct registered fault-injection experiments and compare diagnostic precision, recall, delay, and attribution rank against conventional simulation and sensitivity methods. Until those steps are completed, ARCCRAFT's strongest demonstrated contribution is reproducible procedural integration, not established actuarial superiority.
+
+\section*{Data, code, and reproducibility statement}
+\addcontentsline{toc}{section}{Data, code, and reproducibility statement}
+
+The reviewed scientific engine is frozen at commit b642f8238d86b5ec3a4115d9d06d582682d69f1e in the independent ARCCRAFT Research Companion repository. Registered evidence, source hashes, calibration snapshots, replication scripts and the claim register accompany this candidate. The original motor CSV and variable dictionary were recovered and reconciled against the research derivative. Raw policy data and the general research database are not served by the companion. The external dataset is available from Mendeley Data under CC BY 4.0, DOI 10.17632/sw4jmdb2sm.1. Author metadata, reuse licences for code and authored content, and a final immutable archive DOI remain pending.
+
+Figure 8 opens the dedicated ARCCRAFT Research Companion. The site separates precomputed reference artifacts, live replays and user explorations. Each run records its scientific commit, parameters, environment and output fingerprint. The live site is a consultation and execution interface; the versioned evidence registry defines the reference results. The candidate must not be described as a final archived publication before its release metadata and DOI are completed.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.62\linewidth]{Figure8.png}
+\caption{ARCCRAFT Research Companion access. The QR code opens the dedicated bilingual scientific companion. Reference evidence, live replay and user exploration remain separate; final archive DOI pending.}
+\label{fig:8}
+\end{figure}

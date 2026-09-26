@@ -1,0 +1,205 @@
+{
+  "tests": [
+    {
+      "title": "en: every route renders with language, one heading, and no runtime error",
+      "browser": "chromium",
+      "status": "expected",
+      "duration_ms": 3183
+    },
+    {
+      "title": "fr: every route renders with language, one heading, and no runtime error",
+      "browser": "chromium",
+      "status": "expected",
+      "duration_ms": 3911
+    },
+    {
+      "title": "language switch preserves semantic route; theme persists across navigation",
+      "browser": "chromium",
+      "status": "expected",
+      "duration_ms": 1666
+    },
+    {
+      "title": "reference atlas includes five rejects with null metrics and filters export",
+      "browser": "chromium",
+      "status": "expected",
+      "duration_ms": 1359
+    },
+    {
+      "title": "motor live replay verifies; exploration is separate; network error clears prior success",
+      "browser": "chromium",
+      "status": "expected",
+      "duration_ms": 1423
+    },
+    {
+      "title": "candidate PDF download and figure assets exist",
+      "browser": "chromium",
+      "status": "expected",
+      "duration_ms": 1856
+    },
+    {
+      "title": "accessibility light: key routes and 320px reflow",
+      "browser": "chromium",
+      "status": "expected",
+      "duration_ms": 10257
+    },
+    {
+      "title": "accessibility dark: key routes and 320px reflow",
+      "browser": "chromium",
+      "status": "expected",
+      "duration_ms": 9851
+    },
+    {
+      "title": "en: every route renders with language, one heading, and no runtime error",
+      "browser": "edge",
+      "status": "expected",
+      "duration_ms": 4726
+    },
+    {
+      "title": "fr: every route renders with language, one heading, and no runtime error",
+      "browser": "edge",
+      "status": "expected",
+      "duration_ms": 4314
+    },
+    {
+      "title": "language switch preserves semantic route; theme persists across navigation",
+      "browser": "edge",
+      "status": "expected",
+      "duration_ms": 1980
+    },
+    {
+      "title": "reference atlas includes five rejects with null metrics and filters export",
+      "browser": "edge",
+      "status": "expected",
+      "duration_ms": 1840
+    },
+    {
+      "title": "motor live replay verifies; exploration is separate; network error clears prior success",
+      "browser": "edge",
+      "status": "expected",
+      "duration_ms": 1525
+    },
+    {
+      "title": "candidate PDF download and figure assets exist",
+      "browser": "edge",
+      "status": "expected",
+      "duration_ms": 1655
+    },
+    {
+      "title": "accessibility light: key routes and 320px reflow",
+      "browser": "edge",
+      "status": "expected",
+      "duration_ms": 10833
+    },
+    {
+      "title": "accessibility dark: key routes and 320px reflow",
+      "browser": "edge",
+      "status": "expected",
+      "duration_ms": 10300
+    },
+    {
+      "title": "en: every route renders with language, one heading, and no runtime error",
+      "browser": "firefox",
+      "status": "expected",
+      "duration_ms": 9938
+    },
+    {
+      "title": "fr: every route renders with language, one heading, and no runtime error",
+      "browser": "firefox",
+      "status": "expected",
+      "duration_ms": 5617
+    },
+    {
+      "title": "language switch preserves semantic route; theme persists across navigation",
+      "browser": "firefox",
+      "status": "expected",
+      "duration_ms": 2489
+    },
+    {
+      "title": "reference atlas includes five rejects with null metrics and filters export",
+      "browser": "firefox",
+      "status": "expected",
+      "duration_ms": 1473
+    },
+    {
+      "title": "motor live replay verifies; exploration is separate; network error clears prior success",
+      "browser": "firefox",
+      "status": "expected",
+      "duration_ms": 1794
+    },
+    {
+      "title": "candidate PDF download and figure assets exist",
+      "browser": "firefox",
+      "status": "expected",
+      "duration_ms": 3538
+    },
+    {
+      "title": "accessibility light: key routes and 320px reflow",
+      "browser": "firefox",
+      "status": "expected",
+      "duration_ms": 13445
+    },
+    {
+      "title": "accessibility dark: key routes and 320px reflow",
+      "browser": "firefox",
+      "status": "expected",
+      "duration_ms": 13571
+    },
+    {
+      "title": "en: every route renders with language, one heading, and no runtime error",
+      "browser": "webkit",
+      "status": "expected",
+      "duration_ms": 5353
+    },
+    {
+      "title": "fr: every route renders with language, one heading, and no runtime error",
+      "browser": "webkit",
+      "status": "expected",
+      "duration_ms": 4264
+    },
+    {
+      "title": "language switch preserves semantic route; theme persists across navigation",
+      "browser": "webkit",
+      "status": "expected",
+      "duration_ms": 2128
+    },
+    {
+      "title": "reference atlas includes five rejects with null metrics and filters export",
+      "browser": "webkit",
+      "status": "expected",
+      "duration_ms": 1630
+    },
+    {
+      "title": "motor live replay verifies; exploration is separate; network error clears prior success",
+      "browser": "webkit",
+      "status": "expected",
+      "duration_ms": 1796
+    },
+    {
+      "title": "candidate PDF download and figure assets exist",
+      "browser": "webkit",
+      "status": "expected",
+      "duration_ms": 1667
+    },
+    {
+      "title": "accessibility light: key routes and 320px reflow",
+      "browser": "webkit",
+      "status": "expected",
+      "duration_ms": 21937
+    },
+    {
+      "title": "accessibility dark: key routes and 320px reflow",
+      "browser": "webkit",
+      "status": "expected",
+      "duration_ms": 22420
+    }
+  ],
+  "stats": {
+    "startTime": "2026-09-25T21:22:35.795Z",
+    "duration": 196244.164,
+    "expected": 32,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "environment": "Windows; Chromium, Edge, Firefox and Playwright WebKit. WebKit is not a native Safari/iOS device test."
+}
