@@ -196,7 +196,12 @@ function Home({ locale }: { locale: Locale }) {
                 </span>
                 <h3>{locale === "fr" ? c.claim_fr : c.claim}</h3>
                 <p className="metric-value">
-                  {c.observed_result.split(";")[0]}
+                  {
+                    (locale === "fr"
+                      ? c.observed_result_fr
+                      : c.observed_result
+                    ).split(";")[0]
+                  }
                 </p>
                 <p>{locale === "fr" ? c.scope_fr : c.evidential_scope}</p>
                 <a href={`${href(locale, "evidence")}#${c.claim_id}`}>
@@ -403,7 +408,9 @@ function Evidence({ locale }: { locale: Locale }) {
               {c.claim_id} / {c.proof_status}
             </span>
             <h2>{locale === "fr" ? c.claim_fr : c.claim}</h2>
-            <p className="result">{c.observed_result}</p>
+            <p className="result">
+              {locale === "fr" ? c.observed_result_fr : c.observed_result}
+            </p>
             <p>{locale === "fr" ? c.scope_fr : c.evidential_scope}</p>
           </div>
           <dl>
@@ -488,7 +495,7 @@ function Figures({ locale }: { locale: Locale }) {
               style={{ width: "100%", height: "auto" }}
             />
           </div>
-          <figcaption>
+          <figcaption lang="en">
             <span className="eyebrow">
               {tr(
                 locale,

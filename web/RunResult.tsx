@@ -184,9 +184,15 @@ export default function RunResult({
                     <td>{name}</td>
                     <td>{c.mondes_acceptes}</td>
                     <td>
-                      {(Number(c.taux_echec_synthetique) * 100).toFixed(3)} %
+                      {c.taux_echec_synthetique == null
+                        ? "null"
+                        : `${(Number(c.taux_echec_synthetique) * 100).toFixed(3)} %`}
                     </td>
-                    <td>{Number(c.ratio_combine_moyen).toFixed(6)}</td>
+                    <td>
+                      {c.ratio_combine_moyen == null
+                        ? "null"
+                        : Number(c.ratio_combine_moyen).toFixed(6)}
+                    </td>
                   </tr>
                 ))}
               </tbody>

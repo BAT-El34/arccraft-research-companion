@@ -167,6 +167,7 @@ def synthetic_run(p):
                     correlations=clean(e.cribler_variables(rows, worlds, validation)),
                     reverse_stress=e.recherche_stress_inverse(e.product, p.seed) if p.variant == 'full' else None,
                     warnings=['Synthetic grammar is not an empirical motor calibration.', 'Correlations and failure gates do not establish causality.', 'Reverse stress uses a separate full-configuration search, not a global optimum.'] )
+    response['diagnostics_semantic_sha256'] = digest({k: response[k] for k in ['atlas', 'classes', 'gates', 'correlations', 'reverse_stress']})
     if p.world_id is not None:
         response['selected_world'] = payload[p.world_id]
         response['selection_method'] = 'Replay complete run before selecting world; output hash always covers complete run.'

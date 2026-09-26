@@ -49,6 +49,7 @@ def main():
     # A candidate is explicit; archive DOI, reuse licences and affiliations are not fabricated.
     main_tex=publication/'latex/main.tex'
     text=main_tex.read_text(encoding='utf-8').replace('\\vspace{0.5em}', '\\vspace{0.5em}\n{\\large Elia Batako and Manuel Ntumba}\\par\n{\\small Reviewed companion candidate; author affiliations and archive DOI pending.}\\par',1)
+    text=text.replace('\\vspace*{1.5cm}','\\vspace*{0.7cm}').replace('\\vspace{1.8cm}','\\vspace{0.8cm}')
     main_tex.write_text(text,encoding='utf-8')
     update_companion_links()
     subprocess.run([sys.executable,'code/Figure3.py'],cwd=publication/'figure_package',check=True)
@@ -102,7 +103,11 @@ def build_registry():
         img=add(png,'REVIEWED_EDITORIAL_COPY')
         script=add(ROOT/f'publication/figure_package/code/Figure{i}{"_tikz.tex" if i==1 else ".py"}','REVIEWED_EDITORIAL_COPY')
         caption=re.search(rf'### Figure {i}\s+(.+?)(?=### Figure|$)',captions,re.S).group(1).strip().replace('**','')
-        figures.append({'number':i,'title':titles[i-1],'title_fr':titles_fr[i-1],'caption':caption,'image':img,'script':script,'sources':[next(a for a in entries if a['path'].endswith('/'+name)) for name in mapping[i-1]]})
+        figure_sources=[next(a for a in entries if a['path'].endswith('/'+name)) for name in mapping[i-1]]
+        if i==1:figure_sources.append(next(a for a in entries if a['path']=='publication/manuscript.md'))
+        if i==6:
+            figure_sources.extend(next(a for a in entries if a['path'].endswith('/'+name)) for name in ['scenario-classes-10000.csv','failure-atlas-counts-10000.csv'])
+        figures.append({'number':i,'title':titles[i-1],'title_fr':titles_fr[i-1],'caption':caption,'image':img,'script':script,'sources':figure_sources})
     pdf=ROOT/'publication/latex/main.pdf'
     if pdf.exists(): add(pdf,'REVIEWED_EDITORIAL_COPY')
     claims=read('audit/claim-register.json')
@@ -111,6 +116,17 @@ def build_registry():
     units=['%','outcomes','runs','boolean','%; percentage points','percentage points; %','%','seconds; %']
     for i,c in enumerate(claims):
         c.update(claim_fr=fr[i][0],metric_fr=fr[i][1],scope_fr=fr[i][2],formula=formulas[i],unit=units[i],source_url='/downloads/'+c['source_path'],population='Motor portfolio; forecast origins 2023, 2024' if i<2 else 'Synthetic registered worlds; seeds 20260825–20260827',paper_reference='Results / empirical benchmark' if i<2 else 'Results / procedural ablations')
+    result_translations=[
+        '7,19 % en 2023 ; 8,99 % en 2024',
+        '3/12 au total ; 3/6 nombres de sinistres ; 0/6 coûts totaux',
+        '15/15 paires configuration–seed',
+        'Flux nommés inchangés ; flux partagé modifié',
+        '19,87 % de mondes acceptés en moins ; +13,43 points de pourcentage d’échec ou rejet',
+        '−0,247 point de pourcentage ; −0,69 % en relatif',
+        '3588/3589, soit 99,97 %',
+        '3,59 s ; 1,05 s ; 29,09 %'
+    ]
+    for c,translated in zip(claims,result_translations):c['observed_result_fr']=translated
     worlds=read('artifacts/candidate/canonical-worlds.json'); by_id={r['world_id']:r for r in worlds}
     atlas=read('artifacts/candidate/failure-atlas.json')
     for row in atlas:

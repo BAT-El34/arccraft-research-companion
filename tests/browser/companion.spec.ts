@@ -134,3 +134,62 @@ for (const theme of ["light", "dark"]) {
     });
   });
 }
+
+test("exploratory atlas retains its run and reference stays separate", async ({
+  page,
+}) => {
+  await page.goto("/en/lab/");
+  await page.getByLabel("Execution mode").selectOption("EXPLORATORY");
+  await page.getByLabel("Worlds", { exact: true }).fill("100");
+  await page.getByRole("button", { name: /Execute new run/ }).click();
+  await expect(page.locator(".run-result h2")).toHaveText(
+    "EXPLORATORY_NOT_VALIDATED",
+  );
+  await page.getByRole("button", { name: /Inspect this run/ }).click();
+  await expect(page).toHaveURL(/source=live/);
+  await expect(
+    page.getByText("LIVE / EXPLORATORY", { exact: true }),
+  ).toBeVisible();
+  await expect(page.locator("tbody tr").first()).toBeVisible();
+  await page
+    .getByRole("link", { name: "Reference atlas", exact: true })
+    .click();
+  await expect(
+    page.getByText("PRECOMPUTED REFERENCE / CANDIDATE", { exact: true }),
+  ).toBeVisible();
+  await page.getByLabel("Validation status").selectOption("REJECT");
+  await expect(page.locator("tbody tr")).toHaveCount(5);
+});
+
+test("keyboard access, 200 percent zoom and cancellation announce a clean state", async ({
+  page,
+}) => {
+  await page.goto("/en/lab/");
+  await page.keyboard.press("Tab");
+  await expect(
+    page.getByRole("link", { name: "Skip to content" }),
+  ).toBeFocused();
+  await page.keyboard.press("Enter");
+  await expect(page.locator("#main")).toBeFocused();
+  await page.evaluate(() => {
+    document.body.style.zoom = "2";
+  });
+  expect(
+    await page.evaluate(
+      () => document.documentElement.scrollWidth <= window.innerWidth,
+    ),
+  ).toBe(true);
+  await page.evaluate(() => {
+    document.body.style.zoom = "1";
+  });
+  await page.route("**/api/v1/simulate/synthetic", async (route) => {
+    await new Promise((r) => setTimeout(r, 3000));
+    try {
+      await route.abort();
+    } catch {}
+  });
+  await page.getByRole("button", { name: /Execute new run/ }).click();
+  await page.getByRole("button", { name: "Cancel", exact: true }).click();
+  await expect(page.locator(".error[role=alert]")).toHaveText("Run cancelled.");
+  await expect(page.locator(".run-result")).toHaveCount(0);
+});

@@ -1,6 +1,6 @@
 # ARCCRAFT Research Companion — candidat scientifique
 
-Phase 0 validée par les auteurs le 25 septembre 2026. **Application candidate fonctionnelle ; release scientifique finale en attente de licences, métadonnées auteurs et DOI.**
+Phase 0 validée par l’utilisateur le 25 septembre 2026. **Application candidate fonctionnelle ; release scientifique finale en attente de licences, métadonnées auteurs et DOI.**
 
 Lire [le rapport de phase 0](docs/PHASE_0_REPORT.md), [l’architecture retenue](docs/ARCHITECTURE.md) et [le plan d’implémentation](docs/IMPLEMENTATION_PLAN.md).
 
@@ -61,6 +61,8 @@ npm run test:e2e
 
 Les originaux sont sous `evidence/` ; les copies éditoriales corrigées sont sous `publication/`. `scripts/build_publication.py` régénère les copies à partir des preuves et des patches approuvés (requiert les dépendances de figures, dont qrcode et Pillow). Compiler ensuite `publication/latex/main.tex` avec pdflatex, bibtex, pdflatex deux fois, puis appeler `build_registry()` pour actualiser le PDF et les checksums avant le build web.
 
-Le calcul public Vercel reste désactivé tant que la règle de débit n’est pas qualifiée. Le frontend ne transforme jamais une erreur ou un dépassement de temps en résultat de référence. Le DOI et les licences en attente interdisent le statut de release finale, pas l’inspection du candidat.
+Le calcul public Vercel exige une règle de débit qualifiée. La règle du nouveau projet a été contrôlée : trois POST par minute et IP, puis HTTP 429. Les déploiements antérieurs à son activation peuvent encore annoncer le calcul indisponible. Le frontend ne transforme jamais une erreur ou un dépassement de temps en résultat de référence. Le DOI et les licences en attente interdisent le statut de release finale, pas l’inspection du candidat.
 
 Voir [API](docs/API.md), [contribution](CONTRIBUTING.md), [sécurité](SECURITY.md) et [changements](CHANGELOG.md).
+
+Voir le [rapport de livraison](docs/DELIVERY_REPORT.md) pour les vérifications et décisions restantes. Le replay synthétique Linux conserve son statut `DIVERGENT` à pleine précision ; le rapport documente l’écart sans changer la référence Windows.

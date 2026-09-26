@@ -199,7 +199,8 @@
       "unit": "%",
       "source_url": "/downloads/evidence/research/19_POLICY_BENCHMARK_RESULTS.csv",
       "population": "Motor portfolio; forecast origins 2023, 2024",
-      "paper_reference": "Results / empirical benchmark"
+      "paper_reference": "Results / empirical benchmark",
+      "observed_result_fr": "7,19 % en 2023 ; 8,99 % en 2024"
     },
     {
       "claim_id": "C2",
@@ -229,7 +230,8 @@
       "unit": "outcomes",
       "source_url": "/downloads/evidence/research/19_POLICY_BENCHMARK_RESULTS.csv",
       "population": "Motor portfolio; forecast origins 2023, 2024",
-      "paper_reference": "Results / empirical benchmark"
+      "paper_reference": "Results / empirical benchmark",
+      "observed_result_fr": "3/12 au total ; 3/6 nombres de sinistres ; 0/6 coûts totaux"
     },
     {
       "claim_id": "C3",
@@ -259,7 +261,8 @@
       "unit": "runs",
       "source_url": "/downloads/evidence/research/25_ARCCRAFT_ABLATION_RESULTS.csv",
       "population": "Synthetic registered worlds; seeds 20260825–20260827",
-      "paper_reference": "Results / procedural ablations"
+      "paper_reference": "Results / procedural ablations",
+      "observed_result_fr": "15/15 paires configuration–seed"
     },
     {
       "claim_id": "C4",
@@ -289,7 +292,8 @@
       "unit": "boolean",
       "source_url": "/downloads/evidence/research/27_STREAM_ISOLATION_TEST.csv",
       "population": "Synthetic registered worlds; seeds 20260825–20260827",
-      "paper_reference": "Results / procedural ablations"
+      "paper_reference": "Results / procedural ablations",
+      "observed_result_fr": "Flux nommés inchangés ; flux partagé modifié"
     },
     {
       "claim_id": "C5",
@@ -318,7 +322,8 @@
       "unit": "%; percentage points",
       "source_url": "/downloads/evidence/research/26_ARCCRAFT_ABLATION_SUMMARY.csv",
       "population": "Synthetic registered worlds; seeds 20260825–20260827",
-      "paper_reference": "Results / procedural ablations"
+      "paper_reference": "Results / procedural ablations",
+      "observed_result_fr": "19,87 % de mondes acceptés en moins ; +13,43 points de pourcentage d’échec ou rejet"
     },
     {
       "claim_id": "C6",
@@ -347,7 +352,8 @@
       "unit": "percentage points; %",
       "source_url": "/downloads/evidence/research/26_ARCCRAFT_ABLATION_SUMMARY.csv",
       "population": "Synthetic registered worlds; seeds 20260825–20260827",
-      "paper_reference": "Results / procedural ablations"
+      "paper_reference": "Results / procedural ablations",
+      "observed_result_fr": "−0,247 point de pourcentage ; −0,69 % en relatif"
     },
     {
       "claim_id": "C7",
@@ -378,7 +384,8 @@
       "unit": "%",
       "source_url": "/downloads/evidence/research/25_ARCCRAFT_ABLATION_RESULTS.csv",
       "population": "Synthetic registered worlds; seeds 20260825–20260827",
-      "paper_reference": "Results / procedural ablations"
+      "paper_reference": "Results / procedural ablations",
+      "observed_result_fr": "3588/3589, soit 99,97 %"
     },
     {
       "claim_id": "C8",
@@ -408,7 +415,8 @@
       "unit": "seconds; %",
       "source_url": "/downloads/evidence/research/26_ARCCRAFT_ABLATION_SUMMARY.csv",
       "population": "Synthetic registered worlds; seeds 20260825–20260827",
-      "paper_reference": "Results / procedural ablations"
+      "paper_reference": "Results / procedural ablations",
+      "observed_result_fr": "3,59 s ; 1,05 s ; 29,09 %"
     }
   ],
   "figures": [
@@ -441,7 +449,20 @@
         "license": "AUTHOR_DECISION_PENDING",
         "release_status": "CANDIDATE"
       },
-      "sources": []
+      "sources": [
+        {
+          "id": "publication__manuscript.md",
+          "path": "publication/manuscript.md",
+          "url": "/downloads/publication/manuscript.md",
+          "sha256": "23bd45175b2a528e8a5b2a1abfbc2c97cd81e612c9bf0a990d1d47de98328bd1",
+          "bytes": 60484,
+          "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+          "version": "phase0-candidate-1",
+          "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+          "license": "AUTHOR_DECISION_PENDING",
+          "release_status": "CANDIDATE"
+        }
+      ]
     },
     {
       "number": 2,
@@ -680,6 +701,30 @@
           "sha256": "7fbeb3c3b352743b41a9f086f40ebe7772dd70680bea00912716b805dd1ef82e",
           "bytes": 5099,
           "proof_status": "ORIGINAL_RESEARCH_SNAPSHOT",
+          "version": "phase0-candidate-1",
+          "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+          "license": "AUTHOR_DECISION_PENDING",
+          "release_status": "CANDIDATE"
+        },
+        {
+          "id": "artifacts__candidate__scenario-classes-10000.csv",
+          "path": "artifacts/candidate/scenario-classes-10000.csv",
+          "url": "/downloads/artifacts/candidate/scenario-classes-10000.csv",
+          "sha256": "92e96721c7ac0994d7a7f9161451d8f70ee46456ece19712152c9715399aaeb1",
+          "bytes": 458,
+          "proof_status": "LOCAL_REPRODUCTION_VERIFIED",
+          "version": "phase0-candidate-1",
+          "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
+          "license": "AUTHOR_DECISION_PENDING",
+          "release_status": "CANDIDATE"
+        },
+        {
+          "id": "artifacts__candidate__failure-atlas-counts-10000.csv",
+          "path": "artifacts/candidate/failure-atlas-counts-10000.csv",
+          "url": "/downloads/artifacts/candidate/failure-atlas-counts-10000.csv",
+          "sha256": "0be922e5c37c89851b74a0896f3e1a0c252eb04bd80d978dc454bc011c33da71",
+          "bytes": 104,
+          "proof_status": "LOCAL_REPRODUCTION_VERIFIED",
           "version": "phase0-candidate-1",
           "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",
           "license": "AUTHOR_DECISION_PENDING",
@@ -1342,8 +1387,8 @@
         "id": "publication__latex__main.pdf",
         "path": "publication/latex/main.pdf",
         "url": "/downloads/publication/latex/main.pdf",
-        "sha256": "0d0b2259f4bac11e7a7b0a660eb08af11b631e79d776140fe2b7b9b72ed2ae7f",
-        "bytes": 2307615,
+        "sha256": "7a9dd81621fc67b6320e720ece0bbd06f73384fe7bd49827f222d414d7cbe842",
+        "bytes": 2307283,
         "proof_status": "REVIEWED_EDITORIAL_COPY",
         "version": "phase0-candidate-1",
         "science_commit": "b642f8238d86b5ec3a4115d9d06d582682d69f1e",

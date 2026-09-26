@@ -9,8 +9,9 @@ The application may be inspected as a candidate. `PUBLISHED` is reserved for a c
 - [x] New independent GitHub repository and Vercel project created.
 - [x] Canonical replay and API contracts pass in a newly installed Python runtime.
 - [x] EN/FR production build; browser workflows, light/dark axe checks and 320px reflow pass on Chromium.
-- [ ] Complete remote deployment verification and runtime benchmark.
-- [ ] Complete browser matrix and manual assistive-technology review.
+- [x] Verify remote API routing, bounded runtime, motor replay and synthetic platform divergence.
+- [x] Complete Chromium, Edge, Firefox and Playwright WebKit matrix; keyboard and 200% zoom checks.
+- [ ] Complete native Safari/iOS and manual assistive-technology review.
 - [ ] Supply author ORCID, affiliations and corresponding-author metadata.
 - [ ] Select code, paper and figure reuse licences.
 - [ ] Reserve and verify a version-specific archive DOI.
